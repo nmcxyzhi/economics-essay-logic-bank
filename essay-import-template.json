@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "essays": [
+    {
+      "id": "",
+      "unit": "",
+      "topic": "",
+      "essayTitle": "",
+      "question": "",
+      "questionNumber": null,
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "point": "",
+          "logic": [],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "point": "",
+          "logic": [],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "point": "",
+          "logic": [],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "point": "",
+          "logic": [],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "point": "",
+          "logic": [],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "point": "",
+          "logic": [],
+          "diagrams": []
+        }
+      ]
+    }
+  ]
+}

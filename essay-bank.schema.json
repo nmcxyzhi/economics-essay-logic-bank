@@ -1,0 +1,256 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://economics-essay-logic-bank.vercel.app/essay-bank.schema.json",
+  "title": "Economics Essay Logic Bank v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "essays"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "units": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "essays": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/essay"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "essay": {
+      "type": "object",
+      "required": [
+        "id",
+        "unit",
+        "topic",
+        "essayTitle",
+        "question",
+        "questionNumber",
+        "marks",
+        "sections"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "unit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "topic": {
+          "type": "string",
+          "minLength": 1
+        },
+        "essayTitle": {
+          "type": "string",
+          "minLength": 1
+        },
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "questionNumber": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "marks": {
+          "type": "integer",
+          "enum": [
+            14,
+            20
+          ]
+        },
+        "sections": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/section"
+          }
+        },
+        "status": {
+          "enum": [
+            "complete",
+            "partial"
+          ]
+        },
+        "contentNote": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "partial"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "required": [
+              "contentNote"
+            ]
+          }
+        }
+      ]
+    },
+    "section": {
+      "type": "object",
+      "required": [
+        "type",
+        "point",
+        "logic",
+        "diagrams"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "pattern": "^(KAA|EVA|Weighing)[1-9][0-9]*$"
+        },
+        "point": {
+          "type": "string"
+        },
+        "logic": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "diagrams": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^/diagrams/[a-zA-Z0-9][a-zA-Z0-9._-]*\\.(png|jpg|jpeg|webp|svg)$"
+          }
+        },
+        "missing": {
+          "type": "boolean"
+        },
+        "diagramDetails": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "alt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "caption": {
+                "type": "string"
+              },
+              "sourceLocation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "matrix": {
+          "type": "object",
+          "required": [
+            "caption",
+            "headers",
+            "rows"
+          ],
+          "properties": {
+            "caption": {
+              "type": "string",
+              "minLength": 1
+            },
+            "headers": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "rows": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "sourceLocation": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "missing": {
+                "const": true
+              }
+            },
+            "required": [
+              "missing"
+            ]
+          },
+          "then": {
+            "properties": {
+              "point": {
+                "const": ""
+              },
+              "logic": {
+                "maxItems": 0
+              },
+              "diagrams": {
+                "maxItems": 0
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "point": {
+                "type": "string",
+                "minLength": 1
+              },
+              "logic": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

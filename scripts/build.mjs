@@ -1,0 +1,10 @@
+import {mkdirSync,copyFileSync,cpSync,rmSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import {resolve} from 'node:path';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const dist=resolve(root,'dist');
+rmSync(dist,{recursive:true,force:true});mkdirSync(dist,{recursive:true});
+for(const file of ['index.html','app.js','model.js','styles.css','essay-bank.schema.json']) copyFileSync(resolve(root,file),resolve(dist,file));
+for(const dir of ['data','diagrams']) cpSync(resolve(root,dir),resolve(dist,dir),{recursive:true});
+mkdirSync(resolve(dist,'assets'));copyFileSync(resolve(root,'assets/favicon.svg'),resolve(dist,'assets/favicon.svg'));
+console.log('Built static site in dist/ without runtime dependencies.');

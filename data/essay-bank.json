@@ -1,0 +1,909 @@
+{
+  "schemaVersion": 1,
+  "units": [
+    "Types and Sizes of Businesses",
+    "Business Objectives",
+    "Revenue, Costs and Profits",
+    "Market Structure and Contestability"
+  ],
+  "essays": [
+    {
+      "id": "monopoly-consumer-benefits",
+      "question": "Evaluate whether such a high market share for one company is in the consumer interest.",
+      "marks": 20,
+      "questionNumber": "20",
+      "source": {
+        "filename": "作业Monopoly (20) gpt修改版.docx",
+        "questionLocation": "Opening question image",
+        "marksEvidence": "Source filename explicitly states (20); screenshot uses question number 20 from a different numbering scheme.",
+        "questionLabel": "20"
+      },
+      "unit": "Market Structure and Contestability",
+      "topic": "Monopoly",
+      "essayTitle": "Monopoly Power: Benefits to Consumers",
+      "sections": [
+        {
+          "type": "KAA1",
+          "point": "A high market share can benefit consumers through lower prices.",
+          "logic": [
+            "Large sales and output increase the scale of input purchases",
+            "Suppliers may offer bulk-buying discounts",
+            "Lower input costs per unit reduce LRAC from C1 to C2",
+            "The firm can lower its price while maintaining a viable profit margin",
+            "If cost savings are passed on, consumers pay less and consumer surplus rises"
+          ],
+          "diagrams": [
+            "/diagrams/monopoly-consumer-benefits-kaa1.jpeg"
+          ],
+          "diagramDetails": {
+            "/diagrams/monopoly-consumer-benefits-kaa1.jpeg": {
+              "alt": "Original LRAC diagram: output rises from Q1 to Q2 and average cost falls from C1 to C2.",
+              "sourceLocation": "作业Monopoly (20) gpt修改版.docx · word/media/image2.jpeg",
+              "sha256": "784b2b23f9e5f3028daa198e7f90b2374c91a6369492286fe68a2254decaa040"
+            }
+          }
+        },
+        {
+          "type": "EVA1",
+          "point": "However, a high market share may reduce the incentive to pass cost savings on to consumers.",
+          "logic": [
+            "Greater market power reduces competitive pressure to cut prices",
+            "The firm may keep its price unchanged despite lower LRAC",
+            "Cost savings increase the profit margin instead",
+            "The gain in consumer welfare is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "point": "The significance of the benefit depends on how much of the cost saving is passed on to consumers.",
+          "logic": [
+            "A high proportion passed on through lower prices produces a larger gain in consumer surplus",
+            "A high proportion retained as profit leaves consumers with little benefit",
+            "The pass-through of savings therefore matters more than the cost reduction alone"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "point": "A high market share may benefit consumers through greater investment in product development.",
+          "logic": [
+            "Strong brand loyalty and fewer close substitutes may make demand relatively price inelastic",
+            "Greater market power permits higher prices and supernormal profit",
+            "Retained profits provide funds for R&D",
+            "Successful R&D improves product quality and meets consumer needs more closely",
+            "Consumer utility increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "point": "However, unsuccessful R&D may raise costs without improving products.",
+          "logic": [
+            "Substantial development spending may fail to produce a successful product",
+            "Costs rise without a genuine improvement in quality",
+            "If these costs are passed on, consumers face higher prices",
+            "Consumers pay more without receiving greater utility"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "point": "Consumer benefit depends more on the nature and success of innovation than on the amount spent on R&D.",
+          "logic": [
+            "Innovation that meets consumer needs increases utility",
+            "High spending without meaningful product improvement offers little benefit",
+            "Sustained consumer gains therefore require successful innovation, not simply large R&D budgets"
+          ],
+          "diagrams": []
+        }
+      ]
+    },
+    {
+      "id": "market-concentration-reasons",
+      "question": "Discuss the reasons why a few large firms dominate the food retailing industry but not the hairdressing industry.",
+      "marks": 14,
+      "questionNumber": "(b)",
+      "source": {
+        "filename": "Market concentration – reasons (14).docx",
+        "questionLocation": "Opening question image",
+        "marksEvidence": "Question screenshot explicitly shows (14).",
+        "questionLabel": "(b)"
+      },
+      "unit": "Types and Sizes of Businesses",
+      "topic": "Market Concentration",
+      "essayTitle": "Reasons for Market Concentration",
+      "sections": [
+        {
+          "type": "KAA1",
+          "point": "Economies of scale can allow a few large firms to dominate the food retailing industry.",
+          "logic": [
+            "Large operations require substantial input purchases",
+            "Bulk-buying discounts reduce input costs per unit",
+            "Lower LRAC allows lower prices",
+            "More customers are attracted and market share grows",
+            "Smaller retailers struggle to compete and may exit because of low profitability",
+            "Market concentration increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "point": "However, diseconomies of scale may weaken the cost advantage of large firms.",
+          "logic": [
+            "A larger, more complex organisation is harder to coordinate",
+            "Communication difficulties slow decisions and reduce managerial efficiency",
+            "LRAC rises, offsetting economies of scale",
+            "Smaller firms can compete and survive",
+            "Market concentration may remain lower"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "point": "Customer loyalty to individual service providers can prevent a few large firms from dominating personal-service markets.",
+          "logic": [
+            "Customers value personalised service and an established relationship",
+            "If an employee starts an independent business, loyal customers may follow",
+            "The new business gains an existing customer base",
+            "Independent firms can enter and survive",
+            "Many small firms compete, keeping market concentration low"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "point": "However, large firms may retain customers by retaining the employees to whom those customers are loyal.",
+          "logic": [
+            "Higher wages and better promotion opportunities encourage employees to stay",
+            "Customers remain with their preferred service providers within the firm",
+            "Large firms retain their customer base and can expand",
+            "Loyalty to individual employees does not necessarily prevent market concentration"
+          ],
+          "diagrams": []
+        }
+      ]
+    },
+    {
+      "id": "pricing-nonpricing-sales",
+      "question": "Discuss pricing and non-pricing strategies that e-bike manufacturers might use to increase sales.",
+      "marks": 14,
+      "questionNumber": "(b)",
+      "source": {
+        "filename": "Pricing vs non-pricing strategies – effects on sales (14).docx",
+        "questionLocation": "Opening question image",
+        "marksEvidence": "Question screenshot explicitly shows (14).",
+        "questionLabel": "(b)"
+      },
+      "unit": "Market Structure and Contestability",
+      "topic": "Oligopoly",
+      "essayTitle": "Price and Non-Price Strategies: Effects on Sales",
+      "sections": [
+        {
+          "type": "KAA1",
+          "point": "A firm can increase sales by reducing its price.",
+          "logic": [
+            "A lower price improves affordability and relative price competitiveness",
+            "More consumers are willing and able to buy",
+            "Some consumers switch from competing products",
+            "Quantity demanded rises, increasing units sold"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "point": "However, the effectiveness of price cutting depends on price elasticity of demand.",
+          "logic": [
+            "If demand is price inelastic, a price cut causes a less than proportionate rise in quantity demanded",
+            "The increase in units sold may be small",
+            "Price cutting may therefore have only a limited effect on sales volume"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "point": "Improving product quality can increase sales through product differentiation.",
+          "logic": [
+            "Better quality and design meet consumer preferences more closely",
+            "The product becomes more differentiated from competing alternatives",
+            "Consumers are more likely to choose the firm’s product",
+            "Brand loyalty strengthens and close substitutes become less attractive",
+            "Demand, the customer base and market share increase"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "point": "However, improving quality may involve high R&D costs that limit the increase in sales.",
+          "logic": [
+            "Product development requires substantial funding",
+            "Production costs rise",
+            "The firm may raise prices to protect profit margins",
+            "Affordability falls and quantity demanded may decrease",
+            "The sales gain from higher quality is partly offset"
+          ],
+          "diagrams": []
+        }
+      ]
+    },
+    {
+      "id": "revenue-maximisation-realistic",
+      "question": "Evaluate whether revenue maximisation is a more realistic business objective than profit maximisation for firms in the supermarket industry.",
+      "marks": 20,
+      "questionNumber": null,
+      "source": {
+        "filename": "Revenue maximisation – realistic objective (20).docx",
+        "questionLocation": "Opening paragraph",
+        "marksEvidence": "Opening question explicitly ends with (20)."
+      },
+      "unit": "Business Objectives",
+      "topic": "Revenue Maximisation",
+      "essayTitle": "Revenue Maximisation as a Realistic Objective",
+      "sections": [
+        {
+          "type": "KAA1",
+          "point": "Revenue maximisation may be a realistic objective because higher output can generate economies of scale.",
+          "logic": [
+            "Moving from profit maximisation to revenue maximisation increases output from Qp to Qr",
+            "Larger input purchases may secure bulk-buying discounts",
+            "Lower input costs reduce LRAC",
+            "Lower prices raise quantity demanded and improve competitiveness",
+            "Sales revenue and market share can increase"
+          ],
+          "diagrams": [
+            "/diagrams/revenue-maximisation-realistic-kaa1.png"
+          ],
+          "diagramDetails": {
+            "/diagrams/revenue-maximisation-realistic-kaa1.png": {
+              "alt": "Original diagram comparing profit maximisation at Qp and revenue maximisation at Qr, with prices Pp and Pr.",
+              "sourceLocation": "Revenue maximisation – realistic objective (20).docx · word/media/image1.png",
+              "sha256": "0bcb5244c67f88f95f13792283727ea33fd56ceede5e0fa64eca61f8e11e4837"
+            }
+          }
+        },
+        {
+          "type": "EVA1",
+          "point": "However, revenue maximisation may be a means of achieving profit maximisation in the long run.",
+          "logic": [
+            "Expansion of market share strengthens market power",
+            "Greater price-making ability allows higher future prices",
+            "A higher price may increase the profit margin",
+            "Revenue maximisation may therefore be a strategy rather than the ultimate objective"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "point": "The more realistic objective depends on the firm’s position in the market.",
+          "logic": [
+            "While reducing LRAC and expanding market share, revenue maximisation may be more realistic",
+            "Once stronger market power is established, higher prices can raise profit margins",
+            "Profit maximisation may then become the more realistic long-run objective"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "point": "The divorce of ownership from control may make revenue maximisation more realistic for large firms.",
+          "logic": [
+            "Shareholders own the firm, while managers control pricing and output",
+            "Bonuses, prestige and responsibility may increase with revenue or firm size",
+            "Managers prefer a higher output target",
+            "Output expands beyond the profit-maximising point where MR = MC",
+            "Total revenue is maximised where MR = 0"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "point": "However, shareholder pressure may constrain managers who sacrifice too much profit.",
+          "logic": [
+            "Low profits leave insufficient funds for dividends",
+            "Shareholder dissatisfaction increases",
+            "Managers face pressure or the risk of losing their positions",
+            "They may give greater priority to profit to satisfy shareholders"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "point": "The feasibility of revenue maximisation depends on whether it generates enough profit to satisfy shareholders.",
+          "logic": [
+            "Sufficient profit allows managers to continue pursuing higher output and revenue",
+            "If profits fall too low, shareholder pressure increases",
+            "Profit maximisation becomes more realistic when this profit constraint is binding"
+          ],
+          "diagrams": []
+        }
+      ]
+    },
+    {
+      "id": "sme-large-business-objectives",
+      "question": "Evaluate why the objectives of small and medium-sized enterprises may differ from those of large enterprises.",
+      "marks": 20,
+      "questionNumber": "Q10",
+      "source": {
+        "filename": "Business objectives - SME vs large gpt修改版.docx",
+        "questionLocation": "Opening question image",
+        "marksEvidence": "Question 10: U3 mark allocation",
+        "session": "2023.5"
+      },
+      "unit": "Business Objectives",
+      "topic": "Objectives by Firm Size",
+      "essayTitle": "Business Objectives: SMEs vs Large Firms",
+      "sections": [
+        {
+          "type": "KAA1",
+          "point": "Owner-managed SMEs may pursue satisficing rather than profit or growth maximisation.",
+          "logic": [
+            "Owners have direct control over business decisions",
+            "They may value work–life balance more than additional profit or market share",
+            "Expansion requires time and effort and reduces leisure",
+            "Owners choose an acceptable level of profit",
+            "The firm remains small because of the owner’s personal objectives"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "point": "However, ambitious entrepreneurs may prefer revenue or profit maximisation to satisficing.",
+          "logic": [
+            "Owners may seek higher income, market share and business success",
+            "They are willing to invest in technology and expand operations",
+            "Growth and higher returns become more important than remaining small",
+            "An SME may therefore pursue maximisation objectives"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "point": "The objectives of an SME depend on the owner’s level of ambition.",
+          "logic": [
+            "A strong preference for work–life balance favours satisficing",
+            "A willingness to invest and expand favours revenue or profit maximisation",
+            "Ownership structure alone does not determine the objective"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "point": "The separation of ownership and control may encourage managers of large firms to pursue revenue maximisation.",
+          "logic": [
+            "Shareholders own the firm, but managers have discretion over pricing and output",
+            "Managerial rewards, prestige and status may rise with revenue or firm size",
+            "Managers prefer a higher output and revenue target",
+            "The firm produces where MR = 0",
+            "Total revenue is maximised"
+          ],
+          "diagrams": [
+            "/diagrams/sme-large-business-objectives-kaa2.png"
+          ],
+          "diagramDetails": {
+            "/diagrams/sme-large-business-objectives-kaa2.png": {
+              "alt": "Original revenue-maximisation diagram, showing output Q where MR = 0.",
+              "sourceLocation": "Business objectives - SME vs large gpt修改版.docx · word/media/image2.png",
+              "sha256": "4c3db80f472fc33e2f0d56d2df4b4a4e298d1e48d0d998aaa200acd5e72b3c5e"
+            }
+          }
+        },
+        {
+          "type": "EVA2",
+          "point": "However, large firms may also pursue satisficing because managers must maintain satisfactory shareholder returns.",
+          "logic": [
+            "Low profits reduce the funds available for dividends",
+            "Dissatisfied shareholders may pressure or replace managers",
+            "Managers must first earn a satisfactory level of profit",
+            "They can then pursue their own objectives",
+            "Large firms may therefore also satisfice, like SMEs"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "point": "The extent of managerial discretion depends on how much profit the business earns.",
+          "logic": [
+            "Revenue maximisation can continue if profits satisfy shareholders",
+            "Falling profits and dividends increase shareholder pressure",
+            "Maintaining satisfactory profit becomes a constraint on managerial objectives",
+            "Satisficing may be more realistic when this constraint becomes important"
+          ],
+          "diagrams": []
+        }
+      ]
+    },
+    {
+      "id": "demerger-benefits",
+      "question": "Evaluate the possible benefits of a demerger.",
+      "marks": 20,
+      "questionNumber": "Q8",
+      "source": {
+        "filename": "Demergers - benefits --2022.10 Q8 gpt修改版.docx",
+        "questionLocation": "Opening question image",
+        "marksEvidence": "Question 8: U3 mark allocation",
+        "session": "2022.10"
+      },
+      "unit": "Types and Sizes of Businesses",
+      "topic": "Demergers",
+      "essayTitle": "Benefits of Demergers",
+      "sections": [
+        {
+          "type": "KAA1",
+          "point": "A demerger can benefit firms by allowing greater specialisation.",
+          "logic": [
+            "Separating non-core activities allows resources and expertise to focus on fewer markets",
+            "Management becomes more specialised and efficient",
+            "MC and AC fall from MC1 and AC1 to MC2 and AC2",
+            "Lower costs increase supernormal profit",
+            "In the original diagram, profit rises from P1BCD to P2EFG"
+          ],
+          "diagrams": [
+            "/diagrams/demerger-benefits-kaa1.jpeg"
+          ],
+          "diagramDetails": {
+            "/diagrams/demerger-benefits-kaa1.jpeg": {
+              "alt": "Original demerger diagram showing lower MC and AC and the change in supernormal profit from P1BCD to P2EFG.",
+              "sourceLocation": "Demergers - benefits --2022.10 Q8 gpt修改版.docx · word/media/image2.jpeg",
+              "sha256": "cf159d37f1360a09284d71d4aba63d346d26a792d9670e01325987957c8795f6"
+            }
+          }
+        },
+        {
+          "type": "EVA1",
+          "point": "However, a demerger may increase costs by duplicating previously shared resources.",
+          "logic": [
+            "Independent firms each need management, marketing and administration",
+            "Additional employees and separate departments duplicate fixed costs",
+            "Labour and operating costs increase",
+            "Higher costs may offset the gains from specialisation"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "point": "The benefit to firms depends on whether specialisation savings exceed the additional costs of operating separately.",
+          "logic": [
+            "Compare efficiency savings with duplicated labour and operating costs",
+            "If savings are larger, total costs fall and profits rise",
+            "If duplication costs dominate, the demerger may not benefit the firm"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "point": "A demerger may benefit consumers through lower prices and better product quality.",
+          "logic": [
+            "Smaller independent firms may have less market power",
+            "Where competition increases, firms face greater pressure to attract consumers",
+            "Lower prices improve consumer welfare",
+            "Greater specialisation can also improve understanding of consumer needs",
+            "Better-targeted product development increases consumer utility"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "point": "However, a demerger may reduce consumer utility by increasing inconvenience and limiting choice.",
+          "logic": [
+            "Consumers may need to deal with several firms rather than one diversified supplier",
+            "Search costs and time spent purchasing increase",
+            "Some unprofitable product lines may be discontinued",
+            "Fewer choices and greater inconvenience reduce consumer utility"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "point": "The effect on consumer choice depends on whether products are actually removed from the market.",
+          "logic": [
+            "If divisions simply become independent firms, the same products can remain available",
+            "The loss of choice may therefore be small",
+            "If unprofitable product lines are discontinued, the range of products shrinks",
+            "The negative effect on consumer welfare is then greater"
+          ],
+          "diagrams": []
+        }
+      ]
+    },
+    {
+      "id": "merger-workers-consumers",
+      "question": "Discuss the possible impact of a merger on workers and consumers.",
+      "marks": 14,
+      "questionNumber": "(e)",
+      "source": {
+        "filename": "Merger - on workers.docx",
+        "questionLocation": "Opening question image",
+        "marksEvidence": "Screenshot labels the question (e); treated as the U3 Q7(e) 14-mark structure.",
+        "questionLabel": "(e)"
+      },
+      "status": "partial",
+      "contentNote": "原文仅包含 workers 的第一组论证；题目同时要求 consumers，第二组 KAA2 / EVA2 尚未提供。原文的权衡已并入 EVA1，保持 14 分结构。",
+      "unit": "Types and Sizes of Businesses",
+      "topic": "Mergers",
+      "essayTitle": "Effects of Mergers on Workers",
+      "sections": [
+        {
+          "type": "KAA1",
+          "point": "A merger may increase long-term job security for workers.",
+          "logic": [
+            "Combined market share and sales increase the scale of operation",
+            "Economies of scale lower LRAC",
+            "Lower prices improve price competitiveness and attract customers",
+            "Sales revenue and profitability become more stable",
+            "A lower risk of business failure reduces the risk of large-scale job losses"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "point": "However, a merger may cause redundancies when the combined firm removes duplicated jobs.",
+          "logic": [
+            "Overlapping management and administrative roles increase labour costs",
+            "The combined firm may lay off workers to reduce duplication",
+            "Short-run job losses can offset the gain in long-term security",
+            "The effect depends on the scale of subsequent expansion",
+            "If a larger workforce is needed, workers may be retained or redeployed, limiting redundancies"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "point": "",
+          "logic": [],
+          "diagrams": [],
+          "missing": true
+        },
+        {
+          "type": "EVA2",
+          "point": "",
+          "logic": [],
+          "diagrams": [],
+          "missing": true
+        }
+      ]
+    },
+    {
+      "id": "external-growth-merger-benefits",
+      "question": "Evaluate the benefits of growth by merger.",
+      "marks": 20,
+      "questionNumber": "Q8",
+      "source": {
+        "filename": "Mergers - benefits of external growth --2022.5 Q8.docx",
+        "questionLocation": "Opening question image",
+        "marksEvidence": "Question 8: U3 mark allocation",
+        "session": "2022.5"
+      },
+      "unit": "Types and Sizes of Businesses",
+      "topic": "Mergers",
+      "essayTitle": "Benefits of External Growth by Merger",
+      "sections": [
+        {
+          "type": "KAA1",
+          "point": "A merger can benefit firms by generating economies of scale.",
+          "logic": [
+            "Combining firms expands the potential customer base and access to markets",
+            "Higher demand supports greater output",
+            "Larger input purchases allow bulk-buying discounts",
+            "Input costs per unit fall, reducing LRAC from C1 to C2",
+            "If price is unchanged, profit margins and profits increase"
+          ],
+          "diagrams": [
+            "/diagrams/external-growth-merger-benefits-kaa1.jpeg"
+          ],
+          "diagramDetails": {
+            "/diagrams/external-growth-merger-benefits-kaa1.jpeg": {
+              "alt": "Original economies-of-scale diagram showing higher output and LRAC falling from C1 to C2.",
+              "sourceLocation": "Mergers - benefits of external growth --2022.5 Q8.docx · word/media/image2.jpeg",
+              "sha256": "784b2b23f9e5f3028daa198e7f90b2374c91a6369492286fe68a2254decaa040"
+            }
+          }
+        },
+        {
+          "type": "EVA1",
+          "point": "However, a merger may create diseconomies of scale if the organisation becomes too large.",
+          "logic": [
+            "A larger organisation becomes more complex",
+            "Communication and coordination across departments and locations become harder",
+            "Decisions slow and managerial efficiency falls",
+            "Higher LRAC offsets economies of scale",
+            "Profit margins may decrease"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "point": "The benefit to firms depends on whether economies of scale exceed diseconomies of scale.",
+          "logic": [
+            "Compare input-cost savings with additional organisational costs",
+            "If savings exceed additional costs, profits increase",
+            "If diseconomies dominate, the merger may reduce profits"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "point": "A merger may benefit consumers by combining resources to improve product quality.",
+          "logic": [
+            "Firms pool finance, research expertise and distribution networks",
+            "Complementary resources support more R&D",
+            "Innovation improves products and quality",
+            "Products meet consumer needs more closely",
+            "Consumer utility increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "point": "However, greater monopoly power may weaken incentives to innovate and improve efficiency.",
+          "logic": [
+            "A larger market share can reduce competitive pressure",
+            "The firm has less need to improve products to retain customers",
+            "Product development may slow",
+            "Organisational slack may increase X-inefficiency"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "point": "The benefit to consumers depends on the degree of competition and contestability after the merger.",
+          "logic": [
+            "Continued competitive pressure sustains incentives for R&D and quality improvements",
+            "Strong monopoly power with little competitive pressure weakens these incentives",
+            "Pooling resources provides greater benefits when firms remain under pressure to innovate"
+          ],
+          "diagrams": []
+        }
+      ]
+    },
+    {
+      "id": "oligopoly-producers-consumers",
+      "question": "Evaluate the disadvantages of an oligopolistic market for producers and consumers.",
+      "marks": 20,
+      "questionNumber": "Q8",
+      "source": {
+        "filename": "Oligopoly - disadvantages to consumers --2021.1 Q8.docx",
+        "questionLocation": "Opening question image",
+        "marksEvidence": "Question 8: U3 mark allocation",
+        "session": "2021.1"
+      },
+      "status": "partial",
+      "contentNote": "原文只有 consumers 的第一组论证；题目还要求 producers，KAA2 / EVA2 / Weighing2 尚未提供。",
+      "unit": "Market Structure and Contestability",
+      "topic": "Oligopoly",
+      "essayTitle": "Disadvantages to Consumers",
+      "sections": [
+        {
+          "type": "KAA1",
+          "point": "Collusion in an oligopoly may harm consumers by raising prices.",
+          "logic": [
+            "A few dominant firms can coordinate their behaviour more easily",
+            "Firms may agree to restrict output and charge higher prices",
+            "Competition decreases",
+            "Consumers pay more and consume less",
+            "Consumer surplus and welfare fall"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "point": "However, aggressive competition between oligopolistic firms may benefit consumers.",
+          "logic": [
+            "Firms cut prices to avoid losing market share",
+            "Rivals may respond with further price cuts",
+            "A price war allows consumers to buy at lower prices",
+            "Consumer surplus may increase"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "point": "The effect on consumers depends on whether firms collude or compete aggressively.",
+          "logic": [
+            "Collusion with weak price competition sustains high prices and reduces consumer surplus",
+            "Repeated competitive price cuts instead lower prices and increase consumer surplus",
+            "Consumer harm is more likely when collusion is sustained"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "point": "",
+          "logic": [],
+          "diagrams": [],
+          "missing": true
+        },
+        {
+          "type": "EVA2",
+          "point": "",
+          "logic": [],
+          "diagrams": [],
+          "missing": true
+        },
+        {
+          "type": "Weighing2",
+          "point": "",
+          "logic": [],
+          "diagrams": [],
+          "missing": true
+        }
+      ]
+    },
+    {
+      "id": "oligopoly-firms-game-theory",
+      "question": "Evaluate the likely disadvantages for a business operating in an oligopolistic market structure.",
+      "marks": 20,
+      "questionNumber": "Q9",
+      "source": {
+        "filename": "Oligopoly - disadvantages to firms and game theory --2024.1 Q9 gpt修改版.docx",
+        "questionLocation": "Opening question image",
+        "marksEvidence": "Question 9: U3 mark allocation",
+        "session": "2024.1"
+      },
+      "unit": "Market Structure and Contestability",
+      "topic": "Oligopoly",
+      "essayTitle": "Disadvantages to Firms and Game Theory",
+      "sections": [
+        {
+          "type": "KAA1",
+          "point": "Interdependence in an oligopoly may trigger a price war that reduces firms’ profits.",
+          "logic": [
+            "Each firm considers how rivals will respond to a price change",
+            "If B maintains its price, A can raise its payoff from 10 to 15 by cutting",
+            "Once A cuts, B can improve its payoff from 5 to 7 by also cutting",
+            "The same incentive applies to A, so both firms cut prices",
+            "Both receive 7 rather than the 10 each would receive by maintaining prices",
+            "Individually rational decisions leave both firms worse off"
+          ],
+          "diagrams": [],
+          "matrix": {
+            "caption": "Payoffs: (A, B)",
+            "headers": [
+              "",
+              "B: maintain",
+              "B: cut"
+            ],
+            "rows": [
+              [
+                "A: maintain",
+                "10, 10",
+                "5, 15"
+              ],
+              [
+                "A: cut",
+                "15, 5",
+                "7, 7"
+              ]
+            ],
+            "sourceLocation": "Original Word table following KAA1; cell contents preserved."
+          }
+        },
+        {
+          "type": "EVA1",
+          "point": "However, firms may end a price war when sustained price cuts offer little advantage.",
+          "logic": [
+            "All major firms match the lower prices",
+            "No firm retains a price advantage and market shares change little",
+            "Profit margins remain lower",
+            "Firms have a mutual incentive to stop price competition",
+            "Prices may rise again, making the price war temporary"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "point": "The significance of a price war depends on whether low prices persist in the long run.",
+          "logic": [
+            "Repeated price cuts keep margins low and make the disadvantage significant",
+            "If firms stop price competition and tacitly coordinate, prices may recover quickly",
+            "The duration of low prices determines the sustained loss of profit"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "point": "Non-price competition can impose high costs on firms in an oligopoly.",
+          "logic": [
+            "Firms compete through advertising, R&D and product quality",
+            "Maintaining market share against large established rivals requires substantial spending",
+            "Production and marketing costs increase",
+            "If additional sales revenue does not cover the extra costs, profit falls"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "point": "However, successful non-price competition may increase profits through product differentiation.",
+          "logic": [
+            "Better quality, advertising and branding strengthen brand loyalty",
+            "Fewer close substitutes make demand less price elastic",
+            "The firm can charge a higher price without losing many customers",
+            "If extra revenue exceeds extra cost, profit increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "point": "The net effect of non-price competition depends on whether additional revenue exceeds additional cost.",
+          "logic": [
+            "Expensive advertising and R&D with little demand growth reduce profits",
+            "Strong brand loyalty and higher pricing power can generate larger revenue gains",
+            "Non-price competition is a disadvantage only when its costs outweigh these gains"
+          ],
+          "diagrams": []
+        }
+      ]
+    },
+    {
+      "id": "sme-shutdown-reasons",
+      "question": "Discuss reasons why many SMEs shut down.",
+      "marks": 14,
+      "questionNumber": "Q7(e)",
+      "source": {
+        "filename": "Shut down reasons --2022.5 Q7e.docx",
+        "questionLocation": "Opening question image",
+        "marksEvidence": "Question 7: U3 mark allocation",
+        "session": "2022.5",
+        "questionLabel": "Q7(e)"
+      },
+      "unit": "Revenue, Costs and Profits",
+      "topic": "Shutdown Decisions",
+      "essayTitle": "Reasons for Shutdown",
+      "sections": [
+        {
+          "type": "KAA1",
+          "point": "A fall in revenue may cause a firm to shut down in the short run if it can no longer cover variable costs.",
+          "logic": [
+            "Weaker demand may reduce the price and average revenue the firm receives",
+            "If AR falls below AVC, total revenue is insufficient to cover variable costs",
+            "Continued production increases losses relative to shutting down",
+            "The firm shuts down in the short run below P2 in the original diagram",
+            "Between P2 and P1, it can still contribute towards fixed costs and continue operating"
+          ],
+          "diagrams": [
+            "/diagrams/sme-shutdown-reasons-kaa1.jpeg"
+          ],
+          "diagramDetails": {
+            "/diagrams/sme-shutdown-reasons-kaa1.jpeg": {
+              "alt": "Original shutdown diagram showing MC, AC and AVC, with P1 at minimum AC and P2 at minimum AVC.",
+              "sourceLocation": "Shut down reasons --2022.5 Q7e.docx · word/media/image2.jpeg",
+              "sha256": "1b05da59050c96ea39bfb9706df9e21629a7ca5057721f3ac696b14628dcd686"
+            }
+          }
+        },
+        {
+          "type": "EVA1",
+          "point": "However, not all firms experience a large enough fall in revenue to reach the shutdown point.",
+          "logic": [
+            "Some goods and services remain essential when demand elsewhere weakens",
+            "Demand and revenue for these firms may remain stable or increase",
+            "AR can remain above AVC",
+            "Variable costs are covered, allowing the firm to continue operating"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "point": "Rising variable costs may force a firm to shut down in the short run.",
+          "logic": [
+            "Higher input or operating costs increase AVC",
+            "AVC may rise above the average revenue received",
+            "Total revenue no longer covers variable costs",
+            "Continuing production would add to losses relative to shutting down",
+            "The firm ceases production"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "point": "However, government support that reduces variable costs may allow a firm to continue operating.",
+          "logic": [
+            "A subsidy can reduce the variable cost borne by the firm",
+            "AVC may fall below AR",
+            "Revenue once again covers variable costs and contributes towards fixed costs",
+            "The firm can continue producing"
+          ],
+          "diagrams": []
+        }
+      ]
+    }
+  ]
+}
