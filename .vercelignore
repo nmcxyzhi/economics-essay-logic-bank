@@ -1,2 +1,6 @@
+.git
+.github
+dist
 docs
-validate.mjs
+CONTENT_IMPORT_GUIDE.md
+README.md

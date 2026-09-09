@@ -18,3 +18,30 @@ Content ChatGPT 交接规范：[CONTENT_IMPORT_GUIDE.md](CONTENT_IMPORT_GUIDE.md
 GitHub：`nmcxyzhi/economics-essay-logic-bank`（独立 private repository）。
 Vercel Project：`economics-essay-logic-bank`。
 生产地址与 Git 自动部署验证将在配置完成后记录。
+
+## 当前章节与文章映射
+
+已有资料只确认前四章；第五章最终名称等待用户提供，不擅自命名。章节可在唯一数据文件的 units 中更新。
+
+1. Types and Sizes of Businesses
+2. Business Objectives
+3. Revenue, Costs and Profits
+4. Market Structure and Contestability
+
+| Unit | Knowledge Point | Essay Title | Marks |
+|---|---|---|---|
+| Market Structure and Contestability | Monopoly | Monopoly Power: Benefits to Consumers | 20 |
+| Types and Sizes of Businesses | Market Concentration | Reasons for Market Concentration | 14 |
+| Market Structure and Contestability | Oligopoly | Price and Non-Price Strategies: Effects on Sales | 14 |
+| Business Objectives | Revenue Maximisation | Revenue Maximisation as a Realistic Objective | 20 |
+| Business Objectives | Objectives by Firm Size | Business Objectives: SMEs vs Large Firms | 20 |
+| Types and Sizes of Businesses | Demergers | Benefits of Demergers | 20 |
+| Types and Sizes of Businesses | Mergers | Effects of Mergers on Workers | 14 |
+| Types and Sizes of Businesses | Mergers | Benefits of External Growth by Merger | 20 |
+| Market Structure and Contestability | Oligopoly | Disadvantages to Consumers | 20 |
+| Market Structure and Contestability | Oligopoly | Disadvantages to Firms and Game Theory | 20 |
+| Revenue, Costs and Profits | Shutdown Decisions | Reasons for Shutdown | 14 |
+
+## 自动部署状态
+
+GitHub 已推送 main。Vercel Git 连接返回：需要先添加 GitHub Login Connection。当前不得把手动 CLI 部署表述为 Git push 自动部署。完成账户连接后运行 Vercel git connect 并用一次正常提交验证实际部署。

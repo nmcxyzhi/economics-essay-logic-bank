@@ -4,7 +4,7 @@ export function validateBank(bank) {
   if (bank.units && (!Array.isArray(bank.units) || bank.units.some(u => typeof u !== 'string' || !u.trim()) || new Set(bank.units).size !== bank.units.length)) throw new Error('units 必须为不重复的章节名称');
   const ids = new Set();
   for (const e of bank.essays) {
-    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(e.id) || ids.has(e.id)) throw new Error('Essay ID 格式不正确或重复');
+    if (typeof e.id !== 'string' || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(e.id) || ids.has(e.id)) throw new Error('Essay ID 格式不正确或重复');
     ids.add(e.id);
     for (const field of ['unit','topic','essayTitle','question']) if (typeof e[field] !== 'string' || !e[field].trim()) throw new Error(`${e.id}: ${field} 不能为空`);
     if (![14,20].includes(e.marks)) throw new Error(`${e.id}: 分值应为 14 或 20`);
@@ -42,7 +42,7 @@ export function toViewEssay(e) {
   return {...e, source:e.source || {}, blocks:e.sections.map(s=>{
     const [,type,group] = /^(KAA|EVA|Weighing)([1-9][0-9]*)$/.exec(s.type);
     return {...s,id:s.type.toLowerCase(),type,group:Number(group),chain:s.logic,
-      diagrams:s.diagrams.map(src=>({src,alt:s.diagramDetails?.[src]?.alt || `${s.type} diagram`,...(s.diagramDetails?.[src] || {})}))};
+      diagrams:s.diagrams.map(src=>({...s.diagramDetails?.[src],src,alt:s.diagramDetails?.[src]?.alt || `${s.type} diagram`}))};
   })};
 }
 
