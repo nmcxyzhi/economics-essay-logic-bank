@@ -21,12 +21,13 @@ Vercel Project：`economics-essay-logic-bank`。
 
 ## 当前章节与文章映射
 
-已有资料只确认前四章；第五章最终名称等待用户提供，不擅自命名。章节可在唯一数据文件的 units 中更新。
+当前使用五个 U3 课程章节；章节可在唯一数据文件的 units 中更新。`Labour Market` 暂无 Essay，因此不会生成任何空 Knowledge Point。
 
 1. Types and Sizes of Businesses
 2. Business Objectives
 3. Revenue, Costs and Profits
 4. Market Structure and Contestability
+5. Labour Market
 
 | Unit | Knowledge Point | Essay Title | Marks |
 |---|---|---|---|
