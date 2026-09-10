@@ -8,7 +8,8 @@ Edexcel IAL Economics U3 四层题库：Unit → Knowledge Point → Essay Title
 
 Content ChatGPT 交接规范：[CONTENT_IMPORT_GUIDE.md](CONTENT_IMPORT_GUIDE.md)。空白模板：[essay-import-template.json](essay-import-template.json)。机器可读 Schema：[essay-bank.schema.json](essay-bank.schema.json)。
 
-- 本地预览：`npm run dev`，用 HTTP 打开 `http://127.0.0.1:4173`，不要双击以 file:// 打开 ES modules。
+- Safari 本地打开：双击 `打开网站.command`，它会先构建网站，再用本机 HTTP 地址打开 Safari。
+- 命令行预览：`npm run dev`，用 HTTP 打开 `http://127.0.0.1:4173`。不要直接双击 `index.html`；Safari 会阻止 `file://` 页面读取 JSON 数据和 JavaScript modules。
 - 校验及构建：`npm run build`，输出到 `dist/`。
 - 批量校验：`node scripts/import-essays.mjs /path/to/batch.json`。
 - 正式追加：在上条命令后加 `--apply`。授权修订已有 ID 时加 `--replace-existing`。
