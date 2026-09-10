@@ -10,7 +10,7 @@ if(!input || flags.some(f=>!['--apply','--replace-existing'].includes(f))){
 const target=resolve(root,'data/essay-bank.json');
 const current=JSON.parse(readFileSync(target));
 const incoming=JSON.parse(readFileSync(resolve(input)));
-validateBank(incoming);
+validateBank(incoming,{requireSummaries:true});
 if(!incoming.essays.length) throw new Error('No incoming essays.');
 const merged=structuredClone(current);
 let added=0,replaced=0;
@@ -22,7 +22,7 @@ for(const e of incoming.essays){
  }else{merged.essays.push(e);added++;}
 }
 if(incoming.units) merged.units=[...new Set([...(merged.units||[]),...incoming.units])];
-validateBank(merged);
+validateBank(merged,{requireUnits:true});
 for(const e of merged.essays) for(const s of e.sections) for(const p of s.diagrams) if(!existsSync(resolve(root,'.'+p))) throw new Error(`Missing diagram: ${p}`);
 if(flags.includes('--apply')){
  const temp=target+'.tmp';writeFileSync(temp,JSON.stringify(merged,null,2)+'\n');renameSync(temp,target);

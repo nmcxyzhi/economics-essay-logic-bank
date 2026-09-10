@@ -2,7 +2,7 @@ import {readFileSync,existsSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {validateBank} from './model.js';
 const bank=JSON.parse(readFileSync(new URL('./data/essay-bank.json',import.meta.url)));
-validateBank(bank);
+validateBank(bank,{requireUnits:true});
 let images=0;
 for(const e of bank.essays) for(const s of e.sections) for(const path of s.diagrams){
  const file=new URL('.'+path,import.meta.url);

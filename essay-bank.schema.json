@@ -13,11 +13,26 @@
     },
     "units": {
       "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "string",
-        "minLength": 1
-      }
+      "minItems": 5,
+      "maxItems": 5,
+      "prefixItems": [
+        {
+          "const": "Types and Sizes of Businesses"
+        },
+        {
+          "const": "Revenue, Costs and Profits"
+        },
+        {
+          "const": "Market Structures and Contestability"
+        },
+        {
+          "const": "Labour Markets"
+        },
+        {
+          "const": "Government Intervention"
+        }
+      ],
+      "items": false
     },
     "essays": {
       "type": "array",
@@ -47,7 +62,13 @@
         },
         "unit": {
           "type": "string",
-          "minLength": 1
+          "enum": [
+            "Types and Sizes of Businesses",
+            "Revenue, Costs and Profits",
+            "Market Structures and Contestability",
+            "Labour Markets",
+            "Government Intervention"
+          ]
         },
         "topic": {
           "type": "string",
@@ -114,6 +135,51 @@
               "contentNote"
             ]
           }
+        },
+        {
+          "oneOf": [
+            {
+              "properties": {
+                "unit": {
+                  "const": "Types and Sizes of Businesses"
+                },
+                "topic": {
+                  "enum": [
+                    "Business Objectives",
+                    "Mergers",
+                    "Demergers"
+                  ]
+                }
+              }
+            },
+            {
+              "properties": {
+                "unit": {
+                  "const": "Revenue, Costs and Profits"
+                },
+                "topic": {
+                  "enum": [
+                    "Shutdown"
+                  ]
+                }
+              }
+            },
+            {
+              "properties": {
+                "unit": {
+                  "const": "Market Structures and Contestability"
+                },
+                "topic": {
+                  "enum": [
+                    "Market Concentration",
+                    "Oligopoly",
+                    "Monopoly",
+                    "Non-price Competition"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -129,6 +195,11 @@
         "type": {
           "type": "string",
           "pattern": "^(KAA|EVA|Weighing)[1-9][0-9]*$"
+        },
+        "summary": {
+          "type": "string",
+          "maxLength": 80,
+          "description": "Legacy-compatible short section label; required for new imports by import validation."
         },
         "point": {
           "type": "string"
@@ -230,6 +301,9 @@
               "point": {
                 "const": ""
               },
+              "summary": {
+                "const": ""
+              },
               "logic": {
                 "maxItems": 0
               },
@@ -241,6 +315,10 @@
           "else": {
             "properties": {
               "point": {
+                "type": "string",
+                "minLength": 1
+              },
+              "summary": {
                 "type": "string",
                 "minLength": 1
               },

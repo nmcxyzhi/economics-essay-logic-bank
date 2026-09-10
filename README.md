@@ -2,7 +2,9 @@
 
 Edexcel IAL Economics U3 四层题库：Unit → Knowledge Point → Essay Title → Essay Detail。中文界面，英文 Economics 内容。
 
-保留 11 篇用户 Essay，53 个已有论证模块，6 张原图及 1 个原始 payoff matrix。两篇原文不完整的 Essay 保留 missing 占位。Question、points、logic 与图片未经本次架构迁移改写。
+保留 13 篇用户 Essay，63 个已有论证模块，7 张原图及 1 个原始 payoff matrix。两篇原文不完整的 Essay 保留 missing 占位。Question、points、logic 与图片未经本次架构迁移改写。
+
+每个正常 section 包含 3–8 个英文单词的 `summary`，在 KAA / EVA / Weighing 标题行显示并在 Practice 模式中始终可见。新导入内容必须由 Content ChatGPT 提供 summary；Codex 只校验、原样导入和显示。
 
 唯一内容源是 `data/essay-bank.json`。正式图片为 `diagrams/`。所有分类由数据生成，无内容的 Knowledge Point 不显示。
 
@@ -22,27 +24,29 @@ Vercel Project：`economics-essay-logic-bank`。
 
 ## 当前章节与文章映射
 
-当前使用五个 U3 课程章节；章节可在唯一数据文件的 units 中更新。`Labour Market` 暂无 Essay，因此不会生成任何空 Knowledge Point。
+顶层严格使用 Edexcel IAL Economics Unit 3: Business Behaviour 的五个 Unit；Knowledge Point 使用直接 Essay 复习模块。五个 Unit 始终显示，只有实际包含 Essay 的 Knowledge Point 才显示。
 
 1. Types and Sizes of Businesses
-2. Business Objectives
-3. Revenue, Costs and Profits
-4. Market Structure and Contestability
-5. Labour Market
+2. Revenue, Costs and Profits
+3. Market Structures and Contestability
+4. Labour Markets
+5. Government Intervention
 
 | Unit | Knowledge Point | Essay Title | Marks |
 |---|---|---|---|
-| Market Structure and Contestability | Monopoly | Monopoly Power: Benefits to Consumers | 20 |
-| Types and Sizes of Businesses | Market Concentration | Reasons for Market Concentration | 14 |
-| Market Structure and Contestability | Oligopoly | Price and Non-Price Strategies: Effects on Sales | 14 |
-| Business Objectives | Revenue Maximisation | Revenue Maximisation as a Realistic Objective | 20 |
-| Business Objectives | Objectives by Firm Size | Business Objectives: SMEs vs Large Firms | 20 |
+| Market Structures and Contestability | Monopoly | Monopoly Power: Benefits to Consumers | 20 |
+| Market Structures and Contestability | Market Concentration | Reasons for Market Concentration | 14 |
+| Market Structures and Contestability | Oligopoly | Price and Non-Price Strategies: Effects on Sales | 14 |
+| Types and Sizes of Businesses | Business Objectives | Revenue Maximisation as a Realistic Objective | 20 |
+| Types and Sizes of Businesses | Business Objectives | Business Objectives: SMEs vs Large Firms | 20 |
 | Types and Sizes of Businesses | Demergers | Benefits of Demergers | 20 |
 | Types and Sizes of Businesses | Mergers | Effects of Mergers on Workers | 14 |
 | Types and Sizes of Businesses | Mergers | Benefits of External Growth by Merger | 20 |
-| Market Structure and Contestability | Oligopoly | Disadvantages to Consumers | 20 |
-| Market Structure and Contestability | Oligopoly | Disadvantages to Firms and Game Theory | 20 |
-| Revenue, Costs and Profits | Shutdown Decisions | Reasons for Shutdown | 14 |
+| Market Structures and Contestability | Oligopoly | Disadvantages to Consumers | 20 |
+| Market Structures and Contestability | Oligopoly | Disadvantages to Firms and Game Theory | 20 |
+| Revenue, Costs and Profits | Shutdown | Reasons for Shutdown | 14 |
+| Market Structures and Contestability | Non-price Competition | Non-price Competition: Benefits to Consumers and Businesses | 14 |
+| Revenue, Costs and Profits | Shutdown | Shutdown Decision: Normal Profit and Costs | 20 |
 
 ## 自动部署状态
 

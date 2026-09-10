@@ -1,16 +1,29 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {validateBank,catalog,toViewEssay,recallUnits,sectionGroups} from '../model.js';
+import {COURSE_STRUCTURE,validateBank,catalog,toViewEssay,recallUnits,sectionGroups} from '../model.js';
 const bank=JSON.parse(readFileSync(new URL('../data/essay-bank.json',import.meta.url)));
-test('new Units and topics appear from Essay data; empty topics are never manufactured',()=>{
- const fixture=structuredClone(bank);
- fixture.essays.push({...structuredClone(bank.essays[0]),id:'test-new-unit',unit:'Test Unit',topic:'Test Topic'});
- validateBank(fixture);
- const result=catalog(fixture);
- assert.equal(result.at(-1).name,'Test Unit');
- assert.deepEqual(result.at(-1).topics,['Test Topic']);
- for(const u of result) for(const topic of u.topics) assert.ok(fixture.essays.some(e=>e.unit===u.name&&e.topic===topic));
+test('catalog keeps the exact five Unit order and shows only populated Knowledge Points',()=>{
+ validateBank(bank,{requireUnits:true});
+ const result=catalog(bank);
+ assert.deepEqual(result.map(u=>u.name),Object.keys(COURSE_STRUCTURE));
+ for(const u of result) for(const topic of u.topics) {
+  assert.ok(COURSE_STRUCTURE[u.name].includes(topic));
+  assert.ok(bank.essays.some(e=>e.unit===u.name&&e.topic===topic));
+ }
+ assert.deepEqual(result.find(u=>u.name==='Labour Markets').topics,[]);
+ assert.deepEqual(result.find(u=>u.name==='Government Intervention').topics,[]);
+});
+test('validation rejects Units and Knowledge Points outside the confirmed essay-bank structure',()=>{
+ const wrongUnit=structuredClone(bank);
+ wrongUnit.essays[0].unit='Business Objectives';
+ assert.throws(()=>validateBank(wrongUnit),/unit 不在/);
+ const wrongTopic=structuredClone(bank);
+ wrongTopic.essays[0].topic='Perfect Competition';
+ assert.throws(()=>validateBank(wrongTopic),/topic 不属于/);
+ const wrongOrder=structuredClone(bank);
+ wrongOrder.units.reverse();
+ assert.throws(()=>validateBank(wrongOrder,{requireUnits:true}),/教材目录及顺序/);
 });
 test('section order and count follow JSON, including a third group',()=>{
  const fixture=structuredClone(bank);
@@ -29,6 +42,21 @@ test('recall includes real diagrams and matrix and skips missing slots',()=>{
  const partial=toViewEssay(bank.essays.find(e=>e.status==='partial'));
  assert.ok(recallUnits(partial,true).every(u=>!partial.blocks.find(b=>b.id===u.block).missing));
  assert.equal(recallUnits(withImage,true).length-recallUnits(withImage,false).length,withImage.blocks.length);
+ assert.ok(recallUnits(withImage,true).every(u=>u.kind!=='summary'));
+});
+test('summaries cover current sections, stay visible metadata, and remain legacy-compatible',()=>{
+ const normal=bank.essays.flatMap(e=>e.sections).filter(s=>!s.missing);
+ const missing=bank.essays.flatMap(e=>e.sections).filter(s=>s.missing);
+ assert.equal(normal.length,63);
+ assert.ok(normal.every(s=>typeof s.summary==='string'&&s.summary.trim()&&s.summary.trim().split(/\s+/).length>=3&&s.summary.trim().split(/\s+/).length<=8));
+ assert.ok(missing.every(s=>s.summary===''));
+ const legacy=structuredClone(bank);
+ delete legacy.essays[0].sections[0].summary;
+ validateBank(legacy,{requireUnits:true});
+ assert.equal(toViewEssay(legacy.essays[0]).blocks[0].summary,'');
+ assert.throws(()=>validateBank(legacy,{requireUnits:true,requireSummaries:true}),/必须提供 summary/);
+ const template=JSON.parse(readFileSync(new URL('../essay-import-template.json',import.meta.url)));
+ assert.ok(template.essays[0].sections.every(s=>Object.hasOwn(s,'summary')));
 });
 test('malformed IDs, duplicate sections, mark conflicts and unsafe image paths fail',()=>{
  for(const change of [e=>e.id='../wrong',e=>e.sections.push(e.sections[0]),e=>{e.questionNumber='Q7(e)';e.marks=20},e=>e.sections[0].diagrams=['/diagrams/../../secret.png']]){

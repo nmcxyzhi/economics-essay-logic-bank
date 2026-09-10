@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "units": [
     "Types and Sizes of Businesses",
-    "Business Objectives",
     "Revenue, Costs and Profits",
-    "Market Structure and Contestability",
-    "Labour Market"
+    "Market Structures and Contestability",
+    "Labour Markets",
+    "Government Intervention"
   ],
   "essays": [
     {
@@ -19,12 +19,13 @@
         "marksEvidence": "Source filename explicitly states (20); screenshot uses question number 20 from a different numbering scheme.",
         "questionLabel": "20"
       },
-      "unit": "Market Structure and Contestability",
+      "unit": "Market Structures and Contestability",
       "topic": "Monopoly",
       "essayTitle": "Monopoly Power: Benefits to Consumers",
       "sections": [
         {
           "type": "KAA1",
+          "summary": "Economies of scale may lower prices",
           "point": "A high market share can benefit consumers through lower prices.",
           "logic": [
             "Large sales and output increase the scale of input purchases",
@@ -46,6 +47,7 @@
         },
         {
           "type": "EVA1",
+          "summary": "Cost savings may raise profits instead",
           "point": "However, a high market share may reduce the incentive to pass cost savings on to consumers.",
           "logic": [
             "Greater market power reduces competitive pressure to cut prices",
@@ -57,6 +59,7 @@
         },
         {
           "type": "Weighing1",
+          "summary": "Depends on cost-saving pass-through",
           "point": "The significance of the benefit depends on how much of the cost saving is passed on to consumers.",
           "logic": [
             "A high proportion passed on through lower prices produces a larger gain in consumer surplus",
@@ -67,6 +70,7 @@
         },
         {
           "type": "KAA2",
+          "summary": "Supernormal profits can finance R&D",
           "point": "A high market share may benefit consumers through greater investment in product development.",
           "logic": [
             "Strong brand loyalty and fewer close substitutes may make demand relatively price inelastic",
@@ -79,6 +83,7 @@
         },
         {
           "type": "EVA2",
+          "summary": "Unsuccessful R&D may raise prices",
           "point": "However, unsuccessful R&D may raise costs without improving products.",
           "logic": [
             "Substantial development spending may fail to produce a successful product",
@@ -90,6 +95,7 @@
         },
         {
           "type": "Weighing2",
+          "summary": "Depends on successful consumer-focused innovation",
           "point": "Consumer benefit depends more on the nature and success of innovation than on the amount spent on R&D.",
           "logic": [
             "Innovation that meets consumer needs increases utility",
@@ -111,12 +117,13 @@
         "marksEvidence": "Question screenshot explicitly shows (14).",
         "questionLabel": "(b)"
       },
-      "unit": "Types and Sizes of Businesses",
+      "unit": "Market Structures and Contestability",
       "topic": "Market Concentration",
       "essayTitle": "Reasons for Market Concentration",
       "sections": [
         {
           "type": "KAA1",
+          "summary": "Economies of scale increase concentration",
           "point": "Economies of scale can allow a few large firms to dominate the food retailing industry.",
           "logic": [
             "Large operations require substantial input purchases",
@@ -130,6 +137,7 @@
         },
         {
           "type": "EVA1",
+          "summary": "Diseconomies may protect smaller firms",
           "point": "However, diseconomies of scale may weaken the cost advantage of large firms.",
           "logic": [
             "A larger, more complex organisation is harder to coordinate",
@@ -142,6 +150,7 @@
         },
         {
           "type": "KAA2",
+          "summary": "Customer loyalty supports independent firms",
           "point": "Customer loyalty to individual service providers can prevent a few large firms from dominating personal-service markets.",
           "logic": [
             "Customers value personalised service and an established relationship",
@@ -154,6 +163,7 @@
         },
         {
           "type": "EVA2",
+          "summary": "Employee retention preserves large-firm loyalty",
           "point": "However, large firms may retain customers by retaining the employees to whom those customers are loyal.",
           "logic": [
             "Higher wages and better promotion opportunities encourage employees to stay",
@@ -176,12 +186,13 @@
         "marksEvidence": "Question screenshot explicitly shows (14).",
         "questionLabel": "(b)"
       },
-      "unit": "Market Structure and Contestability",
+      "unit": "Market Structures and Contestability",
       "topic": "Oligopoly",
       "essayTitle": "Price and Non-Price Strategies: Effects on Sales",
       "sections": [
         {
           "type": "KAA1",
+          "summary": "Lower prices can increase sales",
           "point": "A firm can increase sales by reducing its price.",
           "logic": [
             "A lower price improves affordability and relative price competitiveness",
@@ -193,6 +204,7 @@
         },
         {
           "type": "EVA1",
+          "summary": "Impact depends on price elasticity",
           "point": "However, the effectiveness of price cutting depends on price elasticity of demand.",
           "logic": [
             "If demand is price inelastic, a price cut causes a less than proportionate rise in quantity demanded",
@@ -203,6 +215,7 @@
         },
         {
           "type": "KAA2",
+          "summary": "Quality differentiation can increase sales",
           "point": "Improving product quality can increase sales through product differentiation.",
           "logic": [
             "Better quality and design meet consumer preferences more closely",
@@ -215,6 +228,7 @@
         },
         {
           "type": "EVA2",
+          "summary": "R&D costs may offset sales gains",
           "point": "However, improving quality may involve high R&D costs that limit the increase in sales.",
           "logic": [
             "Product development requires substantial funding",
@@ -237,12 +251,13 @@
         "questionLocation": "Opening paragraph",
         "marksEvidence": "Opening question explicitly ends with (20)."
       },
-      "unit": "Business Objectives",
-      "topic": "Revenue Maximisation",
+      "unit": "Types and Sizes of Businesses",
+      "topic": "Business Objectives",
       "essayTitle": "Revenue Maximisation as a Realistic Objective",
       "sections": [
         {
           "type": "KAA1",
+          "summary": "Can generate economies of scale",
           "point": "Revenue maximisation may be a realistic objective because higher output can generate economies of scale.",
           "logic": [
             "Moving from profit maximisation to revenue maximisation increases output from Qp to Qr",
@@ -264,6 +279,7 @@
         },
         {
           "type": "EVA1",
+          "summary": "May only be a short-run strategy",
           "point": "However, revenue maximisation may be a means of achieving profit maximisation in the long run.",
           "logic": [
             "Expansion of market share strengthens market power",
@@ -275,6 +291,7 @@
         },
         {
           "type": "Weighing1",
+          "summary": "Depends on the firm's market position",
           "point": "The more realistic objective depends on the firm’s position in the market.",
           "logic": [
             "While reducing LRAC and expanding market share, revenue maximisation may be more realistic",
@@ -285,6 +302,7 @@
         },
         {
           "type": "KAA2",
+          "summary": "Managers may prioritise revenue",
           "point": "The divorce of ownership from control may make revenue maximisation more realistic for large firms.",
           "logic": [
             "Shareholders own the firm, while managers control pricing and output",
@@ -297,6 +315,7 @@
         },
         {
           "type": "EVA2",
+          "summary": "Shareholders may constrain managers",
           "point": "However, shareholder pressure may constrain managers who sacrifice too much profit.",
           "logic": [
             "Low profits leave insufficient funds for dividends",
@@ -308,6 +327,7 @@
         },
         {
           "type": "Weighing2",
+          "summary": "Depends on satisfying shareholders' profit expectations",
           "point": "The feasibility of revenue maximisation depends on whether it generates enough profit to satisfy shareholders.",
           "logic": [
             "Sufficient profit allows managers to continue pursuing higher output and revenue",
@@ -329,12 +349,13 @@
         "marksEvidence": "Question 10: U3 mark allocation",
         "session": "2023.5"
       },
-      "unit": "Business Objectives",
-      "topic": "Objectives by Firm Size",
+      "unit": "Types and Sizes of Businesses",
+      "topic": "Business Objectives",
       "essayTitle": "Business Objectives: SMEs vs Large Firms",
       "sections": [
         {
           "type": "KAA1",
+          "summary": "Owner-managers may prefer satisficing",
           "point": "Owner-managed SMEs may pursue satisficing rather than profit or growth maximisation.",
           "logic": [
             "Owners have direct control over business decisions",
@@ -347,6 +368,7 @@
         },
         {
           "type": "EVA1",
+          "summary": "Ambitious entrepreneurs may pursue maximisation",
           "point": "However, ambitious entrepreneurs may prefer revenue or profit maximisation to satisficing.",
           "logic": [
             "Owners may seek higher income, market share and business success",
@@ -358,6 +380,7 @@
         },
         {
           "type": "Weighing1",
+          "summary": "Depends on the owner's ambition",
           "point": "The objectives of an SME depend on the owner’s level of ambition.",
           "logic": [
             "A strong preference for work–life balance favours satisficing",
@@ -368,6 +391,7 @@
         },
         {
           "type": "KAA2",
+          "summary": "Managers may prioritise revenue",
           "point": "The separation of ownership and control may encourage managers of large firms to pursue revenue maximisation.",
           "logic": [
             "Shareholders own the firm, but managers have discretion over pricing and output",
@@ -389,6 +413,7 @@
         },
         {
           "type": "EVA2",
+          "summary": "Shareholder returns constrain managerial objectives",
           "point": "However, large firms may also pursue satisficing because managers must maintain satisfactory shareholder returns.",
           "logic": [
             "Low profits reduce the funds available for dividends",
@@ -401,6 +426,7 @@
         },
         {
           "type": "Weighing2",
+          "summary": "Depends on profit and managerial discretion",
           "point": "The extent of managerial discretion depends on how much profit the business earns.",
           "logic": [
             "Revenue maximisation can continue if profits satisfy shareholders",
@@ -429,6 +455,7 @@
       "sections": [
         {
           "type": "KAA1",
+          "summary": "Specialisation can reduce costs",
           "point": "A demerger can benefit firms by allowing greater specialisation.",
           "logic": [
             "Separating non-core activities allows resources and expertise to focus on fewer markets",
@@ -450,6 +477,7 @@
         },
         {
           "type": "EVA1",
+          "summary": "Duplicated resources may increase costs",
           "point": "However, a demerger may increase costs by duplicating previously shared resources.",
           "logic": [
             "Independent firms each need management, marketing and administration",
@@ -461,6 +489,7 @@
         },
         {
           "type": "Weighing1",
+          "summary": "Compare specialisation savings with duplication costs",
           "point": "The benefit to firms depends on whether specialisation savings exceed the additional costs of operating separately.",
           "logic": [
             "Compare efficiency savings with duplicated labour and operating costs",
@@ -471,6 +500,7 @@
         },
         {
           "type": "KAA2",
+          "summary": "Lower prices and better quality",
           "point": "A demerger may benefit consumers through lower prices and better product quality.",
           "logic": [
             "Smaller independent firms may have less market power",
@@ -483,6 +513,7 @@
         },
         {
           "type": "EVA2",
+          "summary": "Inconvenience and reduced choice may result",
           "point": "However, a demerger may reduce consumer utility by increasing inconvenience and limiting choice.",
           "logic": [
             "Consumers may need to deal with several firms rather than one diversified supplier",
@@ -494,6 +525,7 @@
         },
         {
           "type": "Weighing2",
+          "summary": "Depends on whether products remain available",
           "point": "The effect on consumer choice depends on whether products are actually removed from the market.",
           "logic": [
             "If divisions simply become independent firms, the same products can remain available",
@@ -524,6 +556,7 @@
       "sections": [
         {
           "type": "KAA1",
+          "summary": "Mergers may improve job security",
           "point": "A merger may increase long-term job security for workers.",
           "logic": [
             "Combined market share and sales increase the scale of operation",
@@ -536,6 +569,7 @@
         },
         {
           "type": "EVA1",
+          "summary": "Duplicated roles may cause redundancies",
           "point": "However, a merger may cause redundancies when the combined firm removes duplicated jobs.",
           "logic": [
             "Overlapping management and administrative roles increase labour costs",
@@ -548,6 +582,7 @@
         },
         {
           "type": "KAA2",
+          "summary": "",
           "point": "",
           "logic": [],
           "diagrams": [],
@@ -555,6 +590,7 @@
         },
         {
           "type": "EVA2",
+          "summary": "",
           "point": "",
           "logic": [],
           "diagrams": [],
@@ -579,6 +615,7 @@
       "sections": [
         {
           "type": "KAA1",
+          "summary": "Mergers can generate economies of scale",
           "point": "A merger can benefit firms by generating economies of scale.",
           "logic": [
             "Combining firms expands the potential customer base and access to markets",
@@ -600,6 +637,7 @@
         },
         {
           "type": "EVA1",
+          "summary": "Diseconomies may raise organisational costs",
           "point": "However, a merger may create diseconomies of scale if the organisation becomes too large.",
           "logic": [
             "A larger organisation becomes more complex",
@@ -612,6 +650,7 @@
         },
         {
           "type": "Weighing1",
+          "summary": "Compare economies with diseconomies of scale",
           "point": "The benefit to firms depends on whether economies of scale exceed diseconomies of scale.",
           "logic": [
             "Compare input-cost savings with additional organisational costs",
@@ -622,6 +661,7 @@
         },
         {
           "type": "KAA2",
+          "summary": "Combined resources can improve quality",
           "point": "A merger may benefit consumers by combining resources to improve product quality.",
           "logic": [
             "Firms pool finance, research expertise and distribution networks",
@@ -634,6 +674,7 @@
         },
         {
           "type": "EVA2",
+          "summary": "Market power may weaken innovation",
           "point": "However, greater monopoly power may weaken incentives to innovate and improve efficiency.",
           "logic": [
             "A larger market share can reduce competitive pressure",
@@ -645,6 +686,7 @@
         },
         {
           "type": "Weighing2",
+          "summary": "Depends on post-merger competitive pressure",
           "point": "The benefit to consumers depends on the degree of competition and contestability after the merger.",
           "logic": [
             "Continued competitive pressure sustains incentives for R&D and quality improvements",
@@ -668,12 +710,13 @@
       },
       "status": "partial",
       "contentNote": "原文只有 consumers 的第一组论证；题目还要求 producers，KAA2 / EVA2 / Weighing2 尚未提供。",
-      "unit": "Market Structure and Contestability",
+      "unit": "Market Structures and Contestability",
       "topic": "Oligopoly",
       "essayTitle": "Disadvantages to Consumers",
       "sections": [
         {
           "type": "KAA1",
+          "summary": "Collusion may raise consumer prices",
           "point": "Collusion in an oligopoly may harm consumers by raising prices.",
           "logic": [
             "A few dominant firms can coordinate their behaviour more easily",
@@ -686,6 +729,7 @@
         },
         {
           "type": "EVA1",
+          "summary": "Price wars may benefit consumers",
           "point": "However, aggressive competition between oligopolistic firms may benefit consumers.",
           "logic": [
             "Firms cut prices to avoid losing market share",
@@ -697,6 +741,7 @@
         },
         {
           "type": "Weighing1",
+          "summary": "Depends on collusion or competition",
           "point": "The effect on consumers depends on whether firms collude or compete aggressively.",
           "logic": [
             "Collusion with weak price competition sustains high prices and reduces consumer surplus",
@@ -707,6 +752,7 @@
         },
         {
           "type": "KAA2",
+          "summary": "",
           "point": "",
           "logic": [],
           "diagrams": [],
@@ -714,6 +760,7 @@
         },
         {
           "type": "EVA2",
+          "summary": "",
           "point": "",
           "logic": [],
           "diagrams": [],
@@ -721,6 +768,7 @@
         },
         {
           "type": "Weighing2",
+          "summary": "",
           "point": "",
           "logic": [],
           "diagrams": [],
@@ -739,12 +787,13 @@
         "marksEvidence": "Question 9: U3 mark allocation",
         "session": "2024.1"
       },
-      "unit": "Market Structure and Contestability",
+      "unit": "Market Structures and Contestability",
       "topic": "Oligopoly",
       "essayTitle": "Disadvantages to Firms and Game Theory",
       "sections": [
         {
           "type": "KAA1",
+          "summary": "Price wars reduce firms' profits",
           "point": "Interdependence in an oligopoly may trigger a price war that reduces firms’ profits.",
           "logic": [
             "Each firm considers how rivals will respond to a price change",
@@ -779,6 +828,7 @@
         },
         {
           "type": "EVA1",
+          "summary": "Price wars may be temporary",
           "point": "However, firms may end a price war when sustained price cuts offer little advantage.",
           "logic": [
             "All major firms match the lower prices",
@@ -791,6 +841,7 @@
         },
         {
           "type": "Weighing1",
+          "summary": "Depends on how long prices remain low",
           "point": "The significance of a price war depends on whether low prices persist in the long run.",
           "logic": [
             "Repeated price cuts keep margins low and make the disadvantage significant",
@@ -801,6 +852,7 @@
         },
         {
           "type": "KAA2",
+          "summary": "Non-price competition increases costs",
           "point": "Non-price competition can impose high costs on firms in an oligopoly.",
           "logic": [
             "Firms compete through advertising, R&D and product quality",
@@ -812,6 +864,7 @@
         },
         {
           "type": "EVA2",
+          "summary": "Differentiation may increase pricing power",
           "point": "However, successful non-price competition may increase profits through product differentiation.",
           "logic": [
             "Better quality, advertising and branding strengthen brand loyalty",
@@ -823,6 +876,7 @@
         },
         {
           "type": "Weighing2",
+          "summary": "Compare additional revenue with additional costs",
           "point": "The net effect of non-price competition depends on whether additional revenue exceeds additional cost.",
           "logic": [
             "Expensive advertising and R&D with little demand growth reduce profits",
@@ -846,11 +900,12 @@
         "questionLabel": "Q7(e)"
       },
       "unit": "Revenue, Costs and Profits",
-      "topic": "Shutdown Decisions",
+      "topic": "Shutdown",
       "essayTitle": "Reasons for Shutdown",
       "sections": [
         {
           "type": "KAA1",
+          "summary": "AR below AVC causes shutdown",
           "point": "A fall in revenue may cause a firm to shut down in the short run if it can no longer cover variable costs.",
           "logic": [
             "Weaker demand may reduce the price and average revenue the firm receives",
@@ -872,6 +927,7 @@
         },
         {
           "type": "EVA1",
+          "summary": "Revenue may remain above shutdown level",
           "point": "However, not all firms experience a large enough fall in revenue to reach the shutdown point.",
           "logic": [
             "Some goods and services remain essential when demand elsewhere weakens",
@@ -883,6 +939,7 @@
         },
         {
           "type": "KAA2",
+          "summary": "Rising variable costs may force shutdown",
           "point": "Rising variable costs may force a firm to shut down in the short run.",
           "logic": [
             "Higher input or operating costs increase AVC",
@@ -895,12 +952,187 @@
         },
         {
           "type": "EVA2",
+          "summary": "Subsidies may prevent shutdown",
           "point": "However, government support that reduces variable costs may allow a firm to continue operating.",
           "logic": [
             "A subsidy can reduce the variable cost borne by the firm",
             "AVC may fall below AR",
             "Revenue once again covers variable costs and contributes towards fixed costs",
             "The firm can continue producing"
+          ],
+          "diagrams": []
+        }
+      ]
+    },
+    {
+      "id": "non-price-competition-benefits-consumers-businesses",
+      "unit": "Market Structures and Contestability",
+      "topic": "Non-price Competition",
+      "essayTitle": "Non-price Competition: Benefits to Consumers and Businesses",
+      "question": "Discuss the benefits of non-price competition for consumers and businesses.",
+      "questionNumber": "7(e)",
+      "marks": 14,
+      "status": "complete",
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Higher-quality products benefit consumers",
+          "point": "Non-price competition can benefit consumers through higher-quality products.",
+          "logic": [
+            "Firms invest more in R&D",
+            "R&D can lead to innovation and product differentiation",
+            "Product features and quality improve",
+            "Products better meet consumers' needs and preferences",
+            "Consumers gain greater choice and utility",
+            "Consumer welfare increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "summary": "Innovation may be unsuccessful",
+          "point": "However, these benefits depend on whether R&D leads to successful innovation.",
+          "logic": [
+            "Large firms may already have significant market power",
+            "Weaker competitive pressure can reduce the incentive to reinvest profits in R&D",
+            "Even when firms invest, R&D is risky and may fail",
+            "Costs may rise without genuine product improvements",
+            "Consumer utility may not increase significantly",
+            "The benefit to consumers may therefore be limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Advertising strengthens brand loyalty",
+          "point": "Advertising and branding may increase sales and profits for businesses.",
+          "logic": [
+            "Advertising increases consumer awareness and familiarity",
+            "Brand loyalty becomes stronger",
+            "Consumers become less willing to switch to rivals",
+            "Demand becomes more price-inelastic",
+            "The firm can charge a higher price without losing many customers",
+            "Revenue and profit can increase",
+            "The firm may gain or protect market share"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Advertising costs may reduce profits",
+          "point": "However, non-price competition may reduce profits if its additional costs are too high.",
+          "logic": [
+            "Advertising and other non-price strategies increase firms' costs",
+            "Rivals may respond with more advertising, creating an advertising race",
+            "The increase in costs may exceed the additional revenue generated",
+            "Profit margins may fall",
+            "The benefit may also be temporary if consumers switch to better rival products",
+            "Profits rise significantly only when additional revenue and long-term brand loyalty outweigh the additional cost"
+          ],
+          "diagrams": []
+        }
+      ]
+    },
+    {
+      "id": "shutdown-decision-normal-profit-costs",
+      "unit": "Revenue, Costs and Profits",
+      "topic": "Shutdown",
+      "essayTitle": "Shutdown Decision: Normal Profit and Costs",
+      "question": "Evaluate the view that a business will always shut down if it is not able to make a normal profit.",
+      "questionNumber": "8",
+      "marks": 20,
+      "status": "complete",
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Persistent long-run losses cause shutdown",
+          "point": "If a firm cannot cover its total costs in the long run, it is likely to shut down.",
+          "logic": [
+            "Failure to make normal profit means AR is below AC",
+            "Total revenue is below total cost, so the firm makes a loss",
+            "Persistent losses reduce financial reserves",
+            "The firm becomes less able to pay workers, suppliers and other costs",
+            "In the long run, all costs are variable",
+            "The firm must cover total costs including opportunity cost to remain in the market",
+            "Persistent AR below AC makes continued operation unsustainable",
+            "Shutdown becomes increasingly likely"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "summary": "Losses may be temporary",
+          "point": "However, failing to make normal profit does not necessarily mean the firm should shut down immediately.",
+          "logic": [
+            "The loss may only be temporary",
+            "A temporary fall in demand can push AR below AC",
+            "Demand may later recover",
+            "AR may rise and the firm may return to normal profit",
+            "Shutdown can also create exit costs and make later re-entry difficult",
+            "The firm may therefore remain open if managers expect conditions to recover"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Duration of losses and financial position",
+          "point": "The shutdown decision depends on whether the loss is temporary or persistent and whether the firm has enough finance to survive it.",
+          "logic": [
+            "Strong cash reserves or access to credit allow the firm to tolerate losses for longer",
+            "This gives the firm time to wait for demand to recover",
+            "Weak liquidity may force the firm to close even if future conditions are expected to improve",
+            "The duration of the loss and the firm's financial position therefore affect the shutdown decision"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "AR above AVC supports continued production",
+          "point": "In the short run, a firm may continue operating even if it cannot make normal profit.",
+          "logic": [
+            "AR can be below AC while remaining above AVC",
+            "The firm makes a loss but revenue still covers all variable costs",
+            "Revenue also makes a contribution towards fixed costs",
+            "If the firm shuts down, revenue falls to zero while fixed costs remain",
+            "The firm would lose its contribution towards fixed costs",
+            "Continuing production therefore minimises the firm's loss",
+            "The firm should remain open in the short run while AR is above AVC"
+          ],
+          "diagrams": [
+            "/diagrams/shutdown-normal-profit-kaa2.jpeg"
+          ],
+          "diagramDetails": {
+            "/diagrams/shutdown-normal-profit-kaa2.jpeg": {
+              "alt": "Short-run shutdown diagram showing MC, AC and AVC with P1 and P2.",
+              "caption": "Short-run shutdown decision: a loss-making firm can continue while AR remains above AVC.",
+              "sourceLocation": "Essay page 2",
+              "sha256": "0d79ef68c87d66ec3f619c9229f4d5d58ae160e33f17b75acd172935918b37a2"
+            }
+          }
+        },
+        {
+          "type": "EVA2",
+          "summary": "AR below AVC causes shutdown",
+          "point": "However, if AR falls below AVC, shutting down is the loss-minimising decision.",
+          "logic": [
+            "Revenue is not enough to cover the variable costs of production",
+            "Continued production adds more to variable cost than it generates in revenue",
+            "Each additional unit therefore increases the firm's total loss",
+            "Shutdown allows the firm to avoid variable costs",
+            "Fixed costs still remain in the short run",
+            "Once AR falls below AVC, shutdown minimises losses"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Objectives and finance affect shutdown",
+          "point": "The short-run shutdown rule is important, but the firm's objectives, expectations and financial position can affect how long it continues operating.",
+          "logic": [
+            "A firm may prioritise survival or long-term growth over short-run profit",
+            "It may accept losses while establishing a customer base or waiting for demand to recover",
+            "This strategy is sustainable only if the firm has enough finance to fund the losses",
+            "The final shutdown decision therefore depends on both the cost condition and the firm's ability and willingness to continue"
           ],
           "diagrams": []
         }

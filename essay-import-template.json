@@ -12,36 +12,42 @@
       "sections": [
         {
           "type": "KAA1",
+          "summary": "",
           "point": "",
           "logic": [],
           "diagrams": []
         },
         {
           "type": "EVA1",
+          "summary": "",
           "point": "",
           "logic": [],
           "diagrams": []
         },
         {
           "type": "Weighing1",
+          "summary": "",
           "point": "",
           "logic": [],
           "diagrams": []
         },
         {
           "type": "KAA2",
+          "summary": "",
           "point": "",
           "logic": [],
           "diagrams": []
         },
         {
           "type": "EVA2",
+          "summary": "",
           "point": "",
           "logic": [],
           "diagrams": []
         },
         {
           "type": "Weighing2",
+          "summary": "",
           "point": "",
           "logic": [],
           "diagrams": []

@@ -77,7 +77,7 @@ function renderLibrary(unitName, topicName) {
 function blockCard(block) {
   const label = `${block.type}${block.group}`;
   if (block.missing) return `<article class="logic-card missing-block" id="${block.id}" aria-labelledby="${block.id}-title"><div class="card-label"><h3 id="${block.id}-title" lang="en">${label}</h3><span>原文待补全</span></div><div class="card-content"><p class="muted">原文件未提供这一模块，补充原文后会更新到这里。</p></div></article>`;
-  return `<article class="logic-card ${block.type.toLowerCase()}" id="${block.id}" aria-labelledby="${block.id}-title"><div class="card-label"><h3 id="${block.id}-title" lang="en">${label}</h3><span>${block.type === 'KAA' ? '分析' : block.type === 'EVA' ? '评价' : '权衡'}</span></div>
+  return `<article class="logic-card ${block.type.toLowerCase()}" id="${block.id}" aria-labelledby="${block.id}-title"><div class="card-label"><h3 id="${block.id}-title" lang="en">${label}</h3><span>${block.type === 'KAA' ? '分析' : block.type === 'EVA' ? '评价' : '权衡'}</span>${block.summary ? `<p class="card-summary" lang="en">${esc(block.summary)}</p>` : ''}</div>
   <div class="card-content"><p class="point" lang="en" data-unit="${block.id}:point">${esc(block.point)}</p><ol class="logic-chain" lang="en">${block.chain.map((step, i) => `<li data-unit="${block.id}:chain:${i}">${i ? '<span class="chain-arrow" aria-hidden="true">→</span>' : '<span class="chain-start" aria-hidden="true"></span>'}<span>${esc(step)}</span></li>`).join('')}</ol>
   ${(block.diagrams || []).map((d, i) => `<figure data-unit="${block.id}:diagram:${i}"><a href="${esc(d.src)}" target="_blank" rel="noopener" aria-label="查看原图"> <img src="${esc(d.src)}" alt="${esc(d.alt)}" loading="lazy"></a>${d.caption ? `<figcaption lang="en">${esc(d.caption)}</figcaption>` : ''}<span class="diagram-hint">点击查看原图</span></figure>`).join('')}
   ${block.matrix ? `<figure class="matrix-figure" data-unit="${block.id}:matrix"><figcaption lang="en">${esc(block.matrix.caption)}</figcaption><table lang="en"><thead><tr>${block.matrix.headers.map(h => `<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${block.matrix.rows.map(row => `<tr>${row.map((cell, i) => i ? `<td>${esc(cell)}</td>` : `<th scope="row">${esc(cell)}</th>`).join('')}</tr>`).join('')}</tbody></table><span class="diagram-hint">保留原文表格及收益数值</span></figure>` : ''}
@@ -179,7 +179,7 @@ try {
   const response=await fetch('./data/essay-bank.json');
   if (!response.ok) throw new Error(`题库加载失败: ${response.status}`);
   bank=await response.json();
-  validateBank(bank);
+  validateBank(bank,{requireUnits:true});
   units=catalog(bank);
   essays=bank.essays.map(toViewEssay);
   route();

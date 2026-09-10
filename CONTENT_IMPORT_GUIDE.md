@@ -20,9 +20,25 @@
 
 `unit` 为课程大章节，`topic` 为该章节中的知识点，`essayTitle` 为简短英文文章标题，`question` 为完整真正 Question。外层不显示完整 Question。
 
-根对象的可选 `units` 数组是章节显示顺序及尚无 Essay 章节的唯一声明，不在组件里重复维护。数据里首次出现的新 `unit` 会自动追加显示，不必修改页面代码。知识点完全由 essays 自动生成，无 Essay 的 topic 从不显示。添加 Essay 时无须手工修改 topic 列表。
+根对象的 `units` 数组固定声明五个顶层 Unit 及显示顺序。五个 Unit 始终显示，即使当前没有 Essay。Knowledge Point 由 essays 的 `topic` 自动生成，只有实际包含 Essay 的 Knowledge Point 才显示。
 
-当前五个章节和 11 篇映射见 `README.md`。既有分类名应精确复用，大小写与空格必须一致，避免产生拼写不同的重复分类。新增 Unit 须有用户确认；软件支持自动显示并不代表 Content ChatGPT 可擅自改变课程结构。`Labour Market` 当前暂无 Essay，所以该 Unit 页面不生成任何 Knowledge Point。
+Knowledge Point 使用适合 Essay 复习的直接知识模块，不机械复制教材 subchapter，也不增加中间层级。当前已确认的分类为：
+
+1. `Types and Sizes of Businesses`
+   - `Business Objectives`
+   - `Mergers`
+   - `Demergers`
+2. `Revenue, Costs and Profits`
+   - `Shutdown`
+3. `Market Structures and Contestability`
+   - `Market Concentration`
+   - `Oligopoly`
+   - `Monopoly`
+   - `Non-price Competition`
+4. `Labour Markets`
+5. `Government Intervention`
+
+新 Essay 若确实需要新的直接 Knowledge Point，应先明确其所属 Unit，再把新名称加入 validation；不得用教材小章节额外包一层。大小写、单复数与空格必须一致。导入脚本会拒绝未确认的 Unit / Knowledge Point，以及顺序不同的顶层 `units`。当前映射见 `README.md`.
 
 ## 3. 字段与类型
 
@@ -43,6 +59,7 @@
 | contentNote | string | partial 时必填 | 中文状态说明，只用于说明缺失范围，不放 Economics 论证 |
 | source | object | 否 | 溯源元数据；可包含 filename、session、questionLocation、marksEvidence |
 | sections[].type | string | 是 | `KAA1`、`EVA1`、`Weighing1` 等，编号从 1 开始；每篇不能重复 |
+| sections[].summary | string | 新导入必填 | 3–8 个英文单词的段落中心思想；旧数据缺失时网站兼容；missing placeholder 填 `""` |
 | sections[].point | string | 是 | 完整英文观点句；已提供模块不能为空 |
 | sections[].logic | string[] | 是 | 一项一个英文推导步骤；无箭头前缀，网站自动加纵向箭头 |
 | sections[].diagrams | string[] | 是 | 无图时 `[]`；有图时 `/diagrams/filename.png` |
@@ -59,7 +76,7 @@
 
 这些是内容组织约定，不是网站硬编码的段落数量。最终以用户批准的实际 sections 为准；不要因为分值擅自补写缺失模块。缺失原文可以保留 missing 占位并添加 contentNote。已有两篇 partial 条目不能在导入时误标为完整。
 
-Practice 默认保留 point，逐项隐藏/显示 logic；图像和 matrix 也计入揭示步骤。勾选同时隐藏观点句后，point 也计入步骤。missing 占位不计入回忆步数。
+Practice 中 summary 始终可见且不计入 reveal step。默认保留 point，逐项隐藏/显示 logic；图像和 matrix 也计入揭示步骤。勾选同时隐藏观点句后，point 也计入步骤。missing 占位不计入回忆步数。
 
 ## 5. 图像与原表格
 
@@ -78,12 +95,14 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
 ## 6. 内容边界与不可违反的要求
 
 - Economics 内容全英文，界面状态说明用中文。
+- `summary` 是 3–8 个英文单词的快速复习标签。Content ChatGPT 对新 Essay 负责提供；Codex 只校验、原样导入和显示，不改写或覆盖。
 - `point` 保留考试中可直接使用的完整观点句；`logic` 压缩为短语但不跳过重要经济中间环节。
 - Remove the case-study detail, not the economic logic.
 - Question、论证、图像及分类在 Content ChatGPT 侧确定后，Codex 不再改写或重新分类。
 - JSON 必须合法 UTF-8：双引号、无注释、无尾逗号，不要把 Markdown 代码围栏放入 JSON 文件。
 - ID 不可重复。修改现有文章沿用原 id；不得用新 id 制造重复文章。
 - 同一篇 section.type 不可重复。无图也必须保留 diagrams 数组。
+- 新导入的每个正常 section 必须包含非空 `summary`；missing section 的 `summary` 为 `""`。历史数据暂缺 summary 时仍可打开和构建。
 - 空白模板故意不可直接导入：必须填完所有必填内容，再移除不适用的 section。
 - 不在数据中放 API key、登录凭据或私人账户信息。
 
@@ -107,11 +126,26 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
     },
     "units": {
       "type": "array",
-      "uniqueItems": true,
-      "items": {
-        "type": "string",
-        "minLength": 1
-      }
+      "minItems": 5,
+      "maxItems": 5,
+      "prefixItems": [
+        {
+          "const": "Types and Sizes of Businesses"
+        },
+        {
+          "const": "Revenue, Costs and Profits"
+        },
+        {
+          "const": "Market Structures and Contestability"
+        },
+        {
+          "const": "Labour Markets"
+        },
+        {
+          "const": "Government Intervention"
+        }
+      ],
+      "items": false
     },
     "essays": {
       "type": "array",
@@ -141,7 +175,13 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
         },
         "unit": {
           "type": "string",
-          "minLength": 1
+          "enum": [
+            "Types and Sizes of Businesses",
+            "Revenue, Costs and Profits",
+            "Market Structures and Contestability",
+            "Labour Markets",
+            "Government Intervention"
+          ]
         },
         "topic": {
           "type": "string",
@@ -208,6 +248,51 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
               "contentNote"
             ]
           }
+        },
+        {
+          "oneOf": [
+            {
+              "properties": {
+                "unit": {
+                  "const": "Types and Sizes of Businesses"
+                },
+                "topic": {
+                  "enum": [
+                    "Business Objectives",
+                    "Mergers",
+                    "Demergers"
+                  ]
+                }
+              }
+            },
+            {
+              "properties": {
+                "unit": {
+                  "const": "Revenue, Costs and Profits"
+                },
+                "topic": {
+                  "enum": [
+                    "Shutdown"
+                  ]
+                }
+              }
+            },
+            {
+              "properties": {
+                "unit": {
+                  "const": "Market Structures and Contestability"
+                },
+                "topic": {
+                  "enum": [
+                    "Market Concentration",
+                    "Oligopoly",
+                    "Monopoly",
+                    "Non-price Competition"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -223,6 +308,11 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
         "type": {
           "type": "string",
           "pattern": "^(KAA|EVA|Weighing)[1-9][0-9]*$"
+        },
+        "summary": {
+          "type": "string",
+          "maxLength": 80,
+          "description": "Legacy-compatible short section label; required for new imports by import validation."
         },
         "point": {
           "type": "string"
@@ -324,6 +414,9 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
               "point": {
                 "const": ""
               },
+              "summary": {
+                "const": ""
+              },
               "logic": {
                 "maxItems": 0
               },
@@ -335,6 +428,10 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
           "else": {
             "properties": {
               "point": {
+                "type": "string",
+                "minLength": 1
+              },
+              "summary": {
                 "type": "string",
                 "minLength": 1
               },
@@ -363,12 +460,13 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
       "question": "Discuss pricing and non-pricing strategies that e-bike manufacturers might use to increase sales.",
       "marks": 14,
       "questionNumber": "(b)",
-      "unit": "Market Structure and Contestability",
+      "unit": "Market Structures and Contestability",
       "topic": "Oligopoly",
       "essayTitle": "Price and Non-Price Strategies: Effects on Sales",
       "sections": [
         {
           "type": "KAA1",
+          "summary": "Lower prices can increase sales",
           "point": "A firm can increase sales by reducing its price.",
           "logic": [
             "A lower price improves affordability and relative price competitiveness",
@@ -380,6 +478,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
         },
         {
           "type": "EVA1",
+          "summary": "Impact depends on price elasticity",
           "point": "However, the effectiveness of price cutting depends on price elasticity of demand.",
           "logic": [
             "If demand is price inelastic, a price cut causes a less than proportionate rise in quantity demanded",
@@ -390,6 +489,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
         },
         {
           "type": "KAA2",
+          "summary": "Quality differentiation can increase sales",
           "point": "Improving product quality can increase sales through product differentiation.",
           "logic": [
             "Better quality and design meet consumer preferences more closely",
@@ -402,6 +502,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
         },
         {
           "type": "EVA2",
+          "summary": "R&D costs may offset sales gains",
           "point": "However, improving quality may involve high R&D costs that limit the increase in sales.",
           "logic": [
             "Product development requires substantial funding",
@@ -431,12 +532,13 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
       "question": "Discuss pricing and non-pricing strategies that e-bike manufacturers might use to increase sales.",
       "marks": 14,
       "questionNumber": "(b)",
-      "unit": "Market Structure and Contestability",
+      "unit": "Market Structures and Contestability",
       "topic": "Oligopoly",
       "essayTitle": "Price and Non-Price Strategies: Effects on Sales",
       "sections": [
         {
           "type": "KAA1",
+          "summary": "Lower prices can increase sales",
           "point": "A firm can increase sales by reducing its price.",
           "logic": [
             "A lower price improves affordability and relative price competitiveness",
@@ -448,6 +550,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
         },
         {
           "type": "EVA1",
+          "summary": "Impact depends on price elasticity",
           "point": "However, the effectiveness of price cutting depends on price elasticity of demand.",
           "logic": [
             "If demand is price inelastic, a price cut causes a less than proportionate rise in quantity demanded",
@@ -458,6 +561,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
         },
         {
           "type": "KAA2",
+          "summary": "Quality differentiation can increase sales",
           "point": "Improving product quality can increase sales through product differentiation.",
           "logic": [
             "Better quality and design meet consumer preferences more closely",
@@ -470,6 +574,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
         },
         {
           "type": "EVA2",
+          "summary": "R&D costs may offset sales gains",
           "point": "However, improving quality may involve high R&D costs that limit the increase in sales.",
           "logic": [
             "Product development requires substantial funding",
@@ -487,12 +592,13 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
       "question": "Evaluate whether such a high market share for one company is in the consumer interest.",
       "marks": 20,
       "questionNumber": "20",
-      "unit": "Market Structure and Contestability",
+      "unit": "Market Structures and Contestability",
       "topic": "Monopoly",
       "essayTitle": "Monopoly Power: Benefits to Consumers",
       "sections": [
         {
           "type": "KAA1",
+          "summary": "Economies of scale may lower prices",
           "point": "A high market share can benefit consumers through lower prices.",
           "logic": [
             "Large sales and output increase the scale of input purchases",
@@ -514,6 +620,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
         },
         {
           "type": "EVA1",
+          "summary": "Cost savings may raise profits instead",
           "point": "However, a high market share may reduce the incentive to pass cost savings on to consumers.",
           "logic": [
             "Greater market power reduces competitive pressure to cut prices",
@@ -525,6 +632,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
         },
         {
           "type": "Weighing1",
+          "summary": "Depends on cost-saving pass-through",
           "point": "The significance of the benefit depends on how much of the cost saving is passed on to consumers.",
           "logic": [
             "A high proportion passed on through lower prices produces a larger gain in consumer surplus",
@@ -535,6 +643,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
         },
         {
           "type": "KAA2",
+          "summary": "Supernormal profits can finance R&D",
           "point": "A high market share may benefit consumers through greater investment in product development.",
           "logic": [
             "Strong brand loyalty and fewer close substitutes may make demand relatively price inelastic",
@@ -547,6 +656,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
         },
         {
           "type": "EVA2",
+          "summary": "Unsuccessful R&D may raise prices",
           "point": "However, unsuccessful R&D may raise costs without improving products.",
           "logic": [
             "Substantial development spending may fail to produce a successful product",
@@ -558,6 +668,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
         },
         {
           "type": "Weighing2",
+          "summary": "Depends on successful consumer-focused innovation",
           "point": "Consumer benefit depends more on the nature and success of innovation than on the amount spent on R&D.",
           "logic": [
             "Innovation that meets consumer needs increases utility",
