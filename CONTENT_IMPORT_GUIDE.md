@@ -34,7 +34,7 @@ Knowledge Point 使用适合 Essay 复习的直接知识模块，不机械复制
    - `Market Concentration`
    - `Oligopoly`
    - `Monopoly`
-   - `Non-price Competition`
+   - `Price and Non-Price Competition`
 4. `Labour Markets`
 5. `Government Intervention`
 
@@ -287,7 +287,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
                     "Market Concentration",
                     "Oligopoly",
                     "Monopoly",
-                    "Non-price Competition"
+                    "Price and Non-Price Competition"
                   ]
                 }
               }
@@ -461,7 +461,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
       "marks": 14,
       "questionNumber": "(b)",
       "unit": "Market Structures and Contestability",
-      "topic": "Oligopoly",
+      "topic": "Price and Non-Price Competition",
       "essayTitle": "Price and Non-Price Strategies: Effects on Sales",
       "sections": [
         {
@@ -533,7 +533,7 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
       "marks": 14,
       "questionNumber": "(b)",
       "unit": "Market Structures and Contestability",
-      "topic": "Oligopoly",
+      "topic": "Price and Non-Price Competition",
       "essayTitle": "Price and Non-Price Strategies: Effects on Sales",
       "sections": [
         {

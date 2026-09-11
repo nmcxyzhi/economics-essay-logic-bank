@@ -2,7 +2,7 @@
 
 Edexcel IAL Economics U3 四层题库：Unit → Knowledge Point → Essay Title → Essay Detail。中文界面，英文 Economics 内容。
 
-保留 13 篇用户 Essay，63 个已有论证模块，7 张原图及 1 个原始 payoff matrix。两篇原文不完整的 Essay 保留 missing 占位。Question、points、logic 与图片未经本次架构迁移改写。
+保留 14 篇用户 Essay，72 个已有论证模块，8 张原图及 1 个原始 payoff matrix。两篇原文不完整的 Essay 保留 missing 占位。Question、points、logic 与图片未经本次架构迁移改写。
 
 每个正常 section 包含 3–8 个英文单词的 `summary`，在 KAA / EVA / Weighing 标题行显示并在 Practice 模式中始终可见。新导入内容必须由 Content ChatGPT 提供 summary；Codex 只校验、原样导入和显示。
 
@@ -36,7 +36,7 @@ Vercel Project：`economics-essay-logic-bank`。
 |---|---|---|---|
 | Market Structures and Contestability | Monopoly | Monopoly Power: Benefits to Consumers | 20 |
 | Market Structures and Contestability | Market Concentration | Reasons for Market Concentration | 14 |
-| Market Structures and Contestability | Oligopoly | Price and Non-Price Strategies: Effects on Sales | 14 |
+| Market Structures and Contestability | Price and Non-Price Competition | Price and Non-Price Strategies: Effects on Sales | 14 |
 | Types and Sizes of Businesses | Business Objectives | Revenue Maximisation as a Realistic Objective | 20 |
 | Types and Sizes of Businesses | Business Objectives | Business Objectives: SMEs vs Large Firms | 20 |
 | Types and Sizes of Businesses | Demergers | Benefits of Demergers | 20 |
@@ -45,9 +45,10 @@ Vercel Project：`economics-essay-logic-bank`。
 | Market Structures and Contestability | Oligopoly | Disadvantages to Consumers | 20 |
 | Market Structures and Contestability | Oligopoly | Disadvantages to Firms and Game Theory | 20 |
 | Revenue, Costs and Profits | Shutdown | Reasons for Shutdown | 14 |
-| Market Structures and Contestability | Non-price Competition | Non-price Competition: Benefits to Consumers and Businesses | 14 |
+| Market Structures and Contestability | Price and Non-Price Competition | Non-price Competition: Benefits to Consumers and Businesses | 14 |
+| Market Structures and Contestability | Price and Non-Price Competition | Price and Non-Price Strategies: Increase Market Share | 14 |
 | Revenue, Costs and Profits | Shutdown | Shutdown Decision: Normal Profit and Costs | 20 |
 
 ## 自动部署状态
 
-GitHub 已推送 main。Vercel Git 连接返回：需要先添加 GitHub Login Connection。当前不得把手动 CLI 部署表述为 Git push 自动部署。完成账户连接后运行 Vercel git connect 并用一次正常提交验证实际部署。
+GitHub 已推送 main。生产网站当前通过 Vercel Drop 手动部署；GitHub 自动部署尚未连接，不能把 Git push 表述为已自动上线。

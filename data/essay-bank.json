@@ -1137,6 +1137,78 @@
           "diagrams": []
         }
       ]
+    },
+    {
+      "id": "price-non-price-strategies-increase-market-share",
+      "unit": "Market Structures and Contestability",
+      "topic": "Price and Non-Price Competition",
+      "essayTitle": "Price and Non-Price Strategies: Increase Market Share",
+      "question": "With reference to the information provided, discuss the strategies used by food delivery businesses to increase their market shares. Refer to game theory analysis in your answer.",
+      "questionNumber": "7(e)",
+      "marks": 14,
+      "status": "complete",
+      "source": {
+        "filename": "Price and non-price strategy - increase market share --2023.5 Q7e(1).docx",
+        "questionLocation": "Page 1 screenshot",
+        "marksEvidence": "Mark scheme shown in source: KAA 8 marks + Evaluation 6 marks"
+      },
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Lower prices can increase market share",
+          "point": "Price competition can increase a firm's market share by attracting consumers from rivals.",
+          "logic": [
+            "Lower prices reduce the amount consumers pay",
+            "Consumers have an incentive to switch from higher-priced rivals",
+            "The firm's sales rise relative to competitors",
+            "Its share of total market sales increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "summary": "Price wars may make market-share gains temporary",
+          "point": "However, game theory suggests that the increase in market share may be difficult to sustain because rivals are likely to respond.",
+          "logic": [
+            "Oligopolistic firms are interdependent, so each firm's payoff depends on rivals' decisions",
+            "If one firm cuts price while its rival keeps a high price, the low-price firm gains a higher payoff",
+            "Both firms therefore have an incentive to cut prices",
+            "If both cut prices, the original price advantage disappears and both may make losses",
+            "Persistent losses can make the strategy unsustainable",
+            "Any increase in market share may therefore be temporary"
+          ],
+          "diagrams": [
+            "/diagrams/price-competition-game-theory-payoff-matrix.png"
+          ]
+        },
+        {
+          "type": "KAA2",
+          "summary": "Advertising can increase brand loyalty",
+          "point": "Non-price competition can increase market share by strengthening brand loyalty.",
+          "logic": [
+            "Advertising increases consumer awareness and familiarity with the brand",
+            "Stronger brand loyalty makes consumers less likely to switch to rivals",
+            "Demand for the firm's service becomes more price-inelastic",
+            "More consumers choose the firm's service relative to competitors",
+            "Sales relative to rivals increase",
+            "The firm's market share rises"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Advertising costs can limit market share",
+          "point": "However, advertising may have only a limited effect on market share if it significantly increases the firm's costs.",
+          "logic": [
+            "Advertising campaigns increase the firm's costs",
+            "The firm may pass these additional costs on through higher prices",
+            "Higher prices can reduce demand for the firm's service",
+            "The increase in sales may therefore be limited",
+            "Market share may rise by only a small amount"
+          ],
+          "diagrams": []
+        }
+      ]
     }
   ]
 }
