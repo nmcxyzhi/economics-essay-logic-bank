@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "python3 -m http.server 4173 --bind 127.0.0.1",
-    "check": "node --check app.js && node --check model.js && node validate.mjs && node --test scripts/model.test.mjs",
+    "check": "node --check app.js && node --check model.js && node --check personal-notes.js && node validate.mjs && node --test scripts/model.test.mjs scripts/personal-notes.test.mjs",
     "build": "npm run check && node scripts/build.mjs"
   },
   "engines": {

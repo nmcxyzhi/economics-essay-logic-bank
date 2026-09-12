@@ -6,6 +6,8 @@ Edexcel IAL Economics U3 四层题库：Unit → Knowledge Point → Essay Title
 
 每个正常 section 包含 3–8 个英文单词的 `summary`，在 KAA / EVA / Weighing 标题行显示并在 Practice 模式中始终可见。新导入内容必须由 Content ChatGPT 提供 summary；Codex 只校验、原样导入和显示。
 
+每篇 Essay 底部提供“我的背诵段落”文本框，可粘贴和修改个人重点句或完整段落。内容按 Essay ID 自动保存在当前浏览器，不写入正式题库，也不参与 Practice Mode 的逐步显示。
+
 唯一内容源是 `data/essay-bank.json`。正式图片为 `diagrams/`。所有分类由数据生成，无内容的 Knowledge Point 不显示。
 
 Content ChatGPT 交接规范：[CONTENT_IMPORT_GUIDE.md](CONTENT_IMPORT_GUIDE.md)。空白模板：[essay-import-template.json](essay-import-template.json)。机器可读 Schema：[essay-bank.schema.json](essay-bank.schema.json)。

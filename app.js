@@ -1,5 +1,10 @@
 import { validateBank, recallUnits, catalog, toViewEssay, sectionGroups } from './model.js';
+import { loadPersonalNote, savePersonalNote } from './personal-notes.js';
 let bank, essays = [], units = [];
+
+let notesStorage;
+try { notesStorage = window.localStorage; } catch { notesStorage = null; }
+let pendingNoteSave = null;
 
 const app = document.querySelector('#app');
 document.querySelector('.skip-link').addEventListener('click', event => {
@@ -33,6 +38,28 @@ const unitLink = unit => `#/unit/${encodeURIComponent(unit)}`;
 const topicLink = (unit, topic) => `#/topic/${encodeURIComponent(unit)}/${encodeURIComponent(topic)}`;
 const essayLink = id => `#/essay/${id}`;
 const marks = e => `<span class="marks" lang="en">${e.marks} MARKS</span>`;
+
+function commitPersonalNote() {
+  if (!pendingNoteSave) return;
+  const { essayId, value, status, timer } = pendingNoteSave;
+  pendingNoteSave = null;
+  if (timer) clearTimeout(timer);
+  const saved = savePersonalNote(notesStorage, essayId, value);
+  if (status?.isConnected) status.textContent = saved ? '已自动保存' : '无法保存，请检查浏览器存储设置';
+}
+
+function queuePersonalNoteSave(essayId, value, status) {
+  if (pendingNoteSave?.timer) clearTimeout(pendingNoteSave.timer);
+  pendingNoteSave = { essayId, value, status };
+  pendingNoteSave.timer = setTimeout(commitPersonalNote, 350);
+}
+
+function resizePersonalNote(textarea) {
+  textarea.style.height = 'auto';
+  const height = Math.min(Math.max(textarea.scrollHeight, 180), 520);
+  textarea.style.height = `${height}px`;
+  textarea.style.overflowY = textarea.scrollHeight > height ? 'auto' : 'hidden';
+}
 
 function shell(content, selected = '', wide = false) {
   app.innerHTML = `<header class="mobile-header"><a class="mobile-brand" href="#/">${icon('book')} Essay Logic Bank</a><button class="icon-button" id="menu-toggle" aria-label="打开章节导航" aria-expanded="false" aria-controls="sidebar">${icon('menu')}</button></header>
@@ -93,6 +120,8 @@ function renderEssay(id) {
   state.revealed = 0;
   const topic = { name: essay.topic };
   const groups = sectionGroups(essay);
+  const savedNote = loadPersonalNote(notesStorage, essay.id);
+  const initialNoteStatus = savedNote.ok ? (savedNote.value ? '已自动保存' : '输入后自动保存') : '当前浏览器无法保存';
   document.title = `${essay.essayTitle} · Essay Logic Bank`;
   shell(`<div class="topline"><div class="breadcrumb"><a href="#/">题库</a><span>/</span><a lang="en" href="${unitLink(essay.unit)}">${esc(essay.unit)}</a><span>/</span><a lang="en" href="${topicLink(essay.unit, essay.topic)}">${esc(topic.name)}</a><span>/</span><span>阅读全文</span></div><a class="back-link" href="${topicLink(essay.unit, essay.topic)}">${icon('back')} 返回</a></div>
   ${essay.contentNote ? `<div class="content-notice"><strong>原文待补全</strong><p>${esc(essay.contentNote)}</p></div>` : ''}
@@ -100,6 +129,7 @@ function renderEssay(id) {
   <div class="practice-panel" id="practice-panel" hidden><div><h2>先回忆，再展开</h2><p>沿着论证顺序，每次显示一个步骤。</p></div><label class="switch-label"><input id="hide-points" type="checkbox">同时隐藏观点句</label></div>
   <div class="essay-layout"><div class="essay-body">${groups.map(({group,blocks},i)=>`<section class="argument-group" aria-labelledby="group-${i}"><div class="group-heading"><span class="group-number">${String(group).padStart(2,'0')}</span><h2 id="group-${i}">第 ${group} 组论证</h2><span class="group-sequence" lang="en">${blocks.map(b=>b.type).join(' → ')}</span></div>${blocks.map(blockCard).join('')}</section>`).join('')}</div>
   <aside class="essay-outline" aria-label="本篇结构"><p>本篇结构</p>${groups.map(({group,blocks})=>`<div class="outline-group"><span>第 ${group} 组</span>${blocks.map(b=>`<button class="outline-link" data-scroll="${b.id}" lang="en"><i class="dot ${b.type.toLowerCase()}"></i>${b.type}${b.group}</button>`).join('')}</div>`).join('')}<p class="outline-note" id="outline-note">全部展开<br>向下滚动，连贯复习</p></aside></div>
+  <section class="personal-note" aria-labelledby="personal-note-title"><div class="personal-note-heading"><div><span class="personal-note-kicker" lang="en">Personal Notes</span><h2 id="personal-note-title">我的背诵段落</h2></div><span class="personal-note-status" id="personal-note-status" role="status" aria-live="polite">${initialNoteStatus}</span></div><p class="personal-note-help">把考试中可以直接使用的重点句或段落粘贴到这里。内容只保存在当前浏览器。</p><label class="personal-note-label" for="personal-note-input">重点句或段落</label><textarea id="personal-note-input" lang="en" rows="6" spellcheck="true" placeholder="在这里粘贴你想背诵的英文句子或段落…">${esc(savedNote.value)}</textarea></section>
   <div class="essay-end"><span>${icon('check')} ${essay.status==='partial' ? '已提供的原文已整理完毕，缺失部分待补充' : '本篇论证到这里结束'}</span><div><a class="text-link" href="${topicLink(essay.unit,essay.topic)}">返回文章列表 ${icon('arrow')}</a></div></div>
   <div class="practice-dock" id="practice-dock" hidden><div class="recall-progress"><span id="progress-text" role="status" aria-live="polite"></span><progress id="progress-bar" value="0" max="1" aria-label="回忆进度"></progress></div><button class="button quiet" id="reset">${icon('reset')} 重置</button><button class="button secondary" id="show-all">显示全部</button><button class="button primary" id="show-next">显示下一步 ${icon('arrow')}</button></div>`, essay.unit, true);
   document.querySelector('#practice-toggle').addEventListener('click', () => {
@@ -131,6 +161,15 @@ function renderEssay(id) {
     document.querySelector('.essay-heading').scrollIntoView({ block: 'start' });
   });
   document.querySelectorAll('[data-scroll]').forEach(button => button.addEventListener('click', () => document.getElementById(button.dataset.scroll).scrollIntoView({ block: 'start' })));
+  const noteInput = document.querySelector('#personal-note-input');
+  const noteStatus = document.querySelector('#personal-note-status');
+  resizePersonalNote(noteInput);
+  noteInput.addEventListener('input', event => {
+    resizePersonalNote(event.currentTarget);
+    noteStatus.textContent = '正在保存…';
+    queuePersonalNoteSave(essay.id, event.currentTarget.value, noteStatus);
+  });
+  noteInput.addEventListener('blur', commitPersonalNote);
 }
 
 function updatePractice() {
@@ -163,6 +202,7 @@ function renderMissing() {
 }
 
 function route() {
+  commitPersonalNote();
   document.body.classList.remove('menu-open', 'is-practicing');
   let parts;
   try { parts=location.hash.replace(/^#\/?/,'').split('/').map(decodeURIComponent); } catch { renderMissing(); return; }
@@ -184,6 +224,7 @@ try {
   essays=bank.essays.map(toViewEssay);
   route();
   window.addEventListener('hashchange', route);
+  window.addEventListener('pagehide', commitPersonalNote);
   window.addEventListener('keydown', e => {
     if (e.key === 'Escape' && document.body.classList.contains('menu-open')) document.querySelector('#menu-toggle').click();
   });
