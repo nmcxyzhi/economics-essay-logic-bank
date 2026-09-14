@@ -1209,6 +1209,208 @@
           "diagrams": []
         }
       ]
+    },
+    {
+      "id": "market-entry-effects-existing-competitors",
+      "unit": "Market Structures and Contestability",
+      "topic": "Barriers to Entry",
+      "essayTitle": "Market Entry: Effects on Existing Competitors",
+      "question": "With reference to Figure 1, Extract C and your own knowledge, discuss the likely effects of McDonald's opening CosMc's on its competitors.",
+      "questionNumber": "7(e)",
+      "marks": 14,
+      "status": "complete",
+      "source": {
+        "filename": "Market entry - effects on existing competitors --2025.1 Q7e gpt修改版.docx",
+        "questionLocation": "Page 1 screenshot"
+      },
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "New substitutes can reduce rivals' demand",
+          "point": "The entry of a close substitute may reduce demand, market share and profit for existing competitors.",
+          "logic": [
+            "A new entrant increases the number of close substitutes available to consumers",
+            "Some consumers may switch from existing firms to the new entrant",
+            "Existing firms' demand and sales revenue fall",
+            "Lower sales reduce output",
+            "Firms may become less able to exploit economies of scale",
+            "Average costs may rise",
+            "Profit can therefore fall further"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "summary": "Brand loyalty can limit switching",
+          "point": "However, the effect on existing competitors depends on the strength of their brand loyalty and product differentiation.",
+          "logic": [
+            "Strong brand loyalty makes consumers less willing to switch to a new entrant",
+            "Differentiated products are less close substitutes",
+            "The fall in demand and sales for existing firms is therefore smaller",
+            "Output and profit are less affected",
+            "Market entry is more damaging to firms with weaker differentiation and customer loyalty"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Close substitutes increase competitive impact",
+          "point": "The effect of market entry is likely to be stronger when the new entrant is seen as a close substitute for existing firms.",
+          "logic": [
+            "Closer substitutes make consumers more willing to switch between firms",
+            "Existing competitors may lose more demand and market share",
+            "Strong brand loyalty and a differentiated customer experience reduce substitutability",
+            "The loss of market share may therefore be much smaller when existing firms are strongly differentiated"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Entry intensifies non-price competition",
+          "point": "Market entry may force existing firms to increase non-price competition.",
+          "logic": [
+            "Greater competitive pressure encourages firms to defend their market share",
+            "Existing firms may increase advertising, loyalty schemes, product development and service quality",
+            "These strategies increase costs in the short run",
+            "Higher costs may reduce profit",
+            "Successful differentiation can make demand more price-inelastic",
+            "Firms may retain or attract customers",
+            "Market share and revenue can therefore be protected"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Expansion scale determines competitive pressure",
+          "point": "However, the impact on competitors depends on the scale and speed of the new entrant's expansion.",
+          "logic": [
+            "A small number of outlets gives only a limited number of consumers access to the entrant",
+            "Existing firms face little immediate competitive pressure",
+            "They may not need to increase defensive spending significantly",
+            "If the entrant expands successfully, more consumers gain access to its products",
+            "Competitive pressure becomes stronger",
+            "Existing firms may then need to respond more aggressively"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Impact grows with successful expansion",
+          "point": "The overall effect on competitors is likely to be limited in the short run but greater in the long run if the entrant expands successfully.",
+          "logic": [
+            "Small-scale entry creates limited immediate competitive pressure",
+            "Successful expansion gives more consumers access to the entrant",
+            "More consumers may then switch from existing brands",
+            "Competitive pressure on incumbent firms becomes stronger",
+            "The final impact depends mainly on expansion scale, brand loyalty and competitors' response"
+          ],
+          "diagrams": []
+        }
+      ]
+    },
+    {
+      "id": "divorce-ownership-control-impact-business-objectives",
+      "unit": "Types and Sizes of Businesses",
+      "topic": "Business Objectives",
+      "essayTitle": "Divorce of Ownership and Control: Impact on Business Objectives",
+      "question": "Evaluate the likely impact of the divorce of ownership from control on business objectives.",
+      "questionNumber": "10",
+      "marks": 20,
+      "status": "complete",
+      "source": {
+        "filename": "Divorce of ownership and control - impact on business objectives --2024.1 Q10 gpt修改版(1).docx",
+        "questionLocation": "Page 1 screenshot"
+      },
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Managers may pursue revenue maximisation",
+          "point": "A divorce of ownership from control may cause a firm to pursue revenue maximisation rather than profit maximisation.",
+          "logic": [
+            "Shareholders own the business while managers control day-to-day decisions",
+            "Managers may prefer objectives that increase their own bonuses, status or job security",
+            "Revenue maximisation occurs where MR = 0 rather than where MC = MR",
+            "Revenue maximisation leads to higher output and a lower price than profit maximisation",
+            "Managerial control can therefore change the firm's objective and its output and pricing decisions"
+          ],
+          "diagrams": [
+            "/diagrams/divorce-ownership-control-revenue-maximisation.png"
+          ],
+          "diagramDetails": {
+            "/diagrams/divorce-ownership-control-revenue-maximisation.png": {
+              "alt": "Diagram comparing profit maximisation at MC = MR with revenue maximisation at MR = 0.",
+              "caption": "Divorce of ownership and control may shift the firm from profit maximisation to revenue maximisation.",
+              "sourceLocation": "Essay page 2",
+              "sha256": "ef5ff9a9d7a8af4c44c2e5021318437ffa3541f7ab4c8c9eae501fc974800050"
+            }
+          }
+        },
+        {
+          "type": "EVA1",
+          "summary": "Managerial share ownership protects profits",
+          "point": "However, the impact of divorce of ownership from control may be smaller when managers also own shares.",
+          "logic": [
+            "Managers who own shares have both control and a financial stake in the business",
+            "Lower profitability can reduce the value of their shareholding",
+            "This gives managers a stronger incentive to protect profits",
+            "Managers' interests become more closely aligned with shareholders' interests",
+            "Profit maximisation may therefore remain important"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on managerial discretion",
+          "point": "The impact depends on the degree of separation between ownership and control and the strength of shareholder monitoring.",
+          "logic": [
+            "Share-based rewards can align managers' wealth with shareholder returns",
+            "Strong shareholder monitoring reduces managers' freedom to pursue revenue maximisation",
+            "Widely dispersed ownership gives managers greater discretion",
+            "Greater managerial discretion makes revenue maximisation more likely",
+            "Stronger ownership influence makes profit maximisation more likely"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Managerial discretion may cause satisficing",
+          "point": "A divorce of ownership from control may also cause a firm to satisfice rather than maximise a single objective.",
+          "logic": [
+            "Shareholders may prefer profit maximisation while managers may prefer sales, status or job security",
+            "Managers cannot ignore shareholders because very low profits may create pressure from owners",
+            "Managers may therefore earn enough profit to satisfy shareholders",
+            "After reaching an acceptable profit level, managers can pursue their own objectives",
+            "The firm may consequently satisfice rather than maximise a single objective"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Shareholder influence limits satisficing",
+          "point": "However, satisficing is less likely when shareholders have strong influence over managers.",
+          "logic": [
+            "Large shareholders have a strong financial incentive to monitor management",
+            "Significant voting influence allows shareholders to pressure the board and managers",
+            "If profits fall below expectations, shareholders can push for a change in strategy",
+            "This reduces managerial discretion",
+            "The firm may move closer to profit maximisation rather than satisficing"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on relative managerial power",
+          "point": "Whether satisficing occurs depends on the relative power of shareholders and managers.",
+          "logic": [
+            "Greater shareholder influence increases pressure to protect profits",
+            "Stronger monitoring limits managers' freedom to pursue personal objectives",
+            "Greater managerial control gives managers more discretion",
+            "Satisficing is more likely when managerial control is strong",
+            "Profit maximisation is more likely when shareholder influence is strong"
+          ],
+          "diagrams": []
+        }
+      ]
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 Edexcel IAL Economics U3 四层题库：Unit → Knowledge Point → Essay Title → Essay Detail。中文界面，英文 Economics 内容。
 
-保留 14 篇用户 Essay，72 个已有论证模块，8 张原图及 1 个原始 payoff matrix。两篇原文不完整的 Essay 保留 missing 占位。Question、points、logic 与图片未经本次架构迁移改写。
+保留 16 篇用户 Essay，84 个已有论证模块，9 张原图及 1 个原始 payoff matrix。两篇原文不完整的 Essay 保留 missing 占位。Question、points、logic 与图片未经本次架构迁移改写。
 
 每个正常 section 包含 3–8 个英文单词的 `summary`，在 KAA / EVA / Weighing 标题行显示并在 Practice 模式中始终可见。新导入内容必须由 Content ChatGPT 提供 summary；Codex 只校验、原样导入和显示。
 
@@ -49,7 +49,9 @@ Vercel Project：`economics-essay-logic-bank`。
 | Revenue, Costs and Profits | Shutdown | Reasons for Shutdown | 14 |
 | Market Structures and Contestability | Price and Non-Price Competition | Non-price Competition: Benefits to Consumers and Businesses | 14 |
 | Market Structures and Contestability | Price and Non-Price Competition | Price and Non-Price Strategies: Increase Market Share | 14 |
+| Market Structures and Contestability | Barriers to Entry | Market Entry: Effects on Existing Competitors | 14 |
 | Revenue, Costs and Profits | Shutdown | Shutdown Decision: Normal Profit and Costs | 20 |
+| Types and Sizes of Businesses | Business Objectives | Divorce of Ownership and Control: Impact on Business Objectives | 20 |
 
 ## 自动部署状态
 

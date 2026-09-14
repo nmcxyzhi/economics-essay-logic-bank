@@ -35,6 +35,7 @@ Knowledge Point 使用适合 Essay 复习的直接知识模块，不机械复制
    - `Oligopoly`
    - `Monopoly`
    - `Price and Non-Price Competition`
+   - `Barriers to Entry`
 4. `Labour Markets`
 5. `Government Intervention`
 
@@ -287,7 +288,8 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
                     "Market Concentration",
                     "Oligopoly",
                     "Monopoly",
-                    "Price and Non-Price Competition"
+                    "Price and Non-Price Competition",
+                    "Barriers to Entry"
                   ]
                 }
               }
