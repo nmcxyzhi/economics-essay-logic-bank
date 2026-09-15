@@ -1411,6 +1411,99 @@
           "diagrams": []
         }
       ]
+    },
+    {
+      "id": "price-discrimination-benefits-firms-consumers-2022-10-q9",
+      "unit": "Market Structures and Contestability",
+      "topic": "Price Discrimination",
+      "essayTitle": "Price Discrimination: Benefits to Firms and Consumers",
+      "question": "Evaluate the possible benefits of price discrimination to both the business and consumers.",
+      "questionNumber": "9",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Price discrimination can increase profits",
+          "point": "A firm can use price discrimination to increase total revenue and profits.",
+          "logic": [
+            "Consumers are separated into groups with different price elasticities of demand",
+            "A higher price is charged in the relatively inelastic market",
+            "A lower price is charged in the relatively elastic market",
+            "The firm captures more consumer surplus from less price-sensitive consumers",
+            "The lower price generates additional sales from more price-sensitive consumers",
+            "Total revenue and profit may increase"
+          ],
+          "diagrams": [
+            "/diagrams/price-discrimination-elastic-inelastic-markets.png"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Regulation may reduce net profits",
+          "point": "However, the increase in profit may be smaller than expected because price discrimination can attract regulatory intervention.",
+          "logic": [
+            "Regulatory intervention can create direct costs for the business",
+            "Administrative and compliance costs may also increase",
+            "These costs reduce the gain in net profit",
+            "Higher total revenue therefore may not produce a large increase in net profit"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Revenue gains must outweigh regulatory costs",
+          "point": "The overall benefit to the business depends on whether the additional revenue from price discrimination outweighs regulatory and administrative costs.",
+          "logic": [
+            "A large difference in PED can create a larger additional revenue gain",
+            "This may outweigh regulatory and administrative costs",
+            "Profit can still increase substantially",
+            "If revenue gains are small or regulatory costs are high, the net benefit is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Lower prices increase consumer surplus",
+          "point": "Price discrimination can benefit consumers with relatively elastic demand because they may receive a lower price.",
+          "logic": [
+            "More price-sensitive consumers are charged a lower price",
+            "Quantity demanded increases",
+            "More consumers can afford to buy the product",
+            "Consumer access increases",
+            "Consumer surplus may increase"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Higher prices reduce consumer surplus",
+          "point": "However, consumers with relatively inelastic demand may be worse off because they can be charged a higher price.",
+          "logic": [
+            "Less price-sensitive consumers are less responsive to a price increase",
+            "The firm can charge them a higher price while retaining their demand",
+            "They may continue to purchase the product",
+            "Their consumer surplus falls",
+            "More consumer surplus is transferred to the firm"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on proportion of consumers paying lower prices",
+          "point": "The overall consumer benefit depends on how many consumers receive the lower price compared with how many face a higher price.",
+          "logic": [
+            "Lower prices can allow price-sensitive consumers to enter the market",
+            "If many consumers gain access, the consumer benefit may be significant",
+            "Consumers paying higher prices lose consumer surplus",
+            "If only a small group receives lower prices while many pay more, the overall consumer benefit is limited"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Price discrimination - benefits to firms and consumers --2022.10 Q9(1).docx"
+      }
     }
   ]
 }

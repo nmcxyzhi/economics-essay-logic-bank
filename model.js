@@ -12,7 +12,8 @@ export const COURSE_STRUCTURE = Object.freeze({
     'Oligopoly',
     'Monopoly',
     'Price and Non-Price Competition',
-    'Barriers to Entry'
+    'Barriers to Entry',
+    'Price Discrimination'
   ]),
   'Labour Markets': Object.freeze([]),
   'Government Intervention': Object.freeze([])
