@@ -22,7 +22,7 @@ Content ChatGPT 交接规范：[CONTENT_IMPORT_GUIDE.md](CONTENT_IMPORT_GUIDE.md
 
 GitHub：`nmcxyzhi/economics-essay-logic-bank`（独立 private repository）。
 Vercel Project：`economics-essay-logic-bank`。
-生产地址与 Git 自动部署验证将在配置完成后记录。
+生产地址：`https://economics-essay-logic-bank-chi.vercel.app/`。当前通过 Vercel Drop 手动发布；Git 自动部署尚未连接。
 
 ## 当前章节与文章映射
 
