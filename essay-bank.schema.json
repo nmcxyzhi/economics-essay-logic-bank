@@ -159,7 +159,8 @@
                 },
                 "topic": {
                   "enum": [
-                    "Shutdown"
+                    "Shutdown",
+                    "Profit"
                   ]
                 }
               }
@@ -174,9 +175,22 @@
                     "Market Concentration",
                     "Oligopoly",
                     "Monopoly",
+                    "Monopsony",
                     "Price and Non-Price Competition",
                     "Barriers to Entry",
                     "Price Discrimination"
+                  ]
+                }
+              }
+            },
+            {
+              "properties": {
+                "unit": {
+                  "const": "Labour Markets"
+                },
+                "topic": {
+                  "enum": [
+                    "Supply of Labour"
                   ]
                 }
               }

@@ -5,17 +5,21 @@ export const COURSE_STRUCTURE = Object.freeze({
     'Demergers'
   ]),
   'Revenue, Costs and Profits': Object.freeze([
-    'Shutdown'
+    'Shutdown',
+    'Profit'
   ]),
   'Market Structures and Contestability': Object.freeze([
     'Market Concentration',
     'Oligopoly',
     'Monopoly',
+    'Monopsony',
     'Price and Non-Price Competition',
     'Barriers to Entry',
     'Price Discrimination'
   ]),
-  'Labour Markets': Object.freeze([]),
+  'Labour Markets': Object.freeze([
+    'Supply of Labour'
+  ]),
   'Government Intervention': Object.freeze([])
 });
 

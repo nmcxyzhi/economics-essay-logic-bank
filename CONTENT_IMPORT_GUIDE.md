@@ -30,14 +30,17 @@ Knowledge Point 使用适合 Essay 复习的直接知识模块，不机械复制
    - `Demergers`
 2. `Revenue, Costs and Profits`
    - `Shutdown`
+   - `Profit`
 3. `Market Structures and Contestability`
    - `Market Concentration`
    - `Oligopoly`
    - `Monopoly`
+   - `Monopsony`
    - `Price and Non-Price Competition`
    - `Barriers to Entry`
    - `Price Discrimination`
 4. `Labour Markets`
+   - `Supply of Labour`
 5. `Government Intervention`
 
 新 Essay 若确实需要新的直接 Knowledge Point，应先明确其所属 Unit，再把新名称加入 validation；不得用教材小章节额外包一层。大小写、单复数与空格必须一致。导入脚本会拒绝未确认的 Unit / Knowledge Point，以及顺序不同的顶层 `units`。当前映射见 `README.md`.
@@ -274,7 +277,8 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
                 },
                 "topic": {
                   "enum": [
-                    "Shutdown"
+                    "Shutdown",
+                    "Profit"
                   ]
                 }
               }
@@ -289,9 +293,22 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
                     "Market Concentration",
                     "Oligopoly",
                     "Monopoly",
+                    "Monopsony",
                     "Price and Non-Price Competition",
                     "Barriers to Entry",
                     "Price Discrimination"
+                  ]
+                }
+              }
+            },
+            {
+              "properties": {
+                "unit": {
+                  "const": "Labour Markets"
+                },
+                "topic": {
+                  "enum": [
+                    "Supply of Labour"
                   ]
                 }
               }

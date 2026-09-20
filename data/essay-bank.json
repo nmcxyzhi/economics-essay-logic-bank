@@ -1504,6 +1504,474 @@
       "source": {
         "filename": "Price discrimination - benefits to firms and consumers --2022.10 Q9(1).docx"
       }
+    },
+    {
+      "id": "profit-reasons-for-increase-2021-10-q7e",
+      "unit": "Revenue, Costs and Profits",
+      "topic": "Profit",
+      "essayTitle": "Profit: Reasons for an Increase",
+      "question": "With reference to the information provided, discuss the reasons for the increase in Starbucks' profits in 2019.",
+      "questionNumber": "7(e)",
+      "marks": 14,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Lower production costs increase profits",
+          "point": "Profits can increase because a firm's costs of production fall.",
+          "logic": [
+            "Lower input prices reduce variable costs",
+            "MC and AC shift downwards",
+            "At the profit-maximising output where MC = MR, lower AC increases profit per unit",
+            "Lower MC may also increase profit-maximising output",
+            "Total profit increases"
+          ],
+          "diagrams": [
+            "/diagrams/profit-increase-lower-costs-mc-ac.png"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Input costs may be a small cost share",
+          "point": "However, a fall in one input price may have only a limited effect on total production costs.",
+          "logic": [
+            "The input may account for only a small proportion of total costs",
+            "Other costs such as wages, rent, utilities, distribution and marketing remain",
+            "Overall average costs may fall by much less than the input price",
+            "Profit per unit may therefore increase only slightly",
+            "The overall increase in profit is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on impact on total costs",
+          "point": "The importance of a lower input price depends on how much it actually reduces the firm's overall costs.",
+          "logic": [
+            "If the input forms a substantial share of variable costs, lower prices can reduce AC and MC significantly",
+            "If lower input prices pass through quickly, the cost reduction is larger",
+            "If other costs dominate, overall costs fall by much less",
+            "The resulting increase in profit is therefore smaller"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Higher sales revenue increases profits",
+          "point": "Stronger demand can increase profit through higher sales revenue.",
+          "logic": [
+            "Product differentiation and improvements can attract consumers",
+            "Brand loyalty becomes stronger",
+            "Sales increase",
+            "Total revenue increases",
+            "If additional revenue exceeds the additional cost of serving higher sales, total profit increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Higher sales also increase costs",
+          "point": "However, higher sales may increase operating costs and offset some of the increase in profit.",
+          "logic": [
+            "Higher sales may require more workers, distribution and technology",
+            "Total costs increase",
+            "Higher costs offset part of the additional revenue",
+            "The increase in total profit may therefore be smaller"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on extra revenue relative to extra costs",
+          "point": "The extent of the increase in profit depends on the relative size of the extra revenue and extra costs.",
+          "logic": [
+            "If extra revenue is much greater than extra costs, profit increases significantly",
+            "If extra costs are close to extra revenue, most of the revenue gain is offset",
+            "The increase in profit is then much smaller"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Profit - reasons for an increase --2021.10 Q7e(4).docx"
+      }
+    },
+    {
+      "id": "labour-supply-occupation-influencing-factors-2026-5-q9",
+      "unit": "Labour Markets",
+      "topic": "Supply of Labour",
+      "essayTitle": "Labour Supply in an Occupation: Influencing Factors",
+      "question": "Evaluate the possible factors influencing labour supply in an occupation of your choice.",
+      "questionNumber": "9",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Ageing population reduces labour supply",
+          "point": "An ageing population can reduce the supply of English teachers.",
+          "logic": [
+            "A low birth rate and ageing population reduce the working-age population",
+            "Fewer young people enter the working-age population",
+            "The pool of potential graduates who could become English teachers becomes smaller",
+            "Fewer workers are willing and able to supply labour at each wage rate",
+            "Occupational labour supply shifts to the left",
+            "The quantity of labour available falls and the equilibrium wage rises"
+          ],
+          "diagrams": [
+            "/diagrams/labour-supply-english-teachers-leftward-shift.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Higher participation can offset falling supply",
+          "point": "However, higher participation and longer working lives could partly offset the fall in labour supply.",
+          "logic": [
+            "More qualified workers may remain in or enter the occupation",
+            "The number of English teachers available increases",
+            "This partly offsets the decline in the working-age population",
+            "A smaller working-age population therefore need not cause an equal fall in actual occupational labour supply"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on relative changes in worker numbers",
+          "point": "The overall effect depends on whether the fall in potential English teachers outweighs the increase in qualified workers remaining in or entering the occupation.",
+          "logic": [
+            "If demographic decline is larger, labour supply still falls significantly",
+            "If more qualified workers enter or remain in teaching, the fall in labour supply is smaller",
+            "The final change in supply depends on the relative size of these two effects"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Positive net migration increases labour supply",
+          "point": "Positive net migration can increase the supply of English teachers.",
+          "logic": [
+            "An inflow of working-age migrants increases the potential labour pool",
+            "Some migrants may be willing and able to enter English teaching",
+            "More labour becomes available at each wage rate",
+            "Occupational labour supply shifts to the right",
+            "Teacher shortages may be reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Qualification requirements limit migration effects",
+          "point": "However, the effectiveness of positive net migration depends on whether migrants have the suitable skills and qualifications required for the occupation.",
+          "logic": [
+            "Migrants cannot automatically enter a skilled occupation",
+            "They must meet relevant qualification or certification requirements",
+            "Only qualified migrants can fill teaching vacancies",
+            "Potential labour supply may therefore rise by more than actual occupational labour supply"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on ease of gaining qualifications",
+          "point": "The extent of this limitation depends on how easily migrants can gain the required qualifications.",
+          "logic": [
+            "Specialised qualifications and lengthy training slow entry into the occupation",
+            "Migrants may be unable to fill vacancies quickly",
+            "Occupational labour supply remains relatively inelastic in the short run",
+            "Migration then has only a limited immediate effect on labour shortages"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Labour supply in an occupation - influencing factors --2026.5 Q9 gpt修改版(2).docx"
+      }
+    },
+    {
+      "id": "monopsony-benefits-firms-consumers-2025-1-q8",
+      "unit": "Market Structures and Contestability",
+      "topic": "Monopsony",
+      "essayTitle": "Monopsony: Benefits to Firms and Consumers",
+      "question": "Evaluate the benefits of a monopsony to firms and consumers.",
+      "questionNumber": "8",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Lower input costs increase buyer profits",
+          "point": "A monopsony can increase the buying firm's profit by reducing its input costs.",
+          "logic": [
+            "Suppliers have few alternative buyers and weak bargaining power",
+            "The monopsonist can negotiate a lower input price",
+            "Variable costs fall",
+            "MC and AC shift downwards",
+            "Profit-maximising output increases",
+            "The firm's supernormal profit increases"
+          ],
+          "diagrams": [
+            "/diagrams/monopsony-lower-input-costs-profit-consumer-price.png"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Supplier firms may earn lower profits",
+          "point": "However, the increase in profit does not apply to all firms, as supplier firms may experience lower profits.",
+          "logic": [
+            "A lower purchasing price reduces suppliers' revenue per unit",
+            "Unless quantity purchased rises sufficiently, suppliers' profit margins fall",
+            "Lower profits reduce suppliers' internal finance",
+            "Investment in machinery and productivity improvements may fall",
+            "Some suppliers may become less viable"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on supplier dependence",
+          "point": "The overall effect on firms depends on how dependent suppliers are on the monopsonist.",
+          "logic": [
+            "Suppliers with few alternative buyers have weaker bargaining power",
+            "Greater dependence allows the monopsonist to push the purchasing price down further",
+            "The buying firm's cost and profit benefit becomes larger",
+            "The disadvantage to supplier firms also becomes more significant"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Lower selling prices increase consumer surplus",
+          "point": "Lower input costs may benefit consumers through lower selling prices.",
+          "logic": [
+            "Lower input costs reduce MC and AC",
+            "Profit-maximising output increases",
+            "Output expands along the downward-sloping AR curve",
+            "The selling price falls",
+            "Consumers pay a lower price",
+            "Consumer surplus increases"
+          ],
+          "diagrams": [
+            "/diagrams/monopsony-lower-input-costs-profit-consumer-price.png"
+          ]
+        },
+        {
+          "type": "EVA2",
+          "summary": "Cost savings may not reach consumers",
+          "point": "However, consumer benefits may be limited if cost savings are not passed on.",
+          "logic": [
+            "Weak product-market competition reduces pressure to cut the final price",
+            "The firm may retain more of the cost saving as profit",
+            "Consumer prices may fall only slightly or not at all",
+            "The increase in consumer welfare is therefore limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on degree of cost pass-through",
+          "point": "The significance of the consumer benefit depends mainly on the degree of cost pass-through.",
+          "logic": [
+            "Strong competitive pressure encourages a larger proportion of cost savings to be passed on",
+            "Selling prices fall by more",
+            "Consumer welfare increases by more",
+            "Weak competitive pressure allows the monopsonist to retain more of the saving as profit",
+            "Consumer price reductions and welfare gains are then limited"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Monopsony - benefits to firms and consumers --2025.1 Q8(1).docx"
+      }
+    },
+    {
+      "id": "monopsony-effects-workers-suppliers-2023-1-q9",
+      "unit": "Market Structures and Contestability",
+      "topic": "Monopsony",
+      "essayTitle": "Monopsony: Effects on Workers and Suppliers",
+      "question": "Evaluate the likely impacts of monopsony power on employees and suppliers. Refer to a firm with monopsony power in your answer.",
+      "questionNumber": "9",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Monopsony power reduces supplier profits",
+          "point": "Monopsony power can reduce the profits of suppliers.",
+          "logic": [
+            "A large buyer is an important customer for suppliers",
+            "Suppliers have weaker bargaining power",
+            "They may accept a lower purchase price",
+            "Revenue per unit and profit margins fall",
+            "Retained profit falls",
+            "Suppliers have fewer funds for investment",
+            "Dynamic efficiency falls",
+            "Some suppliers may leave the market"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "summary": "Large stable orders may offset lower prices",
+          "point": "However, lower purchase prices may be offset by larger and more stable orders from the monopsony buyer.",
+          "logic": [
+            "The buyer may place large and regular orders",
+            "Suppliers sell a greater quantity",
+            "Total revenue may increase despite a lower price per unit",
+            "The risk of unsold products falls",
+            "Stable contracts provide greater certainty",
+            "Investment may be encouraged",
+            "The negative effect on profit and dynamic efficiency may be limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on quantity gains relative to price cuts",
+          "point": "The overall impact on suppliers depends on whether larger and more stable orders can offset the lower price per unit.",
+          "logic": [
+            "A sufficiently large increase in quantity sold can offset the lower unit price",
+            "Total revenue and profit may then fall only slightly or not at all",
+            "If quantity sold increases only slightly, the lower purchase price dominates",
+            "Supplier profit and ability to invest are then more likely to fall"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Monopsony power can reduce wages",
+          "point": "Monopsony power can allow an employer to pay lower wages because workers have fewer alternative jobs.",
+          "logic": [
+            "Workers have fewer alternative employment opportunities",
+            "Labour supply to the employer becomes less responsive to wage changes",
+            "Workers have weaker bargaining power",
+            "They may accept lower wages rather than leave",
+            "Disposable income falls",
+            "Employees' living standards may fall"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Minimum wages can protect workers",
+          "point": "However, a minimum wage can limit a monopsony employer's ability to reduce wages.",
+          "logic": [
+            "A legal wage floor restricts the employer's wage-setting power",
+            "If the minimum wage exceeds the wage the employer would otherwise pay, the employer must raise wages",
+            "Workers are protected from very low wages",
+            "The negative effect of monopsony power on employees is reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on minimum wage relative to monopsony wage",
+          "point": "The overall effect on employees depends on how high the minimum wage is relative to the wage the monopsony employer would otherwise pay.",
+          "logic": [
+            "A minimum wage above the monopsony wage significantly restricts wage-setting power",
+            "Employees are more strongly protected from low wages",
+            "A minimum wage below the monopsony wage has little effect",
+            "Employees may therefore still receive relatively low wages"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Monopsony - effects on workers and suppliers --2023.1 Q9(3).docx"
+      }
+    },
+    {
+      "id": "oligopoly-interdependence-price-cut-rivals-2023-10-q7e",
+      "unit": "Market Structures and Contestability",
+      "topic": "Oligopoly",
+      "essayTitle": "Oligopoly Interdependence: Effects of a Price Cut on Rivals",
+      "question": "With reference to the information provided and your own knowledge, discuss the impact of Tesla reducing its prices on the behaviour of other electric vehicle manufacturers.",
+      "questionNumber": "7(e)",
+      "marks": 14,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Rivals may match price cuts",
+          "point": "A firm's price cut may cause rival firms to reduce their own prices because firms in an oligopoly are interdependent.",
+          "logic": [
+            "The price-cutting firm becomes relatively cheaper",
+            "Some consumers may switch away from rival firms",
+            "Rivals risk losing sales and market share",
+            "Rivals have an incentive to respond by reducing their own prices",
+            "Repeated matching of price cuts can develop into a price war",
+            "Prices may fall across the market"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "summary": "Differentiation can reduce price responses",
+          "point": "However, rival firms may not need to match the price cut if consumers have strong brand loyalty or view products as differentiated.",
+          "logic": [
+            "Strong brand loyalty and product differentiation reduce substitutability",
+            "A lower rival price causes only a small switch in demand",
+            "Existing firms face less pressure to cut their own prices",
+            "They can maintain higher profit margins",
+            "A price cut therefore does not automatically lead to a price war"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on degree of product differentiation",
+          "point": "The likelihood of rivals matching a price cut depends on the degree of product differentiation between competing products.",
+          "logic": [
+            "Close substitutes make consumers more willing to switch after a price cut",
+            "Rivals are then more likely to lose sales",
+            "A matching price cut becomes more likely",
+            "Strong brand loyalty and product differences reduce switching",
+            "Rivals can keep prices higher and a price war becomes less likely"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Rivals may increase non-price competition",
+          "point": "Rival firms may respond by increasing non-price competition rather than matching a price cut.",
+          "logic": [
+            "Price cuts reduce profit per unit",
+            "Firms may instead increase advertising or improve product quality and service",
+            "Greater differentiation strengthens brand loyalty",
+            "Consumers become less willing to switch to the lower-priced rival",
+            "Firms can protect sales and market share without matching the full price reduction"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Non-price responses may be too slow",
+          "point": "However, non-price competition may be too slow or expensive to offset an immediate price threat.",
+          "logic": [
+            "Advertising, research and product improvements require spending and time",
+            "Price-sensitive consumers may switch immediately to the lower-priced firm",
+            "Rivals may lose customers before differentiation becomes effective",
+            "They may therefore still need to reduce prices"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on speed of competitive threat",
+          "point": "Whether rivals choose price or non-price competition depends on the speed of the competitive threat.",
+          "logic": [
+            "If sales shift gradually, firms have more time to differentiate their products",
+            "Strong financial and technological resources make non-price responses more effective",
+            "Market share can then be protected without a major price cut",
+            "If demand shifts quickly while innovation takes time, non-price competition cannot respond fast enough",
+            "Rivals are then more likely to cut prices directly"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Oligopoly interdependence - effects of a price cut on rivals --2023.10 Q7e(4).docx"
+      }
     }
   ]
 }
