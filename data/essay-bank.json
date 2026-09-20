@@ -1972,6 +1972,106 @@
       "source": {
         "filename": "Oligopoly interdependence - effects of a price cut on rivals --2023.10 Q7e(4).docx"
       }
+    },
+    {
+      "id": "monopoly-inefficiency-2021-10-q9",
+      "unit": "Market Structures and Contestability",
+      "topic": "Monopoly",
+      "essayTitle": "Monopoly: Inefficiency",
+      "question": "For an industry of your choice, to what extent is a monopoly market structure inefficient?",
+      "questionNumber": "9",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Monopoly power causes allocative inefficiency",
+          "point": "High barriers to entry can cause allocative inefficiency in a monopoly market.",
+          "logic": [
+            "High barriers to entry reduce competition",
+            "Consumers have fewer alternative providers",
+            "The monopolist gains greater market power",
+            "The firm can restrict output and charge a higher price",
+            "Profit-maximising output occurs where MR = MC",
+            "The monopolist charges a price above marginal cost",
+            "Output is below the allocatively efficient level where AR = MC",
+            "A deadweight welfare loss is created"
+          ],
+          "diagrams": [
+            "/diagrams/monopoly-allocative-inefficiency-deadweight-loss.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Government intervention can reduce inefficiency",
+          "point": "However, government intervention may reduce the allocative inefficiency of a natural monopoly.",
+          "logic": [
+            "Marginal-cost pricing may cause a natural monopoly to make a loss because AC is above MC",
+            "A government subsidy can cover this loss",
+            "The firm can charge a price closer to marginal cost",
+            "Output increases",
+            "Allocative inefficiency is reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on size of subsidy",
+          "point": "The extent of allocative inefficiency depends on whether the subsidy is sufficient to support a price close to marginal cost.",
+          "logic": [
+            "A sufficient subsidy allows price to move closer to marginal cost",
+            "The gap between price and marginal cost becomes smaller",
+            "Deadweight welfare loss is significantly reduced",
+            "If the subsidy is insufficient, price remains well above marginal cost",
+            "Allocative inefficiency remains significant"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Monopoly power creates X-inefficiency",
+          "point": "Monopoly power may create X-inefficiency.",
+          "logic": [
+            "Fewer rivals and limited switching options reduce competitive pressure",
+            "Consumers have few alternatives",
+            "Poor cost control causes only a limited loss of customers",
+            "Managers face less pressure to cut unnecessary staffing and inefficient working practices",
+            "Actual production costs remain above the lowest attainable costs",
+            "X-inefficiency is created"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Shareholder pressure can reduce X-inefficiency",
+          "point": "However, shareholder pressure may reduce X-inefficiency.",
+          "logic": [
+            "Organisational slack raises costs",
+            "Higher costs reduce profit and shareholder returns",
+            "Shareholders have an incentive to monitor managers",
+            "Managers may face productivity targets and pressure to reduce unnecessary staffing and expenditure",
+            "Actual costs move closer to the lowest attainable costs",
+            "X-inefficiency is reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on strength of shareholder monitoring",
+          "point": "The extent of X-inefficiency depends on the strength of shareholder monitoring.",
+          "logic": [
+            "Strong shareholder monitoring imposes effective productivity targets",
+            "Organisational slack is limited despite weak product-market competition",
+            "X-inefficiency is reduced",
+            "Weak monitoring allows unnecessary expenditure and inefficient working practices to persist",
+            "X-inefficiency becomes more significant"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Monopoly - inefficiency --2021.10 Q9(3).docx"
+      }
     }
   ]
 }
