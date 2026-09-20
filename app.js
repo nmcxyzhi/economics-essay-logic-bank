@@ -1,5 +1,5 @@
 import { validateBank, recallUnits, catalog, toViewEssay, sectionGroups } from './model.js';
-import { loadPersonalNote, savePersonalNote } from './personal-notes.js';
+import { loadPersonalNoteRecord, savePersonalNote, loadCloudPersonalNote, saveCloudPersonalNote } from './personal-notes.js';
 let bank, essays = [], units = [];
 
 let notesStorage;
@@ -39,19 +39,100 @@ const topicLink = (unit, topic) => `#/topic/${encodeURIComponent(unit)}/${encode
 const essayLink = id => `#/essay/${id}`;
 const marks = e => `<span class="marks" lang="en">${e.marks} MARKS</span>`;
 
-function commitPersonalNote() {
+function noteCloudError(error) {
+  return error?.code === 'cloud-not-configured'
+    ? '已保存到本地（云端尚未配置）'
+    : '已保存到本地，云端稍后重试';
+}
+
+async function commitPersonalNote() {
   if (!pendingNoteSave) return;
-  const { essayId, value, status, timer } = pendingNoteSave;
+  const { essayId, value, updatedAt, status, timer } = pendingNoteSave;
   pendingNoteSave = null;
   if (timer) clearTimeout(timer);
-  const saved = savePersonalNote(notesStorage, essayId, value);
-  if (status?.isConnected) status.textContent = saved ? '已自动保存' : '无法保存，请检查浏览器存储设置';
+  const saved = savePersonalNote(notesStorage, essayId, value, updatedAt);
+  if (!saved) {
+    if (status?.isConnected) status.textContent = '无法保存，请检查浏览器存储设置';
+    return;
+  }
+  if (status?.isConnected) status.textContent = '正在上传到云端…';
+  try {
+    await saveCloudPersonalNote(essayId, value, updatedAt);
+    if (status?.isConnected) status.textContent = '已保存到云端';
+  } catch (error) {
+    if (status?.isConnected) status.textContent = noteCloudError(error);
+  }
 }
 
 function queuePersonalNoteSave(essayId, value, status) {
   if (pendingNoteSave?.timer) clearTimeout(pendingNoteSave.timer);
-  pendingNoteSave = { essayId, value, status };
+  pendingNoteSave = { essayId, value, updatedAt: Date.now(), status };
   pendingNoteSave.timer = setTimeout(commitPersonalNote, 350);
+}
+
+async function syncPersonalNote(essay, noteInput, status) {
+  if (!noteInput?.isConnected) return;
+  const requestedValue = noteInput.value;
+  const requestedRecord = loadPersonalNoteRecord(notesStorage, essay.id);
+  if (status.isConnected) status.textContent = '正在检查云端…';
+  let cloud;
+  try {
+    cloud = await loadCloudPersonalNote(essay.id);
+  } catch (error) {
+    if (status.isConnected) status.textContent = noteCloudError(error);
+    return;
+  }
+  if (!noteInput.isConnected) return;
+
+  const currentRecord = loadPersonalNoteRecord(notesStorage, essay.id);
+  const localChanged = noteInput.value !== requestedValue || currentRecord.updatedAt !== requestedRecord.updatedAt;
+  if (localChanged) {
+    const updatedAt = currentRecord.updatedAt || Date.now();
+    if (!currentRecord.updatedAt) savePersonalNote(notesStorage, essay.id, noteInput.value, updatedAt);
+    if (status.isConnected) status.textContent = '正在上传到云端…';
+    try {
+      await saveCloudPersonalNote(essay.id, noteInput.value, updatedAt);
+      if (status.isConnected) status.textContent = '已保存到云端';
+    } catch (error) {
+      if (status.isConnected) status.textContent = noteCloudError(error);
+    }
+    return;
+  }
+
+  // Notes created before cloud sync had no timestamp. Preserve their content and seed the cloud copy.
+  if (currentRecord.value && !currentRecord.updatedAt) {
+    const updatedAt = Date.now();
+    savePersonalNote(notesStorage, essay.id, currentRecord.value, updatedAt);
+    if (status.isConnected) status.textContent = '正在上传本地笔记…';
+    try {
+      await saveCloudPersonalNote(essay.id, currentRecord.value, updatedAt);
+      if (status.isConnected) status.textContent = '已保存到云端';
+    } catch (error) {
+      if (status.isConnected) status.textContent = noteCloudError(error);
+    }
+    return;
+  }
+
+  if (cloud.found && cloud.updatedAt > currentRecord.updatedAt) {
+    noteInput.value = cloud.value;
+    resizePersonalNote(noteInput);
+    savePersonalNote(notesStorage, essay.id, cloud.value, cloud.updatedAt);
+    if (status.isConnected) status.textContent = '已从云端同步';
+    return;
+  }
+
+  if (currentRecord.value && (!cloud.found || currentRecord.updatedAt > cloud.updatedAt)) {
+    if (status.isConnected) status.textContent = '正在上传到云端…';
+    try {
+      await saveCloudPersonalNote(essay.id, currentRecord.value, currentRecord.updatedAt || Date.now());
+      if (status.isConnected) status.textContent = '已保存到云端';
+    } catch (error) {
+      if (status.isConnected) status.textContent = noteCloudError(error);
+    }
+    return;
+  }
+
+  if (status.isConnected) status.textContent = cloud.found ? '已同步云端' : '云端已就绪';
 }
 
 function resizePersonalNote(textarea) {
@@ -120,8 +201,8 @@ function renderEssay(id) {
   state.revealed = 0;
   const topic = { name: essay.topic };
   const groups = sectionGroups(essay);
-  const savedNote = loadPersonalNote(notesStorage, essay.id);
-  const initialNoteStatus = savedNote.ok ? (savedNote.value ? '已自动保存' : '输入后自动保存') : '当前浏览器无法保存';
+  const savedNote = loadPersonalNoteRecord(notesStorage, essay.id);
+  const initialNoteStatus = savedNote.ok ? '正在检查云端…' : '当前浏览器无法保存';
   document.title = `${essay.essayTitle} · Essay Logic Bank`;
   shell(`<div class="topline"><div class="breadcrumb"><a href="#/">题库</a><span>/</span><a lang="en" href="${unitLink(essay.unit)}">${esc(essay.unit)}</a><span>/</span><a lang="en" href="${topicLink(essay.unit, essay.topic)}">${esc(topic.name)}</a><span>/</span><span>阅读全文</span></div><a class="back-link" href="${topicLink(essay.unit, essay.topic)}">${icon('back')} 返回</a></div>
   ${essay.contentNote ? `<div class="content-notice"><strong>原文待补全</strong><p>${esc(essay.contentNote)}</p></div>` : ''}
@@ -129,7 +210,7 @@ function renderEssay(id) {
   <div class="practice-panel" id="practice-panel" hidden><div><h2>先回忆，再展开</h2><p>沿着论证顺序，每次显示一个步骤。</p></div><label class="switch-label"><input id="hide-points" type="checkbox">同时隐藏观点句</label></div>
   <div class="essay-layout"><div class="essay-body">${groups.map(({group,blocks},i)=>`<section class="argument-group" aria-labelledby="group-${i}"><div class="group-heading"><span class="group-number">${String(group).padStart(2,'0')}</span><h2 id="group-${i}">第 ${group} 组论证</h2><span class="group-sequence" lang="en">${blocks.map(b=>b.type).join(' → ')}</span></div>${blocks.map(blockCard).join('')}</section>`).join('')}</div>
   <aside class="essay-outline" aria-label="本篇结构"><p>本篇结构</p>${groups.map(({group,blocks})=>`<div class="outline-group"><span>第 ${group} 组</span>${blocks.map(b=>`<button class="outline-link" data-scroll="${b.id}" lang="en"><i class="dot ${b.type.toLowerCase()}"></i>${b.type}${b.group}</button>`).join('')}</div>`).join('')}<p class="outline-note" id="outline-note">全部展开<br>向下滚动，连贯复习</p></aside></div>
-  <section class="personal-note" aria-labelledby="personal-note-title"><div class="personal-note-heading"><div><span class="personal-note-kicker" lang="en">Personal Notes</span><h2 id="personal-note-title">我的背诵段落</h2></div><span class="personal-note-status" id="personal-note-status" role="status" aria-live="polite">${initialNoteStatus}</span></div><p class="personal-note-help">把考试中可以直接使用的重点句或段落粘贴到这里。内容只保存在当前浏览器。</p><label class="personal-note-label" for="personal-note-input">重点句或段落</label><textarea id="personal-note-input" lang="en" rows="6" spellcheck="true" placeholder="在这里粘贴你想背诵的英文句子或段落…">${esc(savedNote.value)}</textarea></section>
+  <section class="personal-note" aria-labelledby="personal-note-title"><div class="personal-note-heading"><div><span class="personal-note-kicker" lang="en">Personal Notes</span><h2 id="personal-note-title">我的背诵段落</h2></div><span class="personal-note-status" id="personal-note-status" role="status" aria-live="polite">${initialNoteStatus}</span></div><p class="personal-note-help">把考试中可以直接使用的重点句或段落粘贴到这里。内容会自动保存到云端，并保留当前浏览器的一份本地缓存。</p><label class="personal-note-label" for="personal-note-input">重点句或段落</label><textarea id="personal-note-input" lang="en" rows="6" spellcheck="true" placeholder="在这里粘贴你想背诵的英文句子或段落…">${esc(savedNote.value)}</textarea></section>
   <div class="essay-end"><span>${icon('check')} ${essay.status==='partial' ? '已提供的原文已整理完毕，缺失部分待补充' : '本篇论证到这里结束'}</span><div><a class="text-link" href="${topicLink(essay.unit,essay.topic)}">返回文章列表 ${icon('arrow')}</a></div></div>
   <div class="practice-dock" id="practice-dock" hidden><div class="recall-progress"><span id="progress-text" role="status" aria-live="polite"></span><progress id="progress-bar" value="0" max="1" aria-label="回忆进度"></progress></div><button class="button quiet" id="reset">${icon('reset')} 重置</button><button class="button secondary" id="show-all">显示全部</button><button class="button primary" id="show-next">显示下一步 ${icon('arrow')}</button></div>`, essay.unit, true);
   document.querySelector('#practice-toggle').addEventListener('click', () => {
@@ -170,6 +251,7 @@ function renderEssay(id) {
     queuePersonalNoteSave(essay.id, event.currentTarget.value, noteStatus);
   });
   noteInput.addEventListener('blur', commitPersonalNote);
+  syncPersonalNote(essay, noteInput, noteStatus);
 }
 
 function updatePractice() {

@@ -1,6 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { PERSONAL_NOTE_PREFIX, personalNoteKey, loadPersonalNote, savePersonalNote } from '../personal-notes.js';
+import {
+  PERSONAL_NOTE_PREFIX,
+  personalNoteKey,
+  loadPersonalNote,
+  loadPersonalNoteRecord,
+  savePersonalNote,
+  cloudNotePayload,
+  loadCloudPersonalNote,
+  saveCloudPersonalNote
+} from '../personal-notes.js';
 
 function memoryStorage() {
   const values = new Map();
@@ -28,4 +37,27 @@ test('storage errors are contained', () => {
   const blocked = { getItem() { throw new Error('blocked'); }, setItem() { throw new Error('blocked'); } };
   assert.deepEqual(loadPersonalNote(blocked, 'essay-one'), { ok: false, value: '' });
   assert.equal(savePersonalNote(blocked, 'essay-one', 'text'), false);
+});
+
+test('note timestamps support legacy migration without changing the public note shape', () => {
+  const storage = memoryStorage();
+  assert.deepEqual(loadPersonalNoteRecord(storage, 'essay-one'), { ok: true, value: '', updatedAt: 0 });
+  assert.equal(savePersonalNote(storage, 'essay-one', 'Legacy note', 1234), true);
+  assert.deepEqual(loadPersonalNote(storage, 'essay-one'), { ok: true, value: 'Legacy note' });
+  assert.deepEqual(loadPersonalNoteRecord(storage, 'essay-one'), { ok: true, value: 'Legacy note', updatedAt: 1234 });
+});
+
+test('cloud payload preserves multiline text and cloud helpers handle API responses', async () => {
+  const payload = cloudNotePayload('essay-one', 'Line one\n\nLine two', 5678);
+  assert.deepEqual(payload, { essayId: 'essay-one', value: 'Line one\n\nLine two', updatedAt: 5678 });
+  const calls = [];
+  const fetchMock = async (url, options = {}) => {
+    calls.push({ url, options });
+    if (options.method === 'PUT') return { ok: true, status: 200, json: async () => ({ updatedAt: 5678 }) };
+    return { ok: true, status: 200, json: async () => payload };
+  };
+  assert.deepEqual(await loadCloudPersonalNote('essay-one', fetchMock), { ok: true, found: true, value: payload.value, updatedAt: 5678 });
+  assert.deepEqual(await saveCloudPersonalNote('essay-one', payload.value, 5678, fetchMock), { ok: true, updatedAt: 5678 });
+  assert.match(calls[0].url, /essayId=essay-one$/);
+  assert.equal(JSON.parse(calls[1].options.body).value, payload.value);
 });

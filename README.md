@@ -22,7 +22,9 @@ Content ChatGPT 交接规范：[CONTENT_IMPORT_GUIDE.md](CONTENT_IMPORT_GUIDE.md
 
 GitHub：`nmcxyzhi/economics-essay-logic-bank`（独立 private repository）。
 Vercel Project：`economics-essay-logic-bank`。
-生产地址：`https://economics-essay-logic-bank-chi.vercel.app/`。当前通过 Vercel Drop 手动发布；Git 自动部署尚未连接。
+生产地址：`https://economics-essay-logic-bank.vercel.app/`。当前通过 Vercel CLI 手动发布；Git 自动部署尚未连接。
+
+Personal Notes 云端备份：已连接 Vercel Blob 私有存储。页面会先写入当前浏览器的本地缓存，再自动同步到 `/api/notes`；打开同一 Essay 时会从云端检查并合并最新内容。项目的 `BLOB_READ_WRITE_TOKEN` 只保存在 Vercel 的 Production / Preview / Development 环境变量中，不写入仓库。
 
 ## 当前章节与文章映射
 
