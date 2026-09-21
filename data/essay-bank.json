@@ -2072,6 +2072,106 @@
       "source": {
         "filename": "Monopoly - inefficiency --2021.10 Q9(3).docx"
       }
+    },
+    {
+      "id": "wage-differentials-reasons-2021-5-q10",
+      "unit": "Labour Markets",
+      "topic": "Wage Differences",
+      "essayTitle": "Wage Differentials: Reasons",
+      "question": "Evaluate the reasons why wage differences exist.",
+      "questionNumber": "10",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Restricted labour supply increases wages",
+          "point": "Wage differences can exist because labour supply differs between occupations.",
+          "logic": [
+            "Specialist qualifications or long training periods reduce the pool of suitable workers",
+            "Occupational labour supply is restricted",
+            "The labour supply curve is relatively further to the left",
+            "Equilibrium wage rises",
+            "Workers in occupations with greater entry requirements earn more than workers in occupations with fewer entry requirements"
+          ],
+          "diagrams": [
+            "/diagrams/wage-differentials-restricted-labour-supply.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Responsive labour supply narrows wage differences",
+          "point": "However, a supply-based wage differential may not persist if labour supply is relatively responsive to higher wages.",
+          "logic": [
+            "Higher wages attract more people to the occupation",
+            "More workers undertake the required training and gain qualifications",
+            "Occupational labour supply increases",
+            "The equilibrium wage falls",
+            "The wage differential narrows"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on difficulty and length of training",
+          "point": "The persistence of a supply-based wage differential depends on how difficult and time-consuming it is to enter the occupation.",
+          "logic": [
+            "Lengthy training or strict entry requirements make labour supply respond slowly to higher wages",
+            "Restricted labour supply persists",
+            "The wage differential is likely to persist",
+            "If qualifications can be obtained relatively quickly, labour supply increases faster",
+            "The wage differential narrows"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Higher productivity increases wages",
+          "point": "Wage differences can exist because labour demand differs between labour markets.",
+          "logic": [
+            "More productive workers have a higher marginal physical product",
+            "Their marginal revenue product is higher",
+            "Each worker generates more revenue for the firm",
+            "Employing these workers becomes more profitable",
+            "Firms are willing to employ more workers at each wage rate",
+            "Labour demand shifts to the right",
+            "The equilibrium wage rises",
+            "A wage differential is created"
+          ],
+          "diagrams": [
+            "/diagrams/wage-differentials-higher-labour-demand.jpeg"
+          ]
+        },
+        {
+          "type": "EVA2",
+          "summary": "Labour substitution can narrow wage differences",
+          "point": "However, technology may substitute for labour and reduce the wage difference caused by higher labour productivity.",
+          "logic": [
+            "Machines perform tasks previously done by workers",
+            "Fewer workers are required at each wage rate",
+            "Labour demand shifts to the left",
+            "The equilibrium wage falls",
+            "The wage difference caused by higher productivity is reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on technology substituting or complementing labour",
+          "point": "The effect on wage differences depends on whether technology substitutes for or complements labour.",
+          "logic": [
+            "If technology substitutes for workers, labour demand falls",
+            "The equilibrium wage falls and the wage differential narrows",
+            "If technology complements workers, their productivity and marginal revenue product rise",
+            "Labour demand increases further",
+            "The equilibrium wage rises and the wage differential widens"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Wage differentials - reasons --2021.5 Q10(3).docx"
+      }
     }
   ]
 }
