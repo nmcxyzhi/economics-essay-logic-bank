@@ -47,7 +47,7 @@ test('recall includes real diagrams and matrix and skips missing slots',()=>{
 test('summaries cover current sections, stay visible metadata, and remain legacy-compatible',()=>{
  const normal=bank.essays.flatMap(e=>e.sections).filter(s=>!s.missing);
  const missing=bank.essays.flatMap(e=>e.sections).filter(s=>s.missing);
- assert.equal(normal.length,127);
+ assert.equal(normal.length,133);
  assert.ok(normal.every(s=>typeof s.summary==='string'&&s.summary.trim()&&s.summary.trim().split(/\s+/).length>=3&&s.summary.trim().split(/\s+/).length<=8));
  assert.ok(missing.every(s=>s.summary===''));
  const legacy=structuredClone(bank);

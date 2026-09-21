@@ -2172,6 +2172,97 @@
       "source": {
         "filename": "Wage differentials - reasons --2021.5 Q10(3).docx"
       }
+    },
+    {
+      "id": "barriers-to-entry-pharmaceutical-market-2024-10-q7e",
+      "unit": "Market Structures and Contestability",
+      "topic": "Barriers to Entry",
+      "essayTitle": "Barriers to Entry: Pharmaceutical Market",
+      "question": "With reference to the information provided and your own knowledge, discuss the likely barriers that might prevent a new company from entering the pharmaceutical industry.",
+      "questionNumber": "7(e)",
+      "marks": 14,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Patents restrict profitable entry opportunities",
+          "point": "Patents can create a significant legal barrier to entry.",
+          "logic": [
+            "A patent prevents rivals from producing the same medicine or using protected technology",
+            "New firms cannot directly enter the protected part of the market",
+            "Established firms retain legal protection over successful medicines",
+            "Profitable opportunities available to new entrants are reduced",
+            "Entry becomes more difficult"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "summary": "Alternative medicines can bypass patents",
+          "point": "However, a patent only protects a specific medicine or technology.",
+          "logic": [
+            "A new firm can develop a different medicine that is not protected by the patent",
+            "The firm can enter without infringing the patent",
+            "Patents therefore do not prevent entry into every part of the pharmaceutical industry",
+            "The strength of patents as a barrier to entry is reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on extent of patent protection",
+          "point": "The strength of the patent barrier depends on how much of the relevant market is protected by patents.",
+          "logic": [
+            "If many important medicines are protected, new firms have few unprotected alternatives",
+            "Entry becomes more difficult",
+            "If many alternatives are not protected, a new firm can develop a different medicine",
+            "The barrier to entry is weaker"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "High R&D investment discourages entry",
+          "point": "High costs can create a significant barrier to entry.",
+          "logic": [
+            "Pharmaceutical firms require high investment in R&D before entering the market",
+            "R&D may fail to produce a successful new medicine",
+            "The initial investment may not be recovered",
+            "A large amount of finance is at risk",
+            "The financial risk of entry increases",
+            "New firms may be discouraged from entering"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "External economies reduce entry costs",
+          "point": "However, the cost barrier may be reduced if a new entrant benefits from external economies of scale.",
+          "logic": [
+            "Industry clusters can provide skilled workers and shared R&D resources",
+            "Infrastructure can reduce operating costs",
+            "External cost savings reduce the amount of finance a new firm needs",
+            "These savings partly offset high R&D investment",
+            "Entry becomes more feasible"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on cost savings relative to R&D investment",
+          "point": "The strength of the cost barrier depends on the size of external cost savings relative to the R&D investment required.",
+          "logic": [
+            "If external cost savings significantly reduce the finance needed for R&D, the financial risk of entry falls",
+            "The barrier to entry becomes weaker",
+            "If R&D investment remains much larger than the cost savings, a large amount of finance remains at risk",
+            "The barrier to entry remains significant"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Barriers to entry - pharmaceutical market --2024.10 Q7e(4).docx"
+      }
     }
   ]
 }
