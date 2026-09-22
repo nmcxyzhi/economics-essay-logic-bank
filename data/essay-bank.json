@@ -2263,6 +2263,101 @@
       "source": {
         "filename": "Barriers to entry - pharmaceutical market --2024.10 Q7e(4).docx"
       }
+    },
+    {
+      "id": "natural-monopoly-benefits-2025-5-q9",
+      "unit": "Market Structures and Contestability",
+      "topic": "Natural Monopoly",
+      "essayTitle": "Natural Monopoly: Benefits",
+      "question": "Evaluate the benefits of a natural monopoly supplying a product or service in an industry of your choice.",
+      "questionNumber": "9",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Economies of scale reduce average costs",
+          "point": "A natural monopoly can supply the market at a lower average cost, creating a potential benefit for consumers.",
+          "logic": [
+            "High fixed costs can be spread over a larger output",
+            "Average cost falls as output increases",
+            "One firm producing Q1 operates further down the LRAC curve at C1",
+            "Dividing the market between smaller firms reduces output per firm to Q2 and raises average cost to C2",
+            "The natural monopoly therefore has scope to charge lower prices"
+          ],
+          "diagrams": [
+            "/diagrams/natural-monopoly-economies-scale-lrac.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Cost savings may be retained as profit",
+          "point": "However, a lower average cost does not guarantee a lower price for consumers.",
+          "logic": [
+            "Weak competitive pressure gives consumers few alternative suppliers",
+            "The natural monopoly faces less pressure to pass cost savings on",
+            "It may retain the cost advantage as profit instead",
+            "Consumer prices may therefore fall by less than average costs",
+            "The consumer benefit is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on degree of cost pass-through",
+          "point": "The size of the price benefit depends on how much of the lower average cost is passed on to consumers.",
+          "logic": [
+            "If regulation or the firm's objectives keep price close to average cost, lower AC can translate into a substantially lower price",
+            "A larger proportion of the cost advantage is passed on to consumers",
+            "If pass-through is low, the natural monopoly retains more of the cost advantage as profit",
+            "The consumer price benefit is then smaller"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Supernormal profits can finance investment",
+          "point": "A natural monopoly may earn supernormal profit, making large-scale network investment more feasible.",
+          "logic": [
+            "Limited direct competition can allow the firm to retain supernormal profit",
+            "Retained profit provides internal finance",
+            "The firm can finance maintenance, capacity and infrastructure improvements",
+            "Service failures and interruptions can fall",
+            "Service reliability improves",
+            "Dynamic efficiency increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Weak competition may reduce investment incentives",
+          "point": "However, a lack of competition may weaken the natural monopoly's incentive to reinvest its supernormal profit.",
+          "logic": [
+            "Consumers cannot easily switch to another supplier when service quality is poor",
+            "The firm faces less competitive pressure to improve its service",
+            "It may retain or distribute supernormal profit instead of reinvesting it",
+            "Maintenance and capacity investment may be lower",
+            "Improvements in reliability and dynamic efficiency are limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on productive reinvestment of profits",
+          "point": "The reliability benefit depends on how much supernormal profit is reinvested productively.",
+          "logic": [
+            "Effective oversight and strong investment targets increase the incentive to reinvest profit",
+            "More profit finances maintenance and capacity",
+            "Reliability and dynamic efficiency can improve substantially",
+            "If investment incentives are weak, less profit is reinvested",
+            "The improvement in the network is limited"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Natural monopoly - benefits --2025.5 Q9(4).docx"
+      }
     }
   ]
 }
