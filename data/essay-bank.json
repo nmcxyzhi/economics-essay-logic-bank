@@ -2358,6 +2358,121 @@
       "source": {
         "filename": "Natural monopoly - benefits --2025.5 Q9(4).docx"
       }
+    },
+    {
+      "id": "collusion-benefits-game-theory-2022-1-q8",
+      "unit": "Market Structures and Contestability",
+      "topic": "Oligopoly",
+      "essayTitle": "Collusion: Benefits and Game Theory",
+      "question": "Evaluate the possible benefits of collusive behaviour between firms. Use a simple game theory model in your answer.",
+      "questionNumber": "8",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Collusion can increase firms' profits",
+          "point": "Collusion can increase the profits of participating firms.",
+          "logic": [
+            "Each firm has an incentive to cut its price if the rival maintains a high price",
+            "If both firms follow this incentive, mutual undercutting can occur",
+            "Both firms then earn a lower payoff",
+            "By colluding, firms can agree to maintain a high price",
+            "Price competition is avoided",
+            "Both firms can earn a higher profit than under mutual price cutting"
+          ],
+          "diagrams": [],
+          "matrix": {
+            "caption": "Payoff matrix showing profits (£ million) when firms maintain or cut prices.",
+            "headers": [
+              "",
+              "B: maintain",
+              "B: cut"
+            ],
+            "rows": [
+              [
+                "A: maintain",
+                "10, 10",
+                "5, 15"
+              ],
+              [
+                "A: cut",
+                "15, 5",
+                "7, 7"
+              ]
+            ],
+            "sourceLocation": "Essay body, page 1"
+          }
+        },
+        {
+          "type": "EVA1",
+          "summary": "Regulatory fines reduce net profits",
+          "point": "However, government regulation may reduce the profitability of collusion.",
+          "logic": [
+            "If illegal collusion is detected, firms may face substantial fines",
+            "Fines create an additional financial cost",
+            "This cost directly offsets some of the extra profit from maintaining higher prices",
+            "The net profit benefit from collusion is reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on regulatory costs relative to extra profits",
+          "point": "The profit benefit depends on the expected regulatory cost relative to the extra profit created by collusion.",
+          "logic": [
+            "If the probability of detection is low or fines are small relative to additional profit, firms retain most of the gain",
+            "Collusion can still provide a substantial net profit benefit",
+            "If detection is likely or fines are large, regulatory costs absorb more of the additional profit",
+            "The net benefit from collusion becomes much smaller"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Revenue certainty can support investment",
+          "point": "Collusion can reduce uncertainty and support long-term investment.",
+          "logic": [
+            "Coordinated prices and output make future revenue more predictable",
+            "Firms can forecast cash flow with greater certainty",
+            "Greater revenue certainty makes firms more willing and able to commit funds to long-term R&D",
+            "Successful R&D can produce new or improved products",
+            "Future revenue and profit may increase",
+            "Colluding firms may gain a longer-term benefit"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Reduced competition may weaken innovation",
+          "point": "However, higher and more predictable profit gives firms the ability to invest in innovation, but not necessarily the incentive.",
+          "logic": [
+            "Collusion reduces competitive pressure",
+            "Firms face less risk of losing customers if they fail to improve their products",
+            "The incentive to reinvest additional profit in R&D becomes weaker",
+            "Firms may retain the extra profit instead",
+            "The potential innovation benefit may not occur",
+            "The longer-term benefit to firms is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on use of additional profits",
+          "point": "The investment benefit depends on what firms do with the additional and more predictable profit.",
+          "logic": [
+            "If lack of finance or uncertainty is the main constraint and firms reinvest a large share of the gain, collusion may support more innovation",
+            "Successful innovation can generate future revenue and profit",
+            "If competitive pressure is the main incentive to innovate, reduced rivalry weakens that incentive",
+            "Higher profits may then fail to generate additional innovation",
+            "The longer-term benefit from collusion is limited"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Collusion - benefits and game theory --2022.1 Q8(4).docx"
+      }
     }
   ]
 }
