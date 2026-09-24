@@ -2513,6 +2513,101 @@
       "source": {
         "filename": "Collusion - benefits and game theory --2022.1 Q8(4).docx"
       }
+    },
+    {
+      "id": "monopoly-benefits-consumers-2020-1-q9",
+      "unit": "Market Structures and Contestability",
+      "topic": "Monopoly",
+      "essayTitle": "Monopoly: Benefits to Consumers",
+      "question": "Evaluate the likely benefits of a monopoly to its consumers.",
+      "questionNumber": "9",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Economies of scale increase consumer surplus",
+          "point": "A monopoly may benefit consumers through economies of scale.",
+          "logic": [
+            "One firm supplies the whole market and can operate at a larger scale",
+            "Higher output allows larger purchases of inputs and bulk-buying discounts",
+            "Long-run average cost falls",
+            "If some of the cost saving is passed on, the price falls",
+            "Consumers pay less",
+            "Consumer surplus increases"
+          ],
+          "diagrams": [
+            "/diagrams/monopoly-economies-scale-lrac-consumer-benefit.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Cost savings may be retained as profit",
+          "point": "However, lower average cost does not guarantee a lower price for consumers.",
+          "logic": [
+            "A monopolist faces little competitive pressure",
+            "Consumers have few close substitutes",
+            "The firm has less pressure to pass cost savings on",
+            "It may retain the cost saving as higher profit instead of reducing price",
+            "The consumer benefit is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on degree of cost pass-through",
+          "point": "The overall benefit to consumers depends on how much of the cost saving is passed on to them.",
+          "logic": [
+            "Strong government pressure to keep prices low makes cost savings more likely to be passed on",
+            "Prices fall and consumer surplus increases",
+            "If this pressure is weak, the monopolist may retain more of the saving as profit",
+            "The consumer benefit is smaller"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Innovation can increase consumer utility",
+          "point": "A monopoly may benefit consumers through innovation.",
+          "logic": [
+            "High barriers to entry reduce competitive pressure and increase market power",
+            "The monopolist may maintain price above average cost and earn supernormal profit",
+            "Supernormal profit provides internal finance for R&D",
+            "R&D may produce improved products and services",
+            "Quality or product range increases",
+            "Products better meet consumer needs",
+            "Consumer utility increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Innovation may be unsuccessful",
+          "point": "However, investment in innovation may not necessarily benefit consumers.",
+          "logic": [
+            "R&D is uncertain",
+            "Investment may fail to produce successful new or improved products and services",
+            "The outcome may not better meet consumer needs",
+            "Expected improvements in consumer welfare may not occur",
+            "The consumer benefit is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on successful consumer-focused innovation",
+          "point": "The benefit depends on whether R&D leads to successful innovation that meets consumer needs.",
+          "logic": [
+            "If R&D produces better-quality products or a wider range of services, consumer utility increases",
+            "If innovation is unsuccessful or does not match consumer preferences, consumers gain little",
+            "The size of the consumer benefit therefore depends on the success and relevance of the innovation"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Monopoly - benefits to consumers --2020.1 Q9(4).docx"
+      }
     }
   ]
 }
