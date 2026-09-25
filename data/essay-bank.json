@@ -2615,103 +2615,95 @@
       "topic": "Business Objectives",
       "essayTitle": "State-owned vs Private-sector Business Objectives",
       "question": "Evaluate the view that the objectives of state-owned enterprises and private sector organisations always differ.",
-      "questionNumber": "Q8",
+      "questionNumber": "2023.1 · Q8",
       "marks": 20,
-      "status": "complete",
-      "source": {
-        "filename": "State-owned vs private-sector business objectives --2023.1 Q8.docx",
-        "questionLocation": "Opening question image",
-        "marksEvidence": "Question 8: U3 mark allocation",
-        "session": "2023.1"
-      },
       "sections": [
         {
           "type": "KAA1",
-          "summary": "Private firms may prioritise profit maximisation",
-          "point": "Private-sector organisations may prioritise profit maximisation because shareholders expect financial returns.",
+          "summary": "Private firms may maximise profit",
+          "point": "Private sector organisations may have profit maximisation as a key objective.",
           "logic": [
-            "Shareholders invest capital and may expect dividends or capital growth",
+            "Shareholders invest capital and expect financial returns",
             "Managers face pressure to generate profit",
-            "Profit maximisation occurs where MC = MR",
-            "Private firms can charge for services to cover costs and earn profit",
-            "The profit objective may therefore be stronger than for a fully subsidised state enterprise"
+            "A profit-maximising firm produces where MC = MR",
+            "This determines the profit-maximising output and price",
+            "Private ownership can therefore create a strong profit objective"
           ],
           "diagrams": [
-            "/diagrams/state-owned-private-objectives-kaa1.jpeg"
-          ],
-          "diagramDetails": {
-            "/diagrams/state-owned-private-objectives-kaa1.jpeg": {
-              "alt": "Diagram comparing profit maximisation at Q1 and P1 with allocative efficiency at Q2 and P2.",
-              "caption": "Private-sector profit maximisation can be compared with a state-owned enterprise pursuing allocative efficiency.",
-              "sourceLocation": "State-owned vs private-sector business objectives --2023.1 Q8.docx · word/media/image2.jpeg"
-            }
-          }
+            "/diagrams/state-owned-private-objectives-profit-social-welfare.jpeg"
+          ]
         },
         {
           "type": "EVA1",
-          "summary": "Private firms may also pursue social objectives",
+          "summary": "Private firms may pursue social objectives",
           "point": "However, private ownership does not mean that an organisation only pursues profit.",
           "logic": [
             "Consumers may value socially responsible behaviour",
-            "The private firm may adopt social or environmental objectives to protect its reputation and demand",
-            "Stronger demand can increase revenue",
-            "Social objectives may therefore support long-run profit",
-            "Private-sector and state-owned objectives may overlap"
+            "A private organisation may adopt social or environmental objectives",
+            "This can protect its reputation and demand",
+            "Higher demand may support long-run revenue and profit",
+            "Private-sector objectives may therefore overlap with those of state-owned enterprises"
           ],
           "diagrams": []
         },
         {
           "type": "Weighing1",
           "summary": "Depends on shareholder and stakeholder pressure",
-          "point": "The difference between private and state-owned objectives depends on shareholder and stakeholder pressure.",
+          "point": "The difference in objectives depends on the relative pressure from shareholders and other stakeholders.",
           "logic": [
-            "Strong shareholder pressure for financial returns makes profit maximisation more likely",
-            "Objectives differ more from those of a socially focused state enterprise",
-            "Consumers who value social outcomes reward similar private behaviour",
-            "The objectives become more similar"
+            "Strong shareholder pressure for financial returns makes profit maximisation more likely to dominate",
+            "Objectives then differ more from those of a socially focused state-owned enterprise",
+            "Strong consumer demand for social outcomes gives private firms more incentive to pursue social objectives",
+            "The difference in objectives then becomes smaller"
           ],
           "diagrams": []
         },
         {
           "type": "KAA2",
-          "summary": "State firms may prioritise social welfare",
-          "point": "State-owned enterprises may prioritise social welfare and allocative efficiency rather than profit maximisation.",
+          "summary": "State-owned firms may prioritise social welfare",
+          "point": "State-owned enterprises may prioritise social welfare rather than profit maximisation.",
           "logic": [
-            "The government owns the organisation and can direct it to provide services",
-            "Allocative efficiency occurs where P = MC",
-            "Output increases from Q1 to Q2",
-            "Price falls from P1 to P2",
-            "Lower price and higher output increase access to the service",
-            "Social welfare and social mobility improve"
+            "The government owns and controls the enterprise",
+            "It can direct the organisation to provide services even when this does not maximise profit",
+            "A social-welfare objective may move output from the profit-maximising level towards the allocatively efficient level where P = MC",
+            "Output increases and price falls",
+            "Access to the service increases",
+            "The objective therefore places greater weight on social welfare than profit"
           ],
-          "diagrams": []
+          "diagrams": [
+            "/diagrams/state-owned-private-objectives-profit-social-welfare.jpeg"
+          ]
         },
         {
           "type": "EVA2",
-          "summary": "State firms may pursue commercial objectives",
-          "point": "However, state ownership does not rule out commercial objectives.",
+          "summary": "State-owned firms may pursue commercial objectives",
+          "point": "However, state ownership does not rule out a commercial objective.",
           "logic": [
-            "Persistent losses require larger government subsidies",
-            "Subsidies create an opportunity cost because funds could be used elsewhere",
+            "Persistent losses may require larger government subsidies",
+            "Subsidies create an opportunity cost for public funds",
             "The government may require the enterprise to cover its costs or earn a profit",
-            "Some state-owned enterprises may generate revenue for the government",
-            "Their objectives become more similar to those of private-sector organisations"
+            "State-owned enterprises may also generate revenue for the government",
+            "Their objectives may therefore become more similar to those of private-sector organisations"
           ],
           "diagrams": []
         },
         {
           "type": "Weighing2",
-          "summary": "Depends on the government's budget constraint",
-          "point": "The difference depends on the strength of the government's budget constraint.",
+          "summary": "Depends on strength of the budget constraint",
+          "point": "The difference in objectives depends on the strength of the government's budget constraint.",
           "logic": [
-            "Sufficient public funding allows greater priority to access and social welfare",
-            "Objectives differ more from those of a profit-maximising private organisation",
-            "Limited funding makes financial sustainability more important",
-            "The objectives are more likely to converge with those of private organisations"
+            "With sufficient public funding, a state-owned enterprise can prioritise access and social welfare even when profit falls",
+            "Its objectives may differ more from those of a profit-maximising private organisation",
+            "If public funding is limited, financial sustainability becomes more important",
+            "Its objectives are then more likely to converge with those of private organisations"
           ],
           "diagrams": []
         }
-      ]
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "State-owned vs private-sector business objectives --2023.1 Q8(5).docx"
+      }
     }
   ]
 }
