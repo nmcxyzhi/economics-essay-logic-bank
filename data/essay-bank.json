@@ -2704,6 +2704,177 @@
       "source": {
         "filename": "State-owned vs private-sector business objectives --2023.1 Q8(5).docx"
       }
+    },
+    {
+      "id": "privatisation-benefits-consumers-workers-2026-5-q10",
+      "unit": "Government Intervention",
+      "topic": "Privatisation",
+      "essayTitle": "Privatisation: Benefits to Workers",
+      "question": "Evaluate the possible benefits of privatisation of a business for its consumers and its workers.",
+      "questionNumber": "2026.5 · Q10",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Expansion can increase employment and job security",
+          "point": "Privatisation may benefit workers by increasing employment and job security.",
+          "logic": [
+            "Private owners have a stronger profit incentive to improve efficiency and competitiveness",
+            "The business may attract more customers",
+            "Demand for the firm's services increases",
+            "The business can expand",
+            "Derived demand for labour increases",
+            "Employment opportunities and job security improve"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "summary": "Cost-cutting can reduce employment",
+          "point": "However, privatisation may reduce employment and job security if private owners focus on reducing labour costs to increase profit.",
+          "logic": [
+            "Private owners may restructure the business to reduce labour costs",
+            "Redundancies reduce the number of workers required",
+            "Employment falls",
+            "Remaining workers may face greater job insecurity",
+            "The potential benefit of privatisation for workers is reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on expansion relative to labour cost-cutting",
+          "point": "The effect on workers depends on whether privatisation leads mainly to business expansion or labour cost-cutting.",
+          "logic": [
+            "If greater efficiency allows the firm to expand, derived demand for labour and job security increase",
+            "If efficiency is achieved mainly through redundancies, employment and job security fall",
+            "The overall effect on workers depends on which of these two effects is stronger"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "",
+          "point": "",
+          "logic": [],
+          "diagrams": [],
+          "missing": true
+        },
+        {
+          "type": "EVA2",
+          "summary": "",
+          "point": "",
+          "logic": [],
+          "diagrams": [],
+          "missing": true
+        },
+        {
+          "type": "Weighing2",
+          "summary": "",
+          "point": "",
+          "logic": [],
+          "diagrams": [],
+          "missing": true
+        }
+      ],
+      "status": "partial",
+      "contentNote": "原文正文仅包含 workers 一组论证，consumer 部分未提供，因此未根据 Mark Scheme 补写。",
+      "source": {
+        "filename": "Privatisation - benefits to consumers and workers --2026.5 Q10(3).docx"
+      }
+    },
+    {
+      "id": "privatisation-benefits-consumers-2021-5-q8",
+      "unit": "Government Intervention",
+      "topic": "Privatisation",
+      "essayTitle": "Privatisation: Benefits to Consumers",
+      "question": "Evaluate the possible benefits of privatisation for the consumer.",
+      "questionNumber": "2021.5 · Q8",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Lower costs can increase consumer surplus",
+          "point": "Privatisation may benefit consumers through lower prices.",
+          "logic": [
+            "Private owners have a stronger profit incentive to reduce organisational slack and control operating costs",
+            "Marginal and average costs fall",
+            "Profit-maximising output increases",
+            "The selling price falls",
+            "If cost savings are passed on to consumers, consumer surplus increases"
+          ],
+          "diagrams": [
+            "/diagrams/privatisation-lower-costs-consumer-surplus.png"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Market power can limit price reductions",
+          "point": "However, lower costs do not guarantee lower prices.",
+          "logic": [
+            "Privatisation may replace a public monopoly with a private monopoly",
+            "Consumers may still have few alternatives",
+            "The firm retains substantial market power",
+            "It may keep part of the cost saving as higher profit rather than reduce price",
+            "The increase in consumer surplus is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on competition after privatisation",
+          "point": "The significance of the price benefit depends on the degree of competition after privatisation.",
+          "logic": [
+            "Credible rivals increase the pressure to pass efficiency gains on through lower prices",
+            "Consumer surplus is more likely to increase",
+            "If market power remains high, the firm can retain more of the cost saving as profit",
+            "The price benefit to consumers is much smaller"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Better service quality can increase consumer welfare",
+          "point": "Privatisation may benefit consumers through better service quality.",
+          "logic": [
+            "Private owners seeking long-run profit have a stronger incentive to invest and innovate",
+            "Investment can improve the efficiency and quality of services",
+            "Better facilities and technology can make services more convenient",
+            "The consumer experience improves",
+            "Consumer welfare increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Unprofitable services may be withdrawn",
+          "point": "However, a profit-maximising private owner may cut services that generate a low financial return.",
+          "logic": [
+            "State-owned firms may maintain loss-making services for wider social objectives",
+            "Private owners have a stronger incentive to remove services that do not generate sufficient profit",
+            "Some consumers may face less choice and lower accessibility",
+            "Consumer welfare falls",
+            "The benefit of privatisation is reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on commercial viability of service improvements",
+          "point": "The significance of the consumer benefit depends on whether improvements in quality and choice are commercially viable.",
+          "logic": [
+            "If better services attract enough additional demand to raise long-run profit, the incentive to invest is stronger",
+            "Quality and consumer welfare can improve",
+            "If a service remains unprofitable, the private owner has a stronger incentive to remove it",
+            "Consumer choice may fall instead"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Privatisation - benefits to consumers --2021.5 Q8(5).docx"
+      }
     }
   ]
 }

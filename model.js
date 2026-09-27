@@ -22,7 +22,9 @@ export const COURSE_STRUCTURE = Object.freeze({
     'Supply of Labour',
     'Wage Differences'
   ]),
-  'Government Intervention': Object.freeze([])
+  'Government Intervention': Object.freeze([
+    'Privatisation'
+  ])
 });
 
 const COURSE_UNITS = Object.keys(COURSE_STRUCTURE);

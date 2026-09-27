@@ -194,6 +194,18 @@
                   ]
                 }
               }
+            },
+            {
+              "properties": {
+                "unit": {
+                  "const": "Government Intervention"
+                },
+                "topic": {
+                  "enum": [
+                    "Privatisation"
+                  ]
+                }
+              }
             }
           ]
         }

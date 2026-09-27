@@ -2,7 +2,7 @@
 
 Edexcel IAL Economics U3 四层题库：Unit → Knowledge Point → Essay Title → Essay Detail。中文界面，英文 Economics 内容。
 
-保留 23 篇用户 Essay，126 个已有论证模块，14 张原图及 1 个原始 payoff matrix。两篇原文不完整的 Essay 保留 missing 占位。Question、points、logic 与图片未经本次架构迁移改写。
+当前题库包含 31 篇用户 Essay、169 个正常论证模块、8 个 missing 占位、22 个 Diagram 引用及 2 个 payoff matrix。原文不完整的 Essay 保留 missing 占位。Question、points、logic 与图片按导入包保留。
 
 每个正常 section 包含 3–8 个英文单词的 `summary`，在 KAA / EVA / Weighing 标题行显示并在 Practice 模式中始终可见。新导入内容必须由 Content ChatGPT 提供 summary；Codex 只校验、原样导入和显示。
 
@@ -20,7 +20,7 @@ Content ChatGPT 交接规范：[CONTENT_IMPORT_GUIDE.md](CONTENT_IMPORT_GUIDE.md
 
 无需后端、数据库、上传按钮、OCR、AI API 或运行时外部依赖。Hash 路由让 Essay 深层链接可直接刷新。
 
-GitHub：`nmcxyzhi/economics-essay-logic-bank`（独立 private repository）。
+GitHub：`nmcxyzhi/economics-essay-logic-bank`（公开 repository）。
 Vercel Project：`economics-essay-logic-bank`。
 生产地址：`https://economics-essay-logic-bank.vercel.app/`。当前通过 Vercel CLI 手动发布；Git 自动部署尚未连接。
 
@@ -61,6 +61,8 @@ Personal Notes 云端备份：已连接 Vercel Blob 私有存储。页面会先�
 | Market Structures and Contestability | Monopsony | Monopsony: Effects on Workers and Suppliers | 20 |
 | Market Structures and Contestability | Oligopoly | Oligopoly Interdependence: Effects of a Price Cut on Rivals | 14 |
 | Market Structures and Contestability | Monopoly | Monopoly: Inefficiency | 20 |
+| Government Intervention | Privatisation | Privatisation: Benefits to Workers | 20 |
+| Government Intervention | Privatisation | Privatisation: Benefits to Consumers | 20 |
 
 ## 自动部署状态
 

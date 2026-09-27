@@ -312,6 +312,18 @@ JSON 填写 `/diagrams/my-essay-kaa1.png`，实际文件交付在 `diagrams/my-e
                   ]
                 }
               }
+            },
+            {
+              "properties": {
+                "unit": {
+                  "const": "Government Intervention"
+                },
+                "topic": {
+                  "enum": [
+                    "Privatisation"
+                  ]
+                }
+              }
             }
           ]
         }
