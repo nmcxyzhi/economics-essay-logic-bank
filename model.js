@@ -23,7 +23,8 @@ export const COURSE_STRUCTURE = Object.freeze({
     'Wage Differences'
   ]),
   'Government Intervention': Object.freeze([
-    'Privatisation'
+    'Privatisation',
+    'Monopoly Regulation'
   ])
 });
 

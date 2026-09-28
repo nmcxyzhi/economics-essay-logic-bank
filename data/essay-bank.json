@@ -2875,6 +2875,140 @@
       "source": {
         "filename": "Privatisation - benefits to consumers --2021.5 Q8(5).docx"
       }
+    },
+    {
+      "id": "monopoly-regulation-government-policies-2022-1-q9",
+      "unit": "Government Intervention",
+      "topic": "Monopoly Regulation",
+      "essayTitle": "Monopoly Regulation: Government Policies",
+      "question": "Evaluate methods that a government could use to control monopoly behaviour.",
+      "questionNumber": "2022.1 · Q9",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Price caps reduce monopoly prices",
+          "point": "The government can impose a maximum price below the monopoly price to control monopoly behaviour.",
+          "logic": [
+            "An unregulated monopoly produces Q1 and charges P1",
+            "A price cap at Pcap prevents the firm from charging P1",
+            "The regulated outcome moves to a lower price and a higher output Q2",
+            "The gap between price and marginal cost falls",
+            "The monopoly has less ability to exploit consumers through a high price",
+            "Allocative inefficiency is reduced"
+          ],
+          "diagrams": [
+            "/diagrams/monopoly-regulation-price-cap.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Price caps may reduce investment",
+          "point": "However, a price cap may reduce the monopoly's ability to finance investment, lowering consumer welfare.",
+          "logic": [
+            "A lower regulated price reduces revenue per unit",
+            "Profit may fall significantly",
+            "The firm has fewer internal funds for maintenance and capital investment",
+            "Service quality may fall",
+            "Consumer utility may decrease"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on size of price reduction",
+          "point": "The effectiveness depends on the size of the price reduction.",
+          "logic": [
+            "If the gap between P1 and Pcap is small, the firm may still have sufficient profit for necessary investment",
+            "Consumers can gain from a lower price without a major loss of quality",
+            "If the gap is large enough to leave the firm with insufficient profit for investment, service quality may fall",
+            "Consumer welfare may therefore be reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Quality targets improve service quality",
+          "point": "The government can set performance and quality targets for a monopoly.",
+          "logic": [
+            "A monopoly faces little competitive pressure because consumers have few alternative suppliers",
+            "The firm may have less incentive to maintain high service quality",
+            "The government can require minimum standards for reliability and quality",
+            "The firm may need to improve production processes, maintain infrastructure and invest in better services",
+            "Service quality and reliability improve",
+            "Consumers receive a better service"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Quality targets may increase prices",
+          "point": "However, meeting higher quality standards may increase the monopoly's costs.",
+          "logic": [
+            "The firm may spend more on maintenance, skilled workers, equipment or infrastructure",
+            "Average costs increase",
+            "The regulator may allow the monopoly to charge a higher price to cover the additional costs",
+            "Consumers may have to pay more",
+            "Improved service quality may therefore come at the cost of reduced affordability"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on quality improvement relative to cost",
+          "point": "The effectiveness of performance targets depends on whether the improvement in service quality is large enough to justify the additional cost.",
+          "logic": [
+            "If standards significantly improve quality and reliability while causing only a small increase in costs, consumers are likely to benefit overall",
+            "If meeting the targets is very expensive but produces only a small improvement in quality, prices may rise substantially",
+            "The additional cost may then outweigh the benefit of better service"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA3",
+          "summary": "Lower entry barriers increase competition",
+          "point": "The government can increase competition by reducing barriers to entry.",
+          "logic": [
+            "Removing unnecessary legal or regulatory barriers makes entry easier",
+            "New firms may enter the market",
+            "Consumers gain more alternative suppliers",
+            "The incumbent monopoly faces stronger competitive pressure",
+            "The risk of losing customers increases the incentive to lower prices and improve quality",
+            "The incumbent's market power is reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA3",
+          "summary": "Natural monopoly conditions may prevent entry",
+          "point": "However, reducing barriers to entry may be ineffective when the industry is a natural monopoly.",
+          "logic": [
+            "The industry may require expensive infrastructure and have high fixed costs",
+            "A new entrant may need to duplicate existing infrastructure",
+            "Operating at a smaller scale can give the entrant a higher average cost",
+            "Entry may remain unattractive or economically inefficient",
+            "Few viable competitors emerge",
+            "The incumbent's monopoly power may persist"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing3",
+          "summary": "Depends on extent of economies of scale",
+          "point": "The effectiveness of increasing competition depends mainly on the extent of economies of scale.",
+          "logic": [
+            "If entry is commercially viable, reducing barriers can lead to actual entry and stronger competitive pressure",
+            "Monopoly power is reduced",
+            "If economies of scale are substantial and infrastructure duplication is costly, entry remains difficult",
+            "Direct regulation of the existing monopoly may then be more effective than trying to create competition"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Monopoly regulation - government policies --2022.1 Q9(3).docx"
+      }
     }
   ]
 }
