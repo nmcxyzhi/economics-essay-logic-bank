@@ -204,7 +204,8 @@
                 "topic": {
                   "enum": [
                     "Privatisation",
-                    "Monopoly Regulation"
+                    "Monopoly Regulation",
+                    "Price Caps"
                   ]
                 }
               }

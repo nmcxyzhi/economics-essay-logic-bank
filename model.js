@@ -24,7 +24,8 @@ export const COURSE_STRUCTURE = Object.freeze({
   ]),
   'Government Intervention': Object.freeze([
     'Privatisation',
-    'Monopoly Regulation'
+    'Monopoly Regulation',
+    'Price Caps'
   ])
 });
 

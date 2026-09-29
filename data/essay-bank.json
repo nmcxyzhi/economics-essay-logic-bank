@@ -3009,6 +3009,101 @@
       "source": {
         "filename": "Monopoly regulation - government policies --2022.1 Q9(3).docx"
       }
+    },
+    {
+      "id": "price-caps-effects-firms-consumers-2023-1-q7e",
+      "unit": "Government Intervention",
+      "topic": "Price Caps",
+      "essayTitle": "Price Caps: Effects on Firms and Consumers",
+      "question": "With reference to Extract A and Extract B, discuss the likely effects of the increase in the energy price cap on both energy suppliers and consumers.",
+      "questionNumber": "2023.1 · Q7(e)",
+      "marks": 14,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Higher price caps increase supplier profits",
+          "point": "A higher price cap can increase suppliers' profit and make survival more likely.",
+          "logic": [
+            "A higher price cap allows suppliers to charge a higher price",
+            "Average revenue increases",
+            "The regulated output falls from QC1 to QC2",
+            "At QC2, the gap between PC2 and average cost C2 creates a larger profit area",
+            "Total profit may increase",
+            "Suppliers are more likely to remain in the market"
+          ],
+          "diagrams": [
+            "/diagrams/price-cap-increase-supplier-profit.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Lower energy usage limits supplier profits",
+          "point": "However, the increase in suppliers' profit may be limited if consumers reduce their energy usage.",
+          "logic": [
+            "A higher price cap can increase household energy bills",
+            "Consumers may reduce energy consumption to control spending",
+            "The quantity of energy sold falls",
+            "Suppliers' total revenue is limited",
+            "The increase in profit may be smaller than expected"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on price elasticity of demand",
+          "point": "The extent of the effect on suppliers depends on the price elasticity of demand for energy.",
+          "logic": [
+            "If demand is relatively price inelastic, the percentage fall in consumption is smaller than the percentage increase in price",
+            "Total revenue and profit are likely to increase",
+            "If demand is relatively price elastic, consumers reduce energy usage more significantly",
+            "The fall in sales may reduce total revenue",
+            "The increase in suppliers' profit is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Higher energy bills reduce living standards",
+          "point": "A higher energy price cap can reduce consumers' living standards.",
+          "logic": [
+            "A higher maximum price allows suppliers to charge households more for energy",
+            "Household energy bills increase",
+            "Consumers have less disposable income for other goods and services",
+            "Purchasing power falls",
+            "Consumer surplus falls",
+            "Living standards decrease"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Government support protects disposable income",
+          "point": "However, government support can reduce the fall in consumers' disposable income.",
+          "logic": [
+            "Financial support means households do not bear the full increase in energy costs",
+            "The effective increase in household spending on energy is reduced",
+            "The fall in disposable income is smaller",
+            "Purchasing power falls by less",
+            "The reduction in living standards is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on amount of government support",
+          "point": "The extent of the effect on consumers depends on the amount of government support.",
+          "logic": [
+            "If support covers only a small part of the higher energy cost, disposable income and living standards still fall significantly",
+            "If support offsets a large share of the increase, households bear much less of the additional cost",
+            "The negative effect on consumers is much smaller"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Price caps - effects on firms and consumers --2023.1 Q7e(3).docx"
+      }
     }
   ]
 }
