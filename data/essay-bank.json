@@ -3104,6 +3104,101 @@
       "source": {
         "filename": "Price caps - effects on firms and consumers --2023.1 Q7e(3).docx"
       }
+    },
+    {
+      "id": "revenue-maximisation-other-business-objectives-2022-1-q10",
+      "unit": "Types and Sizes of Businesses",
+      "topic": "Business Objectives",
+      "essayTitle": "Revenue Maximisation vs Other Business Objectives",
+      "question": "Evaluate the view that revenue maximisation is always the main objective of a firm.",
+      "questionNumber": "2022.1 · Q10",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Revenue maximisation can increase market share",
+          "point": "Revenue maximisation may be the main objective when a firm aims to increase its market share.",
+          "logic": [
+            "A revenue-maximising firm produces at Qr where MR = 0",
+            "Qr is higher than the profit-maximising output Qp where MR = MC",
+            "Producing at a larger scale may allow greater economies of scale",
+            "Long-run average cost falls",
+            "The firm can charge a lower price",
+            "Quantity demanded and sales increase",
+            "Market share increases"
+          ],
+          "diagrams": [
+            "/diagrams/revenue-maximisation-vs-profit-maximisation.png"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Revenue growth may support future profit",
+          "point": "However, revenue maximisation may only be a method of achieving profit maximisation in the long run.",
+          "logic": [
+            "A lower price and higher sales can build a larger market share",
+            "A stronger market position can increase market power",
+            "Greater market power gives the firm more price-setting ability",
+            "The firm may raise its price in the future",
+            "Profit margin increases",
+            "Revenue maximisation may therefore be a short-term strategy rather than the final objective"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on the firm's market position",
+          "point": "Whether revenue maximisation is the main objective depends on the firm's market position.",
+          "logic": [
+            "While the firm is lowering its LRAC and expanding market share, revenue maximisation is more likely to be the main objective",
+            "If the firm later gains stronger market power and greater price-setting ability, it may raise its profit margin",
+            "Profit maximisation is then more likely to become the main objective in the long run"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Managers may prioritise revenue growth",
+          "point": "Revenue maximisation may be the main objective when there is a divorce of ownership from control.",
+          "logic": [
+            "Shareholders own the business but managers make day-to-day decisions",
+            "Managers may value salary, social status and the size of the firm",
+            "Increasing revenue can increase the scale and status of the business",
+            "Managers therefore have an incentive to prioritise revenue growth",
+            "Revenue maximisation may become the main objective"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Shareholders may constrain managers",
+          "point": "However, shareholders may monitor managers and limit their ability to pursue revenue maximisation.",
+          "logic": [
+            "If managers focus heavily on sales while profits remain low, shareholders may become dissatisfied",
+            "Lower profits may reduce dividends",
+            "Shareholders can put pressure on managers to increase profits",
+            "Managers give greater priority to profit maximisation",
+            "Revenue maximisation may not remain the firm's main objective"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on degree of shareholder control",
+          "point": "Whether revenue maximisation is the main objective depends on the degree of shareholder control over managers.",
+          "logic": [
+            "If shareholder monitoring is weak, managers have greater freedom to pursue revenue maximisation for their own interests",
+            "Revenue maximisation is more likely to remain the main objective",
+            "If shareholders exert strong pressure for profits and dividends, managerial discretion is reduced",
+            "Profit maximisation is more likely to become the main objective"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Revenue maximisation vs other business objectives --2022.1 Q10(3).docx"
+      }
     }
   ]
 }
