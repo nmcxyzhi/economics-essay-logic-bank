@@ -3199,6 +3199,142 @@
       "source": {
         "filename": "Revenue maximisation vs other business objectives --2022.1 Q10(3).docx"
       }
+    },
+    {
+      "id": "competition-policy-promoting-competition-2022-5-q9",
+      "unit": "Government Intervention",
+      "topic": "Competition Policy",
+      "essayTitle": "Competition Policy: Promoting Competition",
+      "question": "Evaluate methods that a government could use to promote competition in a market.",
+      "questionNumber": "2022.5 · Q9",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Tax incentives encourage market entry",
+          "point": "Tax incentives can encourage new firms to enter a market.",
+          "logic": [
+            "Tax incentives reduce the tax burden on new firms",
+            "Average cost falls",
+            "Profit per unit and expected supernormal profit increase",
+            "Entry becomes more attractive and new firms have a better chance of surviving the start-up period",
+            "More firms enter the market",
+            "Incumbent firms face stronger competitive pressure",
+            "Competition increases"
+          ],
+          "diagrams": [
+            "/diagrams/competition-policy-tax-incentive-ac-profit.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Small incentives may not change entry decisions",
+          "point": "However, a tax incentive may be too small to significantly encourage new firms to enter the market.",
+          "logic": [
+            "If the incentive is small relative to the total cost of entry, it reduces only a small proportion of a new firm's costs",
+            "Expected profitability increases only slightly",
+            "Few additional firms are encouraged to enter",
+            "The number of competitors increases only slightly",
+            "The increase in competition is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on incentive relative to entry costs",
+          "point": "The effectiveness of tax incentives in promoting competition depends on the size of the incentive relative to the cost of entering the market.",
+          "logic": [
+            "If the incentive covers a significant proportion of entry costs, it is more likely to change firms' entry decisions",
+            "More firms enter and competitive pressure increases substantially",
+            "If it covers only a small proportion of entry costs, few additional firms enter",
+            "The increase in competition is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Trade liberalisation increases foreign competition",
+          "point": "Trade liberalisation can promote competition by reducing restrictions on foreign firms.",
+          "logic": [
+            "Lower tariffs reduce the cost of supplying imported goods",
+            "Removing quotas allows foreign firms to sell a greater quantity in the domestic market",
+            "Foreign firms can supply the market more easily",
+            "Consumers gain more alternatives and can switch to foreign products",
+            "Domestic firms face stronger competitive pressure and have less market power",
+            "Competition increases"
+          ],
+          "diagrams": [
+            "/diagrams/competition-policy-trade-liberalisation-supply.jpeg"
+          ]
+        },
+        {
+          "type": "EVA2",
+          "summary": "Domestic firm exit can limit competition",
+          "point": "However, trade liberalisation may only lead to a limited increase in competition if some domestic firms leave the market.",
+          "logic": [
+            "More efficient foreign firms may offer lower prices",
+            "Less competitive domestic firms find it harder to compete",
+            "Some domestic firms leave the market",
+            "The number of competitors falls",
+            "The increase in competition is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on foreign entry relative to domestic exit",
+          "point": "The effectiveness of trade liberalisation in promoting competition depends on whether the entry of foreign firms is greater than the exit of domestic firms.",
+          "logic": [
+            "If many foreign firms enter while few domestic firms leave, the total number of competitors increases",
+            "Competitive pressure increases substantially",
+            "If many domestic firms leave, the net increase in the number of competitors is small",
+            "Competition increases only to a limited extent"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA3",
+          "summary": "Privatisation strengthens competitive incentives",
+          "point": "Privatisation can promote competition by giving firms a stronger incentive to maximise profit.",
+          "logic": [
+            "A state-owned firm is transferred to private ownership",
+            "Private shareholders place greater emphasis on profit maximisation",
+            "The firm has a stronger incentive to attract consumers and gain market share",
+            "It may use more price competition or non-price competition",
+            "Competitive pressure between firms increases",
+            "Competition in the market increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA3",
+          "summary": "Market power can limit competitive responses",
+          "point": "However, a stronger profit motive may not increase competition if the privatised firm continues to have significant market power.",
+          "logic": [
+            "Consumers may still have few alternative suppliers",
+            "The privatised firm faces little pressure to attract consumers from rivals",
+            "A stronger profit motive may not lead to significantly more price or non-price competition",
+            "The increase in competition is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing3",
+          "summary": "Depends on degree of competitive pressure",
+          "point": "The effectiveness of privatisation in promoting competition depends on the degree of competitive pressure faced by the privatised firm.",
+          "logic": [
+            "If the firm faces many rivals, the stronger profit motive encourages it to compete more actively for consumers",
+            "Competition is more likely to increase",
+            "If the firm retains significant market power and faces few rivals, competitive pressure remains weak",
+            "There may be little increase in competition"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Competition policy - promoting competition --2022.5 Q9(4).docx"
+      }
     }
   ]
 }
