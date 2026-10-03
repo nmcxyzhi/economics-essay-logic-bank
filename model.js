@@ -2,7 +2,8 @@ export const COURSE_STRUCTURE = Object.freeze({
   'Types and Sizes of Businesses': Object.freeze([
     'Business Objectives',
     'Mergers',
-    'Demergers'
+    'Demergers',
+    'Sizes of Businesses'
   ]),
   'Revenue, Costs and Profits': Object.freeze([
     'Shutdown',

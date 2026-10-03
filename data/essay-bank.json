@@ -3335,6 +3335,101 @@
       "source": {
         "filename": "Competition policy - promoting competition --2022.5 Q9(4).docx"
       }
+    },
+    {
+      "id": "reasons-why-firms-remain-small-2020-5-q8",
+      "unit": "Types and Sizes of Businesses",
+      "topic": "Sizes of Businesses",
+      "essayTitle": "Reasons Why Firms Remain Small",
+      "question": "Evaluate why some firms remain small.",
+      "questionNumber": "2020.5 · Q8",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Limited market demand restricts expansion",
+          "point": "Some firms may remain small because market demand is limited.",
+          "logic": [
+            "A small firm may already satisfy most of the demand available in its market",
+            "Increasing productive capacity creates little opportunity to increase sales",
+            "The incentive to expand is weak",
+            "A low minimum efficient scale means most available economies of scale can be gained at a relatively low output",
+            "Expanding much further may eventually create diseconomies of scale and increase average cost",
+            "The firm therefore has little incentive to become much larger"
+          ],
+          "diagrams": [
+            "/diagrams/firms-remain-small-low-minimum-efficient-scale.png"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Wider markets can create growth opportunities",
+          "point": "However, limited demand in the firm's current market may not necessarily prevent it from expanding.",
+          "logic": [
+            "The firm may enter neighbouring geographical markets or offer additional services",
+            "Its potential customer base increases",
+            "More sales opportunities become available",
+            "Expected sales can increase",
+            "The incentive to expand becomes stronger",
+            "Limited local demand may no longer cause the firm to remain small"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on access to wider markets",
+          "point": "The significance of limited market demand depends on how easily the firm can access a wider market.",
+          "logic": [
+            "If entering new geographical markets is costly or difficult, demand remains limited and the incentive to expand stays weak",
+            "The firm is more likely to remain small",
+            "If wider markets can be accessed easily, potential sales increase",
+            "The incentive for growth becomes stronger"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Limited finance restricts productive capacity",
+          "point": "Some firms may remain small because they have limited access to finance.",
+          "logic": [
+            "Banks may regard small firms as relatively high risk because they are more vulnerable to failure and have fewer assets to offer as security",
+            "Banks may therefore be unwilling to lend",
+            "The firm may be unable to purchase machinery, hire additional workers or take on larger projects",
+            "Productive capacity cannot easily increase",
+            "The firm may remain small"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Internal finance can support expansion",
+          "point": "However, restricted bank lending does not necessarily prevent a small firm from expanding.",
+          "logic": [
+            "A profitable small firm may use retained profit to finance expansion",
+            "A successful trading record can reduce the perceived risk to lenders over time",
+            "Bank finance may become easier to obtain",
+            "The firm can finance additional productive capacity",
+            "Restricted access to finance may no longer prevent growth"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on external finance required",
+          "point": "The significance of limited access to finance depends on how much external finance is required for expansion.",
+          "logic": [
+            "If expansion requires substantial investment, restricted access to bank lending is more likely to prevent growth",
+            "Capital-intensive firms are therefore more likely to remain small",
+            "If relatively little investment is needed or internal finance is sufficient, the firm may still expand",
+            "Limited access to bank finance is then less important"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Reasons why firms remain small --2020.5 Q8(1).docx"
+      }
     }
   ]
 }

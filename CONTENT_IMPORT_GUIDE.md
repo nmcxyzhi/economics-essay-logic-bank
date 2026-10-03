@@ -28,6 +28,7 @@ Knowledge Point 使用适合 Essay 复习的直接知识模块，不机械复制
    - `Business Objectives`
    - `Mergers`
    - `Demergers`
+   - `Sizes of Businesses`
 2. `Revenue, Costs and Profits`
    - `Shutdown`
    - `Profit`
