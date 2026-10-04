@@ -13,7 +13,7 @@ test('catalog keeps the exact five Unit order and shows only populated Knowledge
  }
  assert.deepEqual(result.find(u=>u.name==='Labour Markets').topics,['Supply of Labour','Wage Differences']);
  assert.deepEqual(result.find(u=>u.name==='Types and Sizes of Businesses').topics,['Business Objectives','Mergers','Demergers','Sizes of Businesses']);
- assert.deepEqual(result.find(u=>u.name==='Government Intervention').topics,['Privatisation','Monopoly Regulation','Price Caps','Competition Policy']);
+ assert.deepEqual(result.find(u=>u.name==='Government Intervention').topics,['Privatisation','Monopoly Regulation','Price Caps','Competition Policy','Nationalisation']);
 });
 test('validation rejects Units and Knowledge Points outside the confirmed essay-bank structure',()=>{
  const wrongUnit=structuredClone(bank);
@@ -48,7 +48,7 @@ test('recall includes real diagrams and matrix and skips missing slots',()=>{
 test('summaries cover current sections, stay visible metadata, and remain legacy-compatible',()=>{
  const normal=bank.essays.flatMap(e=>e.sections).filter(s=>!s.missing);
  const missing=bank.essays.flatMap(e=>e.sections).filter(s=>s.missing);
- assert.equal(normal.length,205);
+ assert.equal(normal.length,211);
  assert.ok(normal.every(s=>typeof s.summary==='string'&&s.summary.trim()&&s.summary.trim().split(/\s+/).length>=3&&s.summary.trim().split(/\s+/).length<=8));
  assert.ok(missing.every(s=>s.summary===''));
  const legacy=structuredClone(bank);

@@ -3430,6 +3430,104 @@
       "source": {
         "filename": "Reasons why firms remain small --2020.5 Q8(1).docx"
       }
+    },
+    {
+      "id": "nationalisation-profit-maximising-monopoly-2023-5-q9",
+      "unit": "Government Intervention",
+      "topic": "Nationalisation",
+      "essayTitle": "Nationalisation of a Profit-maximising Monopoly",
+      "question": "Evaluate the impact of a profit maximising monopolist being nationalised.",
+      "questionNumber": "2023.5 · Q9",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Nationalisation can increase allocative efficiency",
+          "point": "Nationalisation may increase allocative efficiency.",
+          "logic": [
+            "Before nationalisation, a profit-maximising monopolist produces where MC = MR",
+            "Price is above marginal cost and output is below the allocatively efficient level",
+            "After nationalisation, the government may place greater weight on consumer welfare than profit",
+            "Price falls and output increases",
+            "Output moves towards the level where P = MC",
+            "The gap between price and marginal cost falls",
+            "Deadweight welfare loss is reduced",
+            "Allocative efficiency increases"
+          ],
+          "diagrams": [
+            "/diagrams/nationalisation-monopoly-allocative-efficiency.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Other objectives may limit allocative efficiency",
+          "point": "However, nationalisation may not necessarily achieve allocative efficiency.",
+          "logic": [
+            "The government may pursue several objectives rather than only consumer welfare",
+            "It may need sufficient revenue to finance production and investment or maintain security of supply",
+            "Price may therefore remain above marginal cost",
+            "Output remains below the allocatively efficient level",
+            "Some allocative inefficiency remains"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on government objectives",
+          "point": "The impact on allocative efficiency depends on the objectives of the government after nationalisation.",
+          "logic": [
+            "If consumer welfare is prioritised, price is more likely to move closer to marginal cost",
+            "Allocative efficiency increases more significantly",
+            "If financial stability or security of supply is prioritised, price may remain above marginal cost",
+            "The improvement in allocative efficiency is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Government investment can increase productive efficiency",
+          "point": "Nationalisation may increase productive efficiency.",
+          "logic": [
+            "Government ownership may provide greater access to long-term funding",
+            "The firm can invest more in new technology and infrastructure",
+            "New technology increases productivity",
+            "More output can be produced from a given amount of resources",
+            "Cost per unit and average cost fall",
+            "The firm operates closer to the minimum point of its average cost curve",
+            "Productive efficiency increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Weaker profit motives can create X-inefficiency",
+          "point": "However, nationalisation may reduce productive efficiency if the profit motive becomes weaker.",
+          "logic": [
+            "A state-owned firm may face less pressure to control costs",
+            "Organisational slack can increase",
+            "X-inefficiency develops",
+            "Average costs rise",
+            "Productive efficiency falls"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on investment gains relative to inefficiency",
+          "point": "Whether productive efficiency increases depends on whether the gains from government investment outweigh the additional inefficiency.",
+          "logic": [
+            "If funding is successfully invested in cost-saving technology, average costs fall",
+            "Productive efficiency improves",
+            "If a weaker profit motive creates significant X-inefficiency, these cost savings may be offset",
+            "Nationalisation improves productive efficiency only when investment gains are greater than the additional inefficiency"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Nationalisation of a profit-maximising monopoly --2023.5 Q9(4).docx"
+      }
     }
   ]
 }
