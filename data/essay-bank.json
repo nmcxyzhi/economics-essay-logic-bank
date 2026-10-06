@@ -3528,6 +3528,103 @@
       "source": {
         "filename": "Nationalisation of a profit-maximising monopoly --2023.5 Q9(4).docx"
       }
+    },
+    {
+      "id": "business-objectives-impact-on-profit-2020-5-q10",
+      "unit": "Types and Sizes of Businesses",
+      "topic": "Business Objectives",
+      "essayTitle": "Business Objectives: Impact on Profit",
+      "question": "Evaluate the extent to which different business objectives may affect a firm's profits.",
+      "questionNumber": "2020.5 · Q10",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Revenue maximisation reduces profit",
+          "point": "Revenue maximisation is likely to reduce profit below the maximum possible level.",
+          "logic": [
+            "A profit-maximising firm produces at Q1 where MC = MR",
+            "At Q1, the firm earns supernormal profit P1BGC1",
+            "A revenue-maximising firm expands output to Q2 where MR = 0",
+            "Beyond Q1, MC exceeds MR",
+            "The extra output adds more to total cost than to total revenue",
+            "Profit falls to P2EFC2",
+            "The firm may still earn supernormal profit, but less than under profit maximisation"
+          ],
+          "diagrams": [
+            "/diagrams/business-objectives-revenue-maximisation-profit.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Economies of scale can recover profit",
+          "point": "However, the reduction in profit may be smaller in the long run if higher output allows the firm to exploit greater economies of scale.",
+          "logic": [
+            "Higher output spreads fixed costs over more units",
+            "Average cost falls",
+            "Total costs fall relative to revenue",
+            "Some of the profit initially sacrificed under revenue maximisation is recovered",
+            "The long-run reduction in profit becomes smaller"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on cost savings relative to profit sacrifice",
+          "point": "The extent of the reduction in profit depends on whether the long-run cost savings outweigh the short-run profit sacrificed.",
+          "logic": [
+            "If economies of scale significantly reduce average costs, much of the initial fall in profit may be recovered",
+            "If the cost savings are small, the short-run profit sacrifice dominates",
+            "Revenue maximisation then causes a more significant reduction in profit"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Sales maximisation reduces profit to normal profit",
+          "point": "Sales maximisation can reduce profit further because the firm prioritises sales volume or market share over profit.",
+          "logic": [
+            "A profit-maximising firm produces at Q1 where MC = MR",
+            "A sales-maximising firm expands output to Q2 where AR = AC",
+            "At Q2, total revenue equals total cost",
+            "The firm earns only normal profit",
+            "Profit is lower than the supernormal profit available under profit maximisation"
+          ],
+          "diagrams": [
+            "/diagrams/business-objectives-sales-maximisation-profit.jpeg"
+          ]
+        },
+        {
+          "type": "EVA2",
+          "summary": "Market share can recover future profit",
+          "point": "However, the loss of profit may be temporary if sales maximisation helps the firm build market share.",
+          "logic": [
+            "Higher sales take customers from rivals",
+            "Market share increases",
+            "Competitors may become weaker or leave the market",
+            "The firm gains greater market power",
+            "It may raise price later",
+            "Long-run profit can recover"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on future market power",
+          "point": "Whether sales maximisation causes a significant fall in profit depends on whether higher sales create future market power.",
+          "logic": [
+            "If higher sales significantly increase market share and weaken competitors, market power increases",
+            "The firm may raise price later and recover some of the profit sacrificed initially",
+            "If competitors remain strong, the firm may be unable to raise prices later",
+            "The reduction in profit is then likely to remain significant"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Business objectives - impact on profit --2020.5 Q10(5).docx"
+      }
     }
   ]
 }

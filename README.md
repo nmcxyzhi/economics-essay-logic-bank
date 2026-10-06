@@ -2,7 +2,7 @@
 
 Edexcel IAL Economics U3 四层题库：Unit → Knowledge Point → Essay Title → Essay Detail。中文界面，英文 Economics 内容。
 
-当前题库包含 37 篇用户 Essay、211 个正常论证模块、8 个 missing 占位、29 个 Diagram 引用及 2 个 payoff matrix。原文不完整的 Essay 保留 missing 占位。Question、points、logic 与图片按导入包保留。
+当前题库包含 38 篇用户 Essay、217 个正常论证模块、8 个 missing 占位、31 个 Diagram 引用及 2 个 payoff matrix。原文不完整的 Essay 保留 missing 占位。Question、points、logic 与图片按导入包保留。
 
 每个正常 section 包含 3–8 个英文单词的 `summary`，在 KAA / EVA / Weighing 标题行显示并在 Practice 模式中始终可见。新导入内容必须由 Content ChatGPT 提供 summary；Codex 只校验、原样导入和显示。
 
