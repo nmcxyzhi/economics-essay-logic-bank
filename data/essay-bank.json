@@ -3625,6 +3625,106 @@
       "source": {
         "filename": "Business objectives - impact on profit --2020.5 Q10(5).docx"
       }
+    },
+    {
+      "id": "efficiency-perfect-vs-monopolistic-competition-2020-5-q9",
+      "unit": "Market Structures and Contestability",
+      "topic": "Efficiency",
+      "essayTitle": "Efficiency: Perfect Competition vs Monopolistic Competition",
+      "question": "To what extent would a perfectly competitive market be more efficient than a monopolistically competitive market?",
+      "questionNumber": "2020.5 · Q9",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Perfect competition is more allocatively efficient",
+          "point": "Perfect competition is more allocatively efficient than monopolistic competition in the long run.",
+          "logic": [
+            "Perfect Competition:",
+            "Price taker → horizontal AR = MR",
+            "Profit maximisation at MC = MR → P = MC",
+            "Value consumers place on the last unit equals its marginal cost → allocative efficiency",
+            "Monopolistic Competition:",
+            "Product differentiation → some market power → downward-sloping AR",
+            "Profit maximisation at MC = MR → output below the level where P = MC",
+            "Price read from AR is above MC → P > MC → allocative inefficiency",
+            "Comparison: perfect competition is more allocatively efficient"
+          ],
+          "diagrams": [
+            "/diagrams/perfect-vs-monopolistic-competition-efficiency.png"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Allocative inefficiency may be small",
+          "point": "However, monopolistic competition may only be slightly less allocatively efficient than perfect competition.",
+          "logic": [
+            "Consumers may still have many close substitutes",
+            "Demand for an individual firm's product is relatively price elastic",
+            "Market power is limited",
+            "The firm has limited ability to charge a price significantly above marginal cost",
+            "The P − MC gap may therefore be small",
+            "The difference in allocative efficiency may be small"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on degree of market power",
+          "point": "The extent to which perfect competition is more allocatively efficient depends on the degree of market power.",
+          "logic": [
+            "Strong market power → larger P − MC gap → perfect competition is significantly more allocatively efficient",
+            "Limited market power → smaller P − MC gap → the difference in allocative efficiency is small"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Perfect competition is more productively efficient",
+          "point": "Perfect competition is more productively efficient than monopolistic competition in the long run.",
+          "logic": [
+            "Perfect Competition:",
+            "Free entry → supernormal profit is eliminated in the long run",
+            "Long-run equilibrium at P = AC = MC",
+            "Firm produces at the minimum point of AC → productive efficiency",
+            "Monopolistic Competition:",
+            "Product differentiation → downward-sloping AR",
+            "Long-run AR is tangent to AC before AC reaches its minimum point",
+            "Output is below the minimum-AC output → excess capacity",
+            "Average cost is above the minimum possible → productive inefficiency",
+            "Comparison: perfect competition is more productively efficient"
+          ],
+          "diagrams": [
+            "/diagrams/perfect-vs-monopolistic-competition-efficiency.png"
+          ]
+        },
+        {
+          "type": "EVA2",
+          "summary": "Monopolistic competition may be more dynamically efficient",
+          "point": "However, monopolistic competition may be more dynamically efficient than perfect competition.",
+          "logic": [
+            "Product differentiation encourages competition through quality and innovation",
+            "Firms have an incentive to improve products and production methods over time",
+            "Successful innovation can improve quality or reduce costs",
+            "Dynamic efficiency may therefore be greater under monopolistic competition"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on competitive pressure",
+          "point": "The extent of dynamic efficiency depends on the level of competitive pressure.",
+          "logic": [
+            "Strong competitive pressure → greater incentive to innovate to attract and retain customers → dynamic efficiency increases",
+            "Weak competitive pressure → lower incentive to innovate → the dynamic-efficiency advantage is smaller"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Efficiency - perfect competition vs monopolistic competition --2020.5 Q9(4).docx"
+      }
     }
   ]
 }

@@ -10,6 +10,7 @@ export const COURSE_STRUCTURE = Object.freeze({
     'Profit'
   ]),
   'Market Structures and Contestability': Object.freeze([
+    'Efficiency',
     'Market Concentration',
     'Oligopoly',
     'Monopoly',

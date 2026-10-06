@@ -173,6 +173,7 @@
                 },
                 "topic": {
                   "enum": [
+                    "Efficiency",
                     "Market Concentration",
                     "Oligopoly",
                     "Monopoly",
