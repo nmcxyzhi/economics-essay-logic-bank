@@ -3651,7 +3651,8 @@
             "Comparison: perfect competition is more allocatively efficient"
           ],
           "diagrams": [
-            "/diagrams/perfect-vs-monopolistic-competition-efficiency.png"
+            "/diagrams/perfect-competition-efficiency.jpeg",
+            "/diagrams/monopolistic-competition-efficiency.jpeg"
           ]
         },
         {
@@ -3695,7 +3696,8 @@
             "Comparison: perfect competition is more productively efficient"
           ],
           "diagrams": [
-            "/diagrams/perfect-vs-monopolistic-competition-efficiency.png"
+            "/diagrams/perfect-competition-efficiency.jpeg",
+            "/diagrams/monopolistic-competition-efficiency.jpeg"
           ]
         },
         {
