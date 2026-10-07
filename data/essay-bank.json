@@ -3725,6 +3725,99 @@
       "source": {
         "filename": "Efficiency - perfect competition vs monopolistic competition --2020.5 Q9(4).docx"
       }
+    },
+    {
+      "id": "organic-growth-benefits-2024-10-q8",
+      "unit": "Types and Sizes of Businesses",
+      "topic": "Organic Growth",
+      "essayTitle": "Organic Growth: Benefits",
+      "question": "Evaluate the benefits of organic growth to a business such as Lidl.",
+      "questionNumber": "2024.10 · Q8",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Organic growth increases organisational stability",
+          "point": "Organic growth can create greater organisational stability.",
+          "logic": [
+            "The business expands using its existing management systems and organisational structure",
+            "It does not need to integrate another firm's systems after a merger or takeover",
+            "Integration conflicts and disruption are avoided",
+            "Existing operations can continue more smoothly during expansion",
+            "Expansion becomes easier to manage and more stable"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "summary": "Internal expansion can create coordination problems",
+          "point": "However, organic growth can still create coordination problems as the business becomes larger.",
+          "logic": [
+            "The business expands across more locations and a larger workforce",
+            "Communication and coordination become more difficult",
+            "Existing management systems may struggle to control the larger organisation",
+            "Internal disruption increases",
+            "The organisational stability benefit is reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on scale and speed of expansion",
+          "point": "Whether organic growth creates greater organisational stability depends on the scale and speed of expansion.",
+          "logic": [
+            "Gradual expansion gives existing management systems time to absorb additional operations",
+            "The stability benefit of avoiding merger integration is more likely to remain significant",
+            "If expansion becomes too large or too fast, coordination problems may exceed the capacity of existing systems",
+            "The organisational stability benefit becomes much smaller"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Organic growth gives greater control over expansion",
+          "point": "Organic growth gives a business greater control over the pace of expansion.",
+          "logic": [
+            "New capacity is created internally",
+            "Management can decide when and how much capacity to add",
+            "Expansion can occur in stages",
+            "Capacity can be adjusted as demand develops",
+            "The risk of expanding too quickly is reduced",
+            "Growth becomes more manageable"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Organic growth can cause slower expansion",
+          "point": "However, greater control over expansion may come at the cost of slower growth.",
+          "logic": [
+            "New capacity must be built internally",
+            "Stores, workers and distribution capacity take time to develop",
+            "Expansion is slower than acquiring existing capacity through a takeover",
+            "Rivals may expand more quickly",
+            "The business may lose market opportunities",
+            "The benefit of controlling the pace of growth is reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on speed of market opportunities",
+          "point": "The benefit of controlling the pace of growth depends on how quickly market opportunities change.",
+          "logic": [
+            "If demand develops gradually, staged expansion allows capacity to increase without over-expanding",
+            "Greater control over the pace of growth is valuable",
+            "If opportunities disappear quickly or rivals expand rapidly, slower organic growth may cause the firm to miss them",
+            "The benefit of pace control becomes much smaller"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Organic growth - benefits --2024.10 Q8(4).docx"
+      }
     }
   ]
 }
