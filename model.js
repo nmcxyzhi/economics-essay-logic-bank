@@ -30,7 +30,8 @@ export const COURSE_STRUCTURE = Object.freeze({
     'Monopoly Regulation',
     'Price Caps',
     'Competition Policy',
-    'Nationalisation'
+    'Nationalisation',
+    'Government Support'
   ])
 });
 

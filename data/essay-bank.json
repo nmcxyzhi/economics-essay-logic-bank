@@ -3820,6 +3820,136 @@
       "source": {
         "filename": "Organic growth - benefits --2024.10 Q8(4).docx"
       }
+    },
+    {
+      "id": "government-policy-smes-productive-efficiency-2024-1-q7e",
+      "unit": "Government Intervention",
+      "topic": "Government Support",
+      "essayTitle": "Government Policy: Effects on SMEs' Productive Efficiency",
+      "question": "With reference to Extract A and your own knowledge, discuss the likely effects of government policies on the productive efficiency of SMEs.",
+      "questionNumber": "2024.1 · Q7(e)",
+      "marks": 14,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Training raises labour productivity",
+          "point": "Government-funded training can improve the productive efficiency of SMEs.",
+          "logic": [
+            "Better-trained workers and managers use resources more effectively",
+            "Output per worker increases and waste falls",
+            "Cost per unit falls",
+            "Average cost falls",
+            "SMEs move closer to the minimum point of their average cost curve",
+            "Productive efficiency increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "summary": "Low initial skills may limit training gains",
+          "point": "However, the improvement may be limited if workers have very low initial skill levels.",
+          "logic": [
+            "Workers may struggle to absorb more advanced training",
+            "Labour productivity rises only slightly",
+            "Average cost falls by only a small amount",
+            "SMEs remain well above minimum average cost",
+            "The improvement in productive efficiency is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on how well training matches skill gaps",
+          "point": "The effect of training depends on how well it is matched to the existing skills of SME workers.",
+          "logic": [
+            "Well-targeted practical training addresses existing skill gaps",
+            "Productivity rises more significantly and average cost falls by more",
+            "Poorly targeted training has little effect on productivity",
+            "The improvement in productive efficiency is then small"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Subsidies can reduce average costs",
+          "point": "Government subsidies can improve the productive efficiency of SMEs by lowering their average costs.",
+          "logic": [
+            "A subsidy reduces part of the firm's production cost",
+            "Cost per unit falls",
+            "Average cost falls",
+            "The SME can operate closer to the minimum point of its average cost curve",
+            "Productive efficiency increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Small subsidies may have little effect",
+          "point": "However, a subsidy may have only a limited effect if it is small relative to the SME's production costs.",
+          "logic": [
+            "Only a small proportion of total production costs is covered",
+            "Average cost falls only slightly",
+            "The firm remains well above its minimum average cost",
+            "The improvement in productive efficiency is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on subsidy relative to production costs",
+          "point": "The effect of a subsidy depends on its size relative to the SME's production costs.",
+          "logic": [
+            "If the subsidy covers a significant proportion of production costs, average cost falls substantially",
+            "The SME can move much closer to minimum average cost",
+            "If the subsidy covers only a small proportion of costs, average cost falls only slightly",
+            "The improvement in productive efficiency remains limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA3",
+          "summary": "Industrial parks create external economies of scale",
+          "point": "Government-funded industrial parks can improve productive efficiency by creating external economies of scale.",
+          "logic": [
+            "Many SMEs locate in the same area",
+            "Shared and specialised infrastructure and services develop",
+            "Operating costs per firm fall",
+            "Long-run average cost falls",
+            "SMEs move closer to their minimum efficient scale",
+            "Productive efficiency increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA3",
+          "summary": "Low participation weakens external economies",
+          "point": "However, the benefits of industrial parks may be limited if too few SMEs locate there.",
+          "logic": [
+            "Clustering remains weak",
+            "Specialised suppliers and shared services do not develop on a sufficient scale",
+            "External cost savings remain small",
+            "Long-run average cost falls only slightly",
+            "Productive efficiency improves by less"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing3",
+          "summary": "Depends on size of cost savings",
+          "point": "Whether industrial parks improve productive efficiency depends on the size of the cost savings they provide.",
+          "logic": [
+            "Large cost savings attract more SMEs to locate in the park",
+            "Stronger clustering reinforces external economies of scale and reduces LRAC further",
+            "Small cost savings lead to low participation",
+            "The improvement in productive efficiency remains limited"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Government policy - effects on SMEs' productive efficiency --2024.1 Q7e(4).docx"
+      }
     }
   ]
 }
