@@ -3950,6 +3950,194 @@
       "source": {
         "filename": "Government policy - effects on SMEs' productive efficiency --2024.1 Q7e(4).docx"
       }
+    },
+    {
+      "id": "maximum-wage-effects-2023-5-q8",
+      "unit": "Labour Markets",
+      "topic": "Maximum Wage",
+      "essayTitle": "Maximum Wage: Effects",
+      "question": "Evaluate the impact of imposing a maximum wage.",
+      "questionNumber": "2023.5 · Q8",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Maximum wages create labour shortages",
+          "point": "A maximum wage may create a shortage of highly skilled labour.",
+          "logic": [
+            "A maximum wage is set below the equilibrium wage We",
+            "The lower wage reduces the quantity of labour supplied from Qe to Q1",
+            "The lower wage increases the quantity of labour demanded from Qe to Q2",
+            "Excess demand for labour of Q1Q2 is created",
+            "Employers cannot recruit all the highly skilled labour they want",
+            "Firms may struggle to maintain their level of output"
+          ],
+          "diagrams": [
+            "/diagrams/maximum-wage-labour-shortage.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Labour immobility can limit the shortage",
+          "point": "However, occupational and geographical immobility may reduce the shortage of highly skilled labour.",
+          "logic": [
+            "Highly skilled workers may have specialised skills and few attractive alternative jobs",
+            "Moving to another country or occupation may involve high costs",
+            "Some workers therefore remain despite the lower wage",
+            "The fall in labour supplied is smaller",
+            "The labour shortage is reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on size of wage reduction",
+          "point": "The significance of the labour shortage depends on how far the maximum wage is below the competitive wage.",
+          "logic": [
+            "If the maximum wage is far below We, more highly skilled workers are likely to leave",
+            "Labour supply falls substantially and the shortage becomes significant",
+            "If the gap is small, fewer workers leave",
+            "The shortage is more limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Lower wage costs increase profits",
+          "point": "A maximum wage may increase firms' profits by reducing labour costs.",
+          "logic": [
+            "Workers who previously earned above the legal ceiling receive a lower wage",
+            "Firms' spending on highly paid labour falls",
+            "Total labour costs fall",
+            "If output and total revenue are maintained, total costs fall while total revenue remains unchanged",
+            "Profit increases"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Loss of skilled workers can reduce profits",
+          "point": "However, losing experienced workers may reduce firms' profits.",
+          "logic": [
+            "Experienced workers leave because of the lower wage",
+            "Firms lose skilled labour and managerial capacity",
+            "Productivity or service quality may fall",
+            "Total revenue falls",
+            "If the lost revenue exceeds the wage-cost saving, profit falls"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on availability of replacements",
+          "point": "The effect on profit depends on the availability of suitable replacement workers.",
+          "logic": [
+            "If firms can replace those who leave with similarly skilled workers, productivity and revenue can be maintained",
+            "Firms can then benefit from lower wage costs and higher profit",
+            "If suitable replacements are scarce, productivity and revenue may fall substantially",
+            "The loss of revenue may outweigh the wage-cost saving and reduce profit"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Maximum wage - effects --2023.5 Q8(4).docx"
+      }
+    },
+    {
+      "id": "government-intervention-protecting-workers-suppliers-2025-5-q8",
+      "unit": "Government Intervention",
+      "topic": "Protecting Workers and Suppliers",
+      "essayTitle": "Government Intervention: Protecting Workers and Suppliers",
+      "question": "Evaluate measures that a government can use to protect employees and suppliers in a product market of your choice.",
+      "questionNumber": "2025.5 · Q8",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Minimum wages raise workers' pay",
+          "point": "A minimum wage can protect workers by raising their pay.",
+          "logic": [
+            "The government sets a minimum wage above the market wage",
+            "The wage rises from We to W1",
+            "Workers who remain employed receive higher hourly pay",
+            "Their income increases",
+            "Their living standards can improve"
+          ],
+          "diagrams": [
+            "/diagrams/minimum-wage-workers-employment.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "High minimum wages may reduce employment",
+          "point": "However, a minimum wage set too high may reduce employment.",
+          "logic": [
+            "Higher wages increase firms' labour costs",
+            "Firms reduce the quantity of labour demanded",
+            "Employment falls from Qe to Q1",
+            "Some workers lose their jobs",
+            "The policy may fail to protect these workers"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on the level of minimum wage",
+          "point": "Whether a minimum wage protects workers depends mainly on the level at which it is set.",
+          "logic": [
+            "If it is set only slightly above We, many workers may keep their jobs while receiving higher pay",
+            "Workers' incomes are more likely to improve",
+            "If it is set far above what firms can afford, job losses may be significant",
+            "The protection offered to workers is reduced"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Subsidies increase suppliers' profits",
+          "point": "Government subsidies can protect suppliers by increasing their profits.",
+          "logic": [
+            "A subsidy reduces part of suppliers' production costs",
+            "Cost per unit falls",
+            "If the price received remains unchanged, profit per unit increases",
+            "Profit margins increase",
+            "Small suppliers are more able to continue producing"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Temporary subsidies give temporary protection",
+          "point": "However, subsidies may not protect suppliers in the long run if the government cannot continue funding them.",
+          "logic": [
+            "Supporting many suppliers requires substantial government spending",
+            "The government may withdraw the subsidy",
+            "Suppliers then pay the full production cost again",
+            "Production costs rise",
+            "Profit margins fall",
+            "The initial protection may only be temporary"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on duration of subsidy",
+          "point": "Whether subsidies protect suppliers depends on how long the government can provide them.",
+          "logic": [
+            "If subsidies are maintained in the long run, suppliers continue to benefit from lower production costs and higher profits",
+            "Their ability to remain in production is strengthened",
+            "If subsidies are withdrawn after a short period, production costs rise again",
+            "The long-term benefit to suppliers is limited"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Government intervention - protecting workers and suppliers from monopsony power --2025.5 Q8(4).docx"
+      }
     }
   ]
 }

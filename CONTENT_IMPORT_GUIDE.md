@@ -45,6 +45,8 @@ Knowledge Point 使用适合 Essay 复习的直接知识模块，不机械复制
    - `Natural Monopoly`
 4. `Labour Markets`
    - `Supply of Labour`
+   - `Wage Differences`
+   - `Maximum Wage`
 5. `Government Intervention`
    - `Privatisation`
    - `Monopoly Regulation`
@@ -52,6 +54,7 @@ Knowledge Point 使用适合 Essay 复习的直接知识模块，不机械复制
    - `Competition Policy`
    - `Nationalisation`
    - `Government Support`
+   - `Protecting Workers and Suppliers`
 
 新 Essay 若确实需要新的直接 Knowledge Point，应先明确其所属 Unit，再把新名称加入 validation；不得用教材小章节额外包一层。大小写、单复数与空格必须一致。导入脚本会拒绝未确认的 Unit / Knowledge Point，以及顺序不同的顶层 `units`。当前映射见 `README.md`.
 

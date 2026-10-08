@@ -194,7 +194,9 @@
                 },
                 "topic": {
                   "enum": [
-                    "Supply of Labour"
+                    "Supply of Labour",
+                    "Wage Differences",
+                    "Maximum Wage"
                   ]
                 }
               }
@@ -211,7 +213,8 @@
                     "Price Caps",
                     "Competition Policy",
                     "Nationalisation",
-                    "Government Support"
+                    "Government Support",
+                    "Protecting Workers and Suppliers"
                   ]
                 }
               }

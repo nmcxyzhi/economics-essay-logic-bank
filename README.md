@@ -2,7 +2,7 @@
 
 Edexcel IAL Economics U3 四层题库：Unit → Knowledge Point → Essay Title → Essay Detail。中文界面，英文 Economics 内容。
 
-当前题库包含 41 篇用户 Essay、238 个正常论证模块、8 个 missing 占位、35 个 Diagram 引用及 2 个 payoff matrix。原文不完整的 Essay 保留 missing 占位。Question、points、logic 与图片按导入包保留。
+当前题库包含 43 篇用户 Essay、250 个正常论证模块、8 个 missing 占位、37 个 Diagram 引用及 2 个 payoff matrix。原文不完整的 Essay 保留 missing 占位。Question、points、logic 与图片按导入包保留。
 
 每个正常 section 包含 3–8 个英文单词的 `summary`，在 KAA / EVA / Weighing 标题行显示并在 Practice 模式中始终可见。新导入内容必须由 Content ChatGPT 提供 summary；Codex 只校验、原样导入和显示。
 
@@ -60,6 +60,7 @@ Personal Notes 云端备份：已连接 Vercel Blob 私有存储。页面会先�
 | Market Structures and Contestability | Price Discrimination | Price Discrimination: Benefits to Firms and Consumers | 20 |
 | Revenue, Costs and Profits | Profit | Profit: Reasons for an Increase | 14 |
 | Labour Markets | Supply of Labour | Labour Supply in an Occupation: Influencing Factors | 20 |
+| Labour Markets | Maximum Wage | Maximum Wage: Effects | 20 |
 | Market Structures and Contestability | Monopsony | Monopsony: Benefits to Firms and Consumers | 20 |
 | Market Structures and Contestability | Monopsony | Monopsony: Effects on Workers and Suppliers | 20 |
 | Market Structures and Contestability | Oligopoly | Oligopoly Interdependence: Effects of a Price Cut on Rivals | 14 |
@@ -72,6 +73,7 @@ Personal Notes 云端备份：已连接 Vercel Blob 私有存储。页面会先�
 | Government Intervention | Competition Policy | Competition Policy: Promoting Competition | 20 |
 | Government Intervention | Nationalisation | Nationalisation of a Profit-maximising Monopoly | 20 |
 | Government Intervention | Government Support | Government Policy: Effects on SMEs' Productive Efficiency | 14 |
+| Government Intervention | Protecting Workers and Suppliers | Government Intervention: Protecting Workers and Suppliers | 20 |
 
 ## 自动部署状态
 
