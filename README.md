@@ -60,7 +60,6 @@ Personal Notes 云端备份：已连接 Vercel Blob 私有存储。页面会先�
 | Market Structures and Contestability | Price Discrimination | Price Discrimination: Benefits to Firms and Consumers | 20 |
 | Revenue, Costs and Profits | Profit | Profit: Reasons for an Increase | 14 |
 | Labour Markets | Supply of Labour | Labour Supply in an Occupation: Influencing Factors | 20 |
-| Labour Markets | Maximum Wage | Maximum Wage: Effects | 20 |
 | Market Structures and Contestability | Monopsony | Monopsony: Benefits to Firms and Consumers | 20 |
 | Market Structures and Contestability | Monopsony | Monopsony: Effects on Workers and Suppliers | 20 |
 | Market Structures and Contestability | Oligopoly | Oligopoly Interdependence: Effects of a Price Cut on Rivals | 14 |
@@ -70,6 +69,7 @@ Personal Notes 云端备份：已连接 Vercel Blob 私有存储。页面会先�
 | Government Intervention | Privatisation | Privatisation: Benefits to Consumers | 20 |
 | Government Intervention | Monopoly Regulation | Monopoly Regulation: Government Policies | 20 |
 | Government Intervention | Price Caps | Price Caps: Effects on Firms and Consumers | 14 |
+| Government Intervention | Maximum Wage | Maximum Wage: Effects | 20 |
 | Government Intervention | Competition Policy | Competition Policy: Promoting Competition | 20 |
 | Government Intervention | Nationalisation | Nationalisation of a Profit-maximising Monopoly | 20 |
 | Government Intervention | Government Support | Government Policy: Effects on SMEs' Productive Efficiency | 14 |

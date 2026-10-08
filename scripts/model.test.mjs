@@ -11,10 +11,10 @@ test('catalog keeps the exact five Unit order and shows only populated Knowledge
   assert.ok(COURSE_STRUCTURE[u.name].includes(topic));
   assert.ok(bank.essays.some(e=>e.unit===u.name&&e.topic===topic));
  }
- assert.deepEqual(result.find(u=>u.name==='Labour Markets').topics,['Supply of Labour','Wage Differences','Maximum Wage']);
+ assert.deepEqual(result.find(u=>u.name==='Labour Markets').topics,['Supply of Labour','Wage Differences']);
  assert.deepEqual(result.find(u=>u.name==='Types and Sizes of Businesses').topics,['Business Objectives','Mergers','Demergers','Organic Growth','Sizes of Businesses']);
  assert.deepEqual(result.find(u=>u.name==='Market Structures and Contestability').topics,['Efficiency','Market Concentration','Oligopoly','Monopoly','Monopsony','Price and Non-Price Competition','Barriers to Entry','Price Discrimination','Natural Monopoly']);
- assert.deepEqual(result.find(u=>u.name==='Government Intervention').topics,['Privatisation','Monopoly Regulation','Price Caps','Competition Policy','Nationalisation','Government Support','Protecting Workers and Suppliers']);
+ assert.deepEqual(result.find(u=>u.name==='Government Intervention').topics,['Privatisation','Monopoly Regulation','Price Caps','Maximum Wage','Competition Policy','Nationalisation','Government Support','Protecting Workers and Suppliers']);
 });
 test('validation rejects Units and Knowledge Points outside the confirmed essay-bank structure',()=>{
  const wrongUnit=structuredClone(bank);
