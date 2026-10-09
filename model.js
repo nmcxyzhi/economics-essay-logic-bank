@@ -23,14 +23,14 @@ export const COURSE_STRUCTURE = Object.freeze({
   ]),
   'Labour Markets': Object.freeze([
     'Supply of Labour',
-    'Wage Differences',
-    'Minimum Wage'
+    'Wage Differences'
   ]),
   'Government Intervention': Object.freeze([
     'Privatisation',
     'Monopoly Regulation',
     'Price Caps',
     'Maximum Wage',
+    'Minimum Wage',
     'Competition Policy',
     'Nationalisation',
     'Government Support',

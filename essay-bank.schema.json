@@ -195,8 +195,7 @@
                 "topic": {
                   "enum": [
                     "Supply of Labour",
-                    "Wage Differences",
-                    "Minimum Wage"
+                    "Wage Differences"
                   ]
                 }
               }
@@ -212,6 +211,7 @@
                     "Monopoly Regulation",
                     "Price Caps",
                     "Maximum Wage",
+                    "Minimum Wage",
                     "Competition Policy",
                     "Nationalisation",
                     "Government Support",
