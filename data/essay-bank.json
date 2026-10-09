@@ -4138,6 +4138,197 @@
       "source": {
         "filename": "Government intervention - protecting workers and suppliers from monopsony power --2025.5 Q8(4).docx"
       }
+    },
+    {
+      "id": "minimum-wage-increase-microeconomic-effects-2022-10-q10",
+      "unit": "Labour Markets",
+      "topic": "Minimum Wage",
+      "essayTitle": "Minimum Wage Increase: Microeconomic Effects",
+      "question": "Evaluate the likely microeconomic effects of an increase in the national minimum wage on an industry of your choice.",
+      "questionNumber": "2022.10 · Q10",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Higher minimum wages reduce employment",
+          "point": "A rise in the national minimum wage may reduce employment.",
+          "logic": [
+            "The minimum wage rises from W1 to W2",
+            "The higher wage increases firms' labour costs",
+            "Quantity of labour demanded falls from Q2 to Q1",
+            "Quantity of labour supplied rises from Q3 to Q4",
+            "Excess supply of labour increases from Q2Q3 to Q1Q4",
+            "Unemployment increases"
+          ],
+          "diagrams": [
+            "/diagrams/minimum-wage-increase-labour-market.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Inelastic labour demand limits job losses",
+          "point": "However, the fall in employment may be small if demand for labour is wage inelastic.",
+          "logic": [
+            "Some firms require a minimum number of workers to operate",
+            "Workers may be difficult to replace with machines in the short run",
+            "Labour demand is relatively wage inelastic",
+            "A higher wage causes only a small fall in quantity of labour demanded",
+            "The reduction in employment is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on the time period",
+          "point": "The effect on employment depends on the time period.",
+          "logic": [
+            "In the short run, workers may be difficult to replace with machines",
+            "Labour demand is relatively inelastic and employment falls only slightly",
+            "In the long run, firms have more time to introduce labour-saving technology",
+            "Labour demand becomes more elastic and employment may fall by more"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Higher wage costs reduce profits",
+          "point": "An increase in the minimum wage may reduce firms' profits.",
+          "logic": [
+            "A higher minimum wage increases the wage paid to low-paid workers",
+            "If employment and output remain unchanged, total labour costs increase",
+            "Average costs increase",
+            "Profit per unit falls",
+            "Total profit falls"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Higher productivity can protect profits",
+          "point": "However, higher wages may improve labour productivity and protect firms' profit margins.",
+          "logic": [
+            "Higher wages may motivate workers to work more efficiently",
+            "Output per worker increases",
+            "Fewer labour hours are needed per unit of output",
+            "Unit labour costs fall",
+            "The cost saving offsets part of the wage increase",
+            "Profit margins are protected"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on productivity savings relative to wage costs",
+          "point": "The effect on profit depends on whether the cost savings from higher productivity exceed the additional wage costs.",
+          "logic": [
+            "If productivity rises significantly, lower unit labour costs may offset the higher wage",
+            "Profit margins may be maintained",
+            "If productivity rises only slightly, the additional wage cost exceeds the cost saving",
+            "Profit falls"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Minimum wage increase - microeconomic effects --2022.10 Q10(4).docx"
+      }
+    },
+    {
+      "id": "minimum-wage-increase-benefits-firms-workers-2020-1-q10",
+      "unit": "Labour Markets",
+      "topic": "Minimum Wage",
+      "essayTitle": "Minimum Wage Increase: Benefits to Firms and Workers",
+      "question": "Evaluate the benefits of an increase in the minimum wage on businesses and workers.",
+      "questionNumber": "2020.1 · Q10",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Higher wages improve living standards",
+          "point": "An increase in the minimum wage may improve the living standards of low-paid workers.",
+          "logic": [
+            "The wage floor rises from W1 to W2",
+            "Workers who remain employed receive a higher nominal wage",
+            "If prices do not rise by the same proportion, their real purchasing power increases",
+            "They can afford more goods and services",
+            "Living standards improve"
+          ],
+          "diagrams": [
+            "/diagrams/minimum-wage-increase-employment.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Higher minimum wages may cause unemployment",
+          "point": "However, some workers may lose their jobs if the higher minimum wage makes labour too expensive for firms.",
+          "logic": [
+            "As the wage floor rises from W1 to W2, the quantity of labour demanded falls from Q2 to Q1",
+            "The quantity of labour supplied rises from Q3 to Q4",
+            "Excess supply of labour increases",
+            "Some workers become unemployed",
+            "These workers lose their wage income",
+            "The benefit is not shared by all workers"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on wage elasticity of labour demand",
+          "point": "The significance of the income benefit depends on the wage elasticity of demand for labour.",
+          "logic": [
+            "If labour demand is wage inelastic, employment falls only slightly",
+            "Most affected workers keep their jobs and receive higher pay",
+            "If labour demand is wage elastic, employment falls more significantly",
+            "More workers lose their wage income",
+            "The benefit is less widely shared"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Higher wages can raise labour productivity",
+          "point": "A higher minimum wage may benefit businesses by improving labour productivity.",
+          "logic": [
+            "Higher pay may make workers feel more valued and motivated",
+            "Workers become more efficient",
+            "Output per worker increases",
+            "Cost per unit falls",
+            "Profit margins increase",
+            "Business profits increase"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Higher labour costs may reduce profits",
+          "point": "However, a higher minimum wage directly increases firms' labour costs.",
+          "logic": [
+            "Firms must pay a higher wage to low-paid workers",
+            "The total wage bill increases",
+            "If output does not rise by the same proportion, unit costs increase",
+            "Profit margins are squeezed",
+            "Business profits fall"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on productivity gains relative to wage costs",
+          "point": "The effect on firms' profits depends on the additional labour cost relative to the cost savings from higher productivity.",
+          "logic": [
+            "If productivity rises substantially, the resulting cost savings may exceed the additional wage cost",
+            "Profit can increase",
+            "If the productivity gain is small, the additional wage cost exceeds the cost savings",
+            "Profit falls"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Minimum wage increase - benefits to firms and workers --2020.1 Q10(4).docx"
+      }
     }
   ]
 }
