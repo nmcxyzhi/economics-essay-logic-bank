@@ -46,7 +46,6 @@ Knowledge Point 使用适合 Essay 复习的直接知识模块，不机械复制
 4. `Labour Markets`
    - `Supply of Labour`
    - `Wage Differences`
-   - `Labour Immobility`
 5. `Government Intervention`
    - `Privatisation`
    - `Monopoly Regulation`

@@ -195,8 +195,7 @@
                 "topic": {
                   "enum": [
                     "Supply of Labour",
-                    "Wage Differences",
-                    "Labour Immobility"
+                    "Wage Differences"
                   ]
                 }
               }
