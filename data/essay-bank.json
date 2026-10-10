@@ -3954,7 +3954,7 @@
     {
       "id": "maximum-wage-effects-2023-5-q8",
       "unit": "Government Intervention",
-      "topic": "Maximum Wage",
+      "topic": "Labour Market Intervention",
       "essayTitle": "Maximum Wage: Effects",
       "question": "Evaluate the impact of imposing a maximum wage.",
       "questionNumber": "2023.5 · Q8",
@@ -4142,7 +4142,7 @@
     {
       "id": "minimum-wage-increase-microeconomic-effects-2022-10-q10",
       "unit": "Government Intervention",
-      "topic": "Minimum Wage",
+      "topic": "Labour Market Intervention",
       "essayTitle": "Minimum Wage Increase: Microeconomic Effects",
       "question": "Evaluate the likely microeconomic effects of an increase in the national minimum wage on an industry of your choice.",
       "questionNumber": "2022.10 · Q10",
@@ -4237,7 +4237,7 @@
     {
       "id": "minimum-wage-increase-benefits-firms-workers-2020-1-q10",
       "unit": "Government Intervention",
-      "topic": "Minimum Wage",
+      "topic": "Labour Market Intervention",
       "essayTitle": "Minimum Wage Increase: Benefits to Firms and Workers",
       "question": "Evaluate the benefits of an increase in the minimum wage on businesses and workers.",
       "questionNumber": "2020.1 · Q10",
@@ -4328,6 +4328,102 @@
       "status": "complete",
       "source": {
         "filename": "Minimum wage increase - benefits to firms and workers --2020.1 Q10(4).docx"
+      }
+    },
+    {
+      "id": "labour-market-intervention-minimum-wage-maximum-working-hours-2024-10-q9",
+      "unit": "Government Intervention",
+      "topic": "Labour Market Intervention",
+      "essayTitle": "Labour Market Intervention: Minimum Wage and Maximum Working Hours",
+      "question": "Evaluate the economic benefits of government intervention in labour markets.",
+      "questionNumber": "2024.10 · Q9",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Higher minimum wages improve living standards",
+          "point": "Increasing the minimum wage can improve low-paid workers' living standards.",
+          "logic": [
+            "The wage floor rises from W1 to W2",
+            "Workers who remain employed receive higher pay",
+            "Disposable income and purchasing power increase if prices do not rise equally",
+            "Workers can afford more necessities",
+            "Living standards improve"
+          ],
+          "diagrams": [
+            "/diagrams/minimum-wage-living-standards-employment.jpeg"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Higher minimum wages may increase unemployment",
+          "point": "However, a higher minimum wage may create unemployment.",
+          "logic": [
+            "As the wage floor rises from W1 to W2, labour demanded falls from Q2 to Q1",
+            "Labour supplied rises from Q3 to Q4",
+            "Excess supply of labour increases",
+            "Some workers become unemployed",
+            "They lose their wage income",
+            "The higher minimum wage does not benefit every worker"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on wage elasticity of labour demand",
+          "point": "The significance of the income benefit depends on the wage elasticity of demand for labour.",
+          "logic": [
+            "If labour demand is wage inelastic, few jobs are lost",
+            "Most affected workers keep their jobs and receive higher pay",
+            "If labour demand is wage elastic, more workers lose their jobs and income",
+            "The benefit is less widely shared"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Maximum working hours improve worker wellbeing",
+          "point": "A maximum working week can improve employees' wellbeing.",
+          "logic": [
+            "A legal limit reduces excessively long working hours",
+            "Workers have more time to rest and recover",
+            "Fatigue and stress fall",
+            "Workers have more time for family and personal life",
+            "Work-life balance improves",
+            "Quality of working life improves"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Weak enforcement limits the benefit",
+          "point": "However, working-hour regulations may be ineffective if they are difficult to enforce.",
+          "logic": [
+            "The government may struggle to monitor employees' actual working hours",
+            "Some firms may require unreported work beyond the legal limit",
+            "Workers continue to work excessive hours",
+            "Fatigue and stress remain",
+            "The improvement in worker wellbeing is limited"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on enforcement effectiveness",
+          "point": "The significance of the benefit depends on the effectiveness of government enforcement.",
+          "logic": [
+            "Regular monitoring and penalties increase firms' compliance",
+            "Working hours are more likely to remain within the legal limit",
+            "Worker wellbeing improves more significantly",
+            "If monitoring is ineffective, firms may continue requiring excessive hours",
+            "The economic benefit of the intervention is limited"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Labour market intervention - minimum wage and maximum working hours --2024.10 Q9(2).docx"
       }
     }
   ]

@@ -50,8 +50,7 @@ Knowledge Point 使用适合 Essay 复习的直接知识模块，不机械复制
    - `Privatisation`
    - `Monopoly Regulation`
    - `Price Caps`
-   - `Maximum Wage`
-   - `Minimum Wage`
+   - `Labour Market Intervention`
    - `Competition Policy`
    - `Nationalisation`
    - `Government Support`
