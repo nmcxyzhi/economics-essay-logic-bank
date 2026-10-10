@@ -3954,7 +3954,7 @@
     {
       "id": "maximum-wage-effects-2023-5-q8",
       "unit": "Government Intervention",
-      "topic": "Labour Market Intervention",
+      "topic": "Wage Policies",
       "essayTitle": "Maximum Wage: Effects",
       "question": "Evaluate the impact of imposing a maximum wage.",
       "questionNumber": "2023.5 · Q8",
@@ -4142,7 +4142,7 @@
     {
       "id": "minimum-wage-increase-microeconomic-effects-2022-10-q10",
       "unit": "Government Intervention",
-      "topic": "Labour Market Intervention",
+      "topic": "Wage Policies",
       "essayTitle": "Minimum Wage Increase: Microeconomic Effects",
       "question": "Evaluate the likely microeconomic effects of an increase in the national minimum wage on an industry of your choice.",
       "questionNumber": "2022.10 · Q10",
@@ -4237,7 +4237,7 @@
     {
       "id": "minimum-wage-increase-benefits-firms-workers-2020-1-q10",
       "unit": "Government Intervention",
-      "topic": "Labour Market Intervention",
+      "topic": "Wage Policies",
       "essayTitle": "Minimum Wage Increase: Benefits to Firms and Workers",
       "question": "Evaluate the benefits of an increase in the minimum wage on businesses and workers.",
       "questionNumber": "2020.1 · Q10",
@@ -4333,7 +4333,7 @@
     {
       "id": "labour-market-intervention-minimum-wage-maximum-working-hours-2024-10-q9",
       "unit": "Government Intervention",
-      "topic": "Labour Market Intervention",
+      "topic": "Wage Policies",
       "essayTitle": "Labour Market Intervention: Minimum Wage and Maximum Working Hours",
       "question": "Evaluate the economic benefits of government intervention in labour markets.",
       "questionNumber": "2024.10 · Q9",
@@ -4428,8 +4428,8 @@
     },
     {
       "id": "labour-immobility-policies-2021-10-q10",
-      "unit": "Government Intervention",
-      "topic": "Labour Market Intervention",
+      "unit": "Labour Markets",
+      "topic": "Labour Immobility",
       "essayTitle": "Labour Immobility: Policies to Reduce Occupational and Geographical Immobility",
       "question": "Evaluate measures to reduce the occupational and geographical immobility of labour.",
       "questionNumber": "2021.10 · Q10",

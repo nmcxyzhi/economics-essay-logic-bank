@@ -195,7 +195,8 @@
                 "topic": {
                   "enum": [
                     "Supply of Labour",
-                    "Wage Differences"
+                    "Wage Differences",
+                    "Labour Immobility"
                   ]
                 }
               }
@@ -210,7 +211,7 @@
                     "Privatisation",
                     "Monopoly Regulation",
                     "Price Caps",
-                    "Labour Market Intervention",
+                    "Wage Policies",
                     "Competition Policy",
                     "Nationalisation",
                     "Government Support",
