@@ -4425,6 +4425,199 @@
       "source": {
         "filename": "Labour market intervention - minimum wage and maximum working hours --2024.10 Q9(2).docx"
       }
+    },
+    {
+      "id": "labour-immobility-policies-2021-10-q10",
+      "unit": "Labour Markets",
+      "topic": "Labour Immobility",
+      "essayTitle": "Labour Immobility: Policies to Reduce Occupational and Geographical Immobility",
+      "question": "Evaluate measures to reduce the occupational and geographical immobility of labour.",
+      "questionNumber": "2021.10 · Q10",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Online education reduces occupational immobility",
+          "point": "Expanding access to education can reduce occupational immobility.",
+          "logic": [
+            "Online degrees allow workers to study without travelling to a university",
+            "Education becomes more accessible",
+            "More workers can gain qualifications and develop skills",
+            "They are more likely to meet entry requirements for other occupations",
+            "More workers can change careers",
+            "Occupational immobility falls"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA1",
+          "summary": "Skills mismatch can limit occupational mobility",
+          "point": "However, education and training may not provide the skills required by employers.",
+          "logic": [
+            "The skills taught may not match those needed for available vacancies",
+            "Workers may gain qualifications but still fail to meet employers' requirements",
+            "They remain unable to move into these occupations",
+            "Occupational mobility increases only slightly",
+            "Occupational immobility remains high"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on match with labour market needs",
+          "point": "The effectiveness of education and training depends on how closely the skills taught match labour market needs.",
+          "logic": [
+            "If training provides the skills required for available vacancies, workers are more likely to meet employers' requirements",
+            "Movement between occupations becomes easier",
+            "Occupational immobility falls significantly",
+            "If the skills taught do not match employers' needs, workers may still be unable to fill vacancies",
+            "Occupational immobility remains high"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Relocation subsidies reduce moving costs",
+          "point": "Relocation subsidies can reduce geographical immobility.",
+          "logic": [
+            "Workers may be unable to accept jobs in other regions because moving and accommodation are costly",
+            "Government financial support covers part of these costs",
+            "Relocation becomes more affordable",
+            "More workers can accept jobs outside their home region",
+            "Geographical mobility increases",
+            "Geographical immobility falls"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "High housing costs can offset subsidies",
+          "point": "However, high housing costs in the destination region may make relocation subsidies insufficient.",
+          "logic": [
+            "A subsidy may cover only part of the initial moving cost",
+            "Workers may still face high rents and large deposits",
+            "The total cost of relocation remains unaffordable",
+            "Workers remain unable to accept jobs in the destination region",
+            "Geographical immobility remains high"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on subsidy relative to relocation costs",
+          "point": "The effectiveness of relocation subsidies depends on their size relative to relocation costs.",
+          "logic": [
+            "If the subsidy covers a large proportion of moving and housing costs, relocation becomes affordable",
+            "More workers can move to suitable vacancies",
+            "Geographical immobility falls significantly",
+            "If housing and moving costs remain much higher than the subsidy, workers may still be unable to relocate",
+            "Geographical immobility remains high"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Labour immobility - policies to reduce occupational and geographical immobility --2021.10 Q10(2).docx"
+      }
+    },
+    {
+      "id": "business-size-efficiency-economies-diseconomies-scale-2023-10-q10",
+      "unit": "Types and Sizes of Businesses",
+      "topic": "Sizes of Businesses",
+      "essayTitle": "Business Size and Efficiency: Economies and Diseconomies of Scale",
+      "question": "Evaluate the impact that the size of a business has on its efficiency.",
+      "questionNumber": "2023.10 · Q10",
+      "marks": 20,
+      "sections": [
+        {
+          "type": "KAA1",
+          "summary": "Economies of scale improve productive efficiency",
+          "point": "A larger business may achieve greater productive efficiency through economies of scale.",
+          "logic": [
+            "Output increases",
+            "Fixed costs are spread over more units",
+            "Average fixed cost falls",
+            "Specialised machinery can increase output per worker and reduce average variable cost",
+            "Long-run average cost falls from C1 to C2 as output rises from Q1 to Q2",
+            "At Q2, the firm reaches minimum efficient scale where LRAC is minimised",
+            "Productive efficiency increases"
+          ],
+          "diagrams": [
+            "/diagrams/business-size-efficiency-lrac.png"
+          ]
+        },
+        {
+          "type": "EVA1",
+          "summary": "Diseconomies of scale reduce productive efficiency",
+          "point": "However, further expansion may create diseconomies of scale.",
+          "logic": [
+            "A larger organisation becomes more difficult to coordinate",
+            "Communication slows and management layers increase",
+            "Decision-making becomes slower and coordination problems create waste",
+            "Long-run average cost rises",
+            "Beyond Q2, expansion towards Q3 raises LRAC to C3",
+            "Productive efficiency falls"
+          ],
+          "diagrams": [
+            "/diagrams/business-size-efficiency-lrac.png"
+          ]
+        },
+        {
+          "type": "Weighing1",
+          "summary": "Depends on whether MES has been reached",
+          "point": "The impact on productive efficiency depends on whether the firm has reached minimum efficient scale.",
+          "logic": [
+            "If the firm is operating below MES, expansion is likely to reduce long-run average cost",
+            "Productive efficiency improves",
+            "If the firm expands beyond MES, diseconomies of scale may raise long-run average cost",
+            "Productive efficiency falls"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "KAA2",
+          "summary": "Financial resources support dynamic efficiency",
+          "point": "A larger business may achieve greater dynamic efficiency because it has more financial resources for investment.",
+          "logic": [
+            "Large firms may earn substantial supernormal profits",
+            "More internal finance is available for research and development and advanced capital equipment",
+            "Investment can improve production techniques",
+            "Productivity increases and fewer resources are needed for a given level of output",
+            "Efficiency improves over time"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "EVA2",
+          "summary": "Weak competition can reduce innovation",
+          "point": "However, a large business may have less incentive to innovate if it faces weak competitive pressure.",
+          "logic": [
+            "High barriers to entry can protect the firm's market position",
+            "The threat of losing customers to new competitors is reduced",
+            "Managers have weaker incentives to adopt better production methods",
+            "Innovation may slow",
+            "Greater size does not necessarily create greater dynamic efficiency"
+          ],
+          "diagrams": []
+        },
+        {
+          "type": "Weighing2",
+          "summary": "Depends on competitive pressure and reinvestment",
+          "point": "The extent of dynamic efficiency depends on competitive pressure and whether profits are reinvested.",
+          "logic": [
+            "Strong competition gives the firm an incentive to reinvest profits in new technology",
+            "Dynamic efficiency is more likely to improve",
+            "If the firm's market position is secure, large financial resources may not be reinvested effectively",
+            "The improvement in dynamic efficiency is limited"
+          ],
+          "diagrams": []
+        }
+      ],
+      "status": "complete",
+      "source": {
+        "filename": "Business size and efficiency - economies and diseconomies of scale --2023.10 Q10(2).docx"
+      }
     }
   ]
 }
